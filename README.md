@@ -1,36 +1,113 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Kids on the Rock
 
-## Getting Started
+Kids on the Rock is a bilingual family resource site for Gibraltar.
 
-First, run the development server:
+It brings together useful information for local families in one place, including:
+- clubs and classes
+- what's on
+- family day out ideas
+- forms
+- useful numbers
+- blog posts and guides
+- baby-changing information
+
+## Running Locally
+
+This project uses Next.js and npm.
+
+### Development
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Starts the local development server, usually at `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Production Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+```
 
-## Learn More
+Creates an optimized production build.
 
-To learn more about Next.js, take a look at the following resources:
+### Run Production Build
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Starts the built app in production mode.
 
-## Deploy on Vercel
+## Main Scripts
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### `npm run dev`
+Runs the Next.js development server.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### `npm run build`
+Builds the app for production.
+
+### `npm run start`
+Runs the production server from the built output.
+
+### `npm run lint`
+Runs ESLint across the project.
+
+### `npm run blog:og -- <slug> <absolute-path-to-image>`
+Copies a blog Open Graph / social preview image into `public/blog`.
+
+### `npm run blog:instagram -- <slug> <absolute-path-to-image>`
+Copies a blog Instagram image into `public/blog`.
+
+## Tech Stack
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+
+Additional libraries used in the project include:
+- ESLint
+- `gray-matter` for markdown content
+- `remark` for markdown processing
+- `lucide-react` for icons
+- `@upstash/redis` for optional blog likes
+- `@vercel/analytics` for analytics
+
+## Optional Environment Variables
+
+The blog likes feature can use Upstash Redis.
+
+If these variables are not set, the likes feature disables itself gracefully.
+
+### Supported variables
+
+```bash
+UPSTASH_REDIS_REST_URL=
+UPSTASH_REDIS_REST_TOKEN=
+```
+
+The code also supports Vercel KV-compatible names:
+
+```bash
+KV_REST_API_URL=
+KV_REST_API_TOKEN=
+```
+
+## Project Structure
+
+```text
+app/          Next.js app routes, pages, API routes, metadata routes
+components/   Reusable UI and page components
+content/      Content files such as blog markdown
+lib/          Data helpers and utility modules
+public/       Static assets, social images, fonts, uploaded assets
+scripts/      Helper scripts for blog/social image workflows
+```
+
+## Notes
+
+- The app uses the Next.js App Router.
+- Blog and content-related features are partly file-based.
+- Some content and assets in the repository are currently in active development.
+- The blog likes feature is optional and depends on Redis env vars being available.
