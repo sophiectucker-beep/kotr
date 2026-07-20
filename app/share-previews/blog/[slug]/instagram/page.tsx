@@ -26,6 +26,8 @@ export default async function BlogInstagramPreviewPage({
     notFound();
   }
 
+  const previewImage = post.inlineImage ?? post.coverImage;
+
   return (
     <main className="min-h-screen bg-beige text-navy">
       <section className="mx-auto flex min-h-screen w-full max-w-[1080px] flex-col px-20 py-20">
@@ -35,10 +37,10 @@ export default async function BlogInstagramPreviewPage({
               {post.title}
             </h1>
 
-            {post.inlineImage ? (
+            {previewImage ? (
               <div className="relative mt-14 h-[28rem] w-full max-w-[26rem]">
                 <Image
-                  src={post.inlineImage}
+                  src={previewImage}
                   alt=""
                   fill
                   className="object-contain object-center"

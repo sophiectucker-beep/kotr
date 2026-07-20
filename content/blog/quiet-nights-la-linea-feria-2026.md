@@ -14,7 +14,7 @@ tags:
   - Gibraltar families
 featured: false
 draft: false
-coverImage: "/blog/la-linea-feria-quiet-nights-doodle.avif"
+coverImage: "/blog/la-linea-feria-quiet-nights-doodle.png"
 ---
 
 La Línea's Feria runs from 17 to 26 July this year at the Recinto Ferial in La Atunara, and once again it comes with three official quiet nights built into the programme.

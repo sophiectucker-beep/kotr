@@ -32,9 +32,11 @@ export async function GET(
     return new Response("Not found", { status: 404 });
   }
 
+  const previewImage = post.inlineImage ?? post.coverImage;
+
   const [goldplayAltBold, inlineImageDataUrl] = await Promise.all([
     fs.readFile(path.join(process.cwd(), "public", "fonts", "GoldplayAlt-Black.ttf")),
-    post.inlineImage ? toDataUrl(post.inlineImage) : Promise.resolve(null),
+    previewImage ? toDataUrl(previewImage) : Promise.resolve(null),
   ]);
 
   return new ImageResponse(

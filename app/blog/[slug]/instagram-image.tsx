@@ -40,9 +40,11 @@ export default async function Image({ params }: BlogInstagramImageProps) {
     return new ImageResponse(<div>Not found</div>, { ...size });
   }
 
+  const previewImage = post.inlineImage ?? post.coverImage;
+
   const [goldplayAltBold, inlineImageDataUrl] = await Promise.all([
     fs.readFile(path.join(process.cwd(), "public", "fonts", "GoldplayAlt-Bold.woff2")),
-    post.inlineImage ? toDataUrl(post.inlineImage) : Promise.resolve(null),
+    previewImage ? toDataUrl(previewImage) : Promise.resolve(null),
   ]);
 
   return new ImageResponse(

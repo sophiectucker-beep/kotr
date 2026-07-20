@@ -26,6 +26,8 @@ export default async function BlogSharePreviewPage({
     notFound();
   }
 
+  const previewImage = post.inlineImage ?? post.coverImage;
+
   return (
     <main className="min-h-screen bg-white text-navy">
       <section className="mx-auto flex min-h-screen w-full max-w-[1200px] items-center px-20 py-14">
@@ -39,11 +41,11 @@ export default async function BlogSharePreviewPage({
             </p>
           </div>
 
-          {post.inlineImage ? (
+          {previewImage ? (
             <div className="self-stretch justify-self-end">
               <div className="relative h-[25rem] w-[20rem]">
                 <Image
-                  src={post.inlineImage}
+                  src={previewImage}
                   alt=""
                   fill
                   className="object-contain object-right"
