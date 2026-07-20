@@ -33,10 +33,10 @@ The council runs this each year with [TEA Esperanza Azul](https://www.8directo.c
 
 Even if this is not your family's situation, any child who finds fairground noise a lot gets an easier few hours Monday (tonight), Thursday, and Saturday, diagnosis or not.
 
-**If you're going today**
+## If you're going today
 
 The [official feria programme](https://lalinea.es/velada-y-fiestas-2026/) lists Monday 20 July as a "Día sin ruido" from 19:00 to 00:00, with the attractions working without music. It is also the city's anniversary day, so expect things to feel busy. There is also a children's party in the Caseta Municipal early evening; listings differ between 18:00 and 19:00, so check before setting off.
 
-**One more useful thing for sensitive kids**
+## One more useful thing for sensitive kids
 
 The town hall has also said this year's feria would include other inclusion measures agreed with TEA Esperanza Azul, and the fair's closing fireworks on Sunday 26 July will remove the initial and final loud tracas. That does not make fireworks silent, obviously, but it may make them slightly less brutal for children who are especially sound-sensitive.
