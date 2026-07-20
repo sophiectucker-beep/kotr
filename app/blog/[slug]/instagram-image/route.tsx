@@ -49,7 +49,7 @@ export async function GET(
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "space-between",
-          background: "#f7eadb",
+          background: "#ffffff",
           color: "#2d384d",
           padding: "120px 90px 100px",
         }}

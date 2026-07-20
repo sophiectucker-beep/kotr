@@ -85,6 +85,8 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   }
 
   const shareImageUrl = getBlogShareImageUrl(slug);
+  const headerImage =
+    post.inlineImage ?? (post.coverImage !== "/blog/default-cover.svg" ? post.coverImage : null);
 
   const articleHtml = replaceSchoolContactTable(
     replaceUniformNotesBox(
@@ -191,11 +193,11 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
                   </p>
                 </div>
 
-                {post.inlineImage ? (
+                {headerImage ? (
                   <div className="mx-auto w-full max-w-[12rem] md:ml-auto md:mr-0 md:w-full md:max-w-none md:self-stretch">
                     <div className="relative aspect-square md:h-full md:min-h-[18rem] md:w-full lg:min-h-[19rem]">
                       <Image
-                        src={post.inlineImage}
+                        src={headerImage}
                         alt=""
                         fill
                         className="object-contain object-right"

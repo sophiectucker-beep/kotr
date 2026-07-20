@@ -55,7 +55,7 @@ export default async function Image({ params }: BlogImageProps) {
           display: "flex",
           alignItems: "center",
           justifyContent: "space-between",
-          background: "#FFF0E3",
+          background: "#ffffff",
           color: "#2d384d",
           padding: "52px 64px",
           fontFamily: "Lexend",
