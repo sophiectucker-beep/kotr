@@ -11,6 +11,7 @@ function getMimeType(filePath: string) {
   if (filePath.endsWith(".svg")) return "image/svg+xml";
   if (filePath.endsWith(".png")) return "image/png";
   if (filePath.endsWith(".jpg") || filePath.endsWith(".jpeg")) return "image/jpeg";
+  if (filePath.endsWith(".avif")) return "image/avif";
   return "application/octet-stream";
 }
 
