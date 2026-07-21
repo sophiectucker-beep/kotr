@@ -147,8 +147,8 @@ export const childFriendlyEvents: EventItem[] = [
     startLabel: "23 July 2026, 15:00-16:00 and 17:30-19:00",
     venue: "Seawave Restaurant, Catalan Bay",
     ageLabel: "Ages 4-12",
-    sourceName: "Book with Jayne",
-    sourceUrl: "tel:+35054012932",
+    sourceName: "View poster",
+    sourceUrl: "/events/decorate-your-own-treasure-box-2026.jpg",
     imageUrl: "/events/decorate-your-own-treasure-box-2026.jpg",
     note:
       "Added on 21 July 2026 from the updated event poster supplied to Kids on the Rock. The poster lists Thursday 23 July at Seawave Restaurant, Catalan Bay, with sessions for ages 4 to 8 from 3pm to 4pm and ages 8 to 12 from 5:30pm to 7pm; booking is by contacting Jayne on 54012932.",
