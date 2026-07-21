@@ -135,6 +135,25 @@ export const childFriendlyEvents: EventItem[] = [
       "Verified on 17 July 2026 from the Government of Gibraltar press release dated 7 May 2026, which lists Catalan Bay on 23 July 2026 as one of this year's Summer Slops dates and describes the series as intended for all ages.",
   },
   {
+    slug: "decorate-your-own-treasure-box-2026",
+    title: "Decorate Your Own Treasure Box",
+    summary:
+      "A creative craft-maker session where children decorate and personalise their own treasure box to take home, with snack, drink, certificate, and age-category prize included.",
+    status: "upcoming",
+    audience: "kids",
+    cost: "£10 per child",
+    endDate: "2026-07-23",
+    sortDate: "2026-07-23",
+    startLabel: "23 July 2026, 15:00-16:00 and 17:30-19:00",
+    venue: "Seawave Restaurant, Catalan Bay",
+    ageLabel: "Ages 4-12",
+    sourceName: "Book with Jayne",
+    sourceUrl: "tel:+35054012932",
+    imageUrl: "/events/decorate-your-own-treasure-box-2026.jpg",
+    note:
+      "Added on 21 July 2026 from the updated event poster supplied to Kids on the Rock. The poster lists Thursday 23 July at Seawave Restaurant, Catalan Bay, with sessions for ages 4 to 8 from 3pm to 4pm and ages 8 to 12 from 5:30pm to 7pm; booking is by contacting Jayne on 54012932.",
+  },
+  {
     slug: "pop-up-postcard-workshop-2026",
     title: "Pop-up Postcard Workshop",
     summary:
