@@ -1,17 +1,24 @@
 ---
 title: "Quiet Nights at La Línea's Feria This Year (Starting Tonight)"
-excerpt: "La Línea's Feria has three quiet nights this July, with reduced fairground noise for children who find the usual feria soundtrack too much."
+excerpt: "Sensory-friendly quiet nights at La Línea's Feria 2026, with reduced fairground noise for children and Gibraltar families visiting from 20 to 25 July."
 date: "2026-07-20"
 category: "What's On"
 tags:
   - La Línea
+  - La Línea feria 2026
   - feria
+  - Día sin ruido
   - quiet nights
+  - quiet fair
   - sensory friendly
+  - sensory friendly events
+  - autism friendly
   - autism
   - TEA Esperanza Azul
   - family events
   - Gibraltar families
+  - Campo de Gibraltar
+  - children
 featured: false
 draft: false
 coverImage: "/blog/la-linea-feria-quiet-nights-doodle.png"
