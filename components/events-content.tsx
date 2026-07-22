@@ -743,8 +743,6 @@ function CalendarCardLink({
   return (
     <Link
       href={href}
-      target="_blank"
-      rel="noopener noreferrer"
       title={title}
       className={className}
     >
@@ -775,14 +773,31 @@ function expandEventDates(event: EventItem, filter: EventFilter): CalendarItem[]
   const isFree = Boolean(event.freeNote) || /free/i.test(event.cost);
   if (filter === "free" && !isFree) return [];
 
-  const start = parseISODate(event.sortDate);
-  const end = parseISODate(event.endDate ?? event.sortDate);
-  const items: CalendarItem[] = [];
   const relatedClubSlug = event.relatedClubSlugs?.[0];
   const href = relatedClubSlug
     ? `/clubs-classes/${relatedClubSlug}`
     : event.sourceUrl;
   const external = !relatedClubSlug;
+
+  if (event.eventDates?.length) {
+    return event.eventDates.map((eventDate) => ({
+      id: `${event.slug}-${eventDate.sortDate}`,
+      seriesId: event.slug,
+      title: eventDate.title ?? event.title,
+      dateKey: eventDate.sortDate,
+      startDateKey: eventDate.sortDate,
+      endDateKey: eventDate.sortDate,
+      type: "event",
+      href,
+      external,
+      location: event.venue,
+      timeLabel: eventDate.startLabel,
+    }));
+  }
+
+  const start = parseISODate(event.sortDate);
+  const end = parseISODate(event.endDate ?? event.sortDate);
+  const items: CalendarItem[] = [];
 
   for (let cursor = new Date(start); cursor <= end; cursor = addDays(cursor, 1)) {
     items.push({

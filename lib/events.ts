@@ -8,6 +8,12 @@ export interface EventItem {
   cost: string;
   freeNote?: string;
   endDate?: string;
+  eventDates?: Array<{
+    sortDate: string;
+    startLabel: string;
+    title?: string;
+    ageLabel?: string;
+  }>;
   sortDate: string;
   startLabel: string;
   venue: string;
@@ -133,6 +139,131 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl: "/blog/default-cover.svg",
     note:
       "Verified on 17 July 2026 from the Government of Gibraltar press release dated 7 May 2026, which lists Catalan Bay on 23 July 2026 as one of this year's Summer Slops dates and describes the series as intended for all ages.",
+  },
+  {
+    slug: "young-learners-summer-spanish-2026",
+    title: "Young Learners Summer Spanish",
+    summary:
+      "Weekly summer Spanish classes with Little English for young learners, grouped by age and running from 10am to 12pm.",
+    status: "upcoming",
+    audience: "kids",
+    relatedClubSlugs: ["little-english-language-school"],
+    cost: "See organiser",
+    endDate: "2026-08-31",
+    eventDates: [
+      {
+        sortDate: "2026-07-23",
+        startLabel: "23 July 2026, 10:00-12:00",
+        title: "Young Learners Summer Spanish: Ages 4-5",
+        ageLabel: "Ages 4-5",
+      },
+      {
+        sortDate: "2026-07-27",
+        startLabel: "27 July 2026, 10:00-12:00",
+        title: "Young Learners Summer Spanish: Ages 6-8",
+        ageLabel: "Ages 6-8",
+      },
+      {
+        sortDate: "2026-07-28",
+        startLabel: "28 July 2026, 10:00-12:00",
+        title: "Young Learners Summer Spanish: Ages 9+",
+        ageLabel: "Ages 9+",
+      },
+      {
+        sortDate: "2026-07-30",
+        startLabel: "30 July 2026, 10:00-12:00",
+        title: "Young Learners Summer Spanish: Ages 4-5",
+        ageLabel: "Ages 4-5",
+      },
+      {
+        sortDate: "2026-08-03",
+        startLabel: "3 August 2026, 10:00-12:00",
+        title: "Young Learners Summer Spanish: Ages 6-8",
+        ageLabel: "Ages 6-8",
+      },
+      {
+        sortDate: "2026-08-04",
+        startLabel: "4 August 2026, 10:00-12:00",
+        title: "Young Learners Summer Spanish: Ages 9+",
+        ageLabel: "Ages 9+",
+      },
+      {
+        sortDate: "2026-08-06",
+        startLabel: "6 August 2026, 10:00-12:00",
+        title: "Young Learners Summer Spanish: Ages 4-5",
+        ageLabel: "Ages 4-5",
+      },
+      {
+        sortDate: "2026-08-10",
+        startLabel: "10 August 2026, 10:00-12:00",
+        title: "Young Learners Summer Spanish: Ages 6-8",
+        ageLabel: "Ages 6-8",
+      },
+      {
+        sortDate: "2026-08-11",
+        startLabel: "11 August 2026, 10:00-12:00",
+        title: "Young Learners Summer Spanish: Ages 9+",
+        ageLabel: "Ages 9+",
+      },
+      {
+        sortDate: "2026-08-13",
+        startLabel: "13 August 2026, 10:00-12:00",
+        title: "Young Learners Summer Spanish: Ages 4-5",
+        ageLabel: "Ages 4-5",
+      },
+      {
+        sortDate: "2026-08-17",
+        startLabel: "17 August 2026, 10:00-12:00",
+        title: "Young Learners Summer Spanish: Ages 6-8",
+        ageLabel: "Ages 6-8",
+      },
+      {
+        sortDate: "2026-08-18",
+        startLabel: "18 August 2026, 10:00-12:00",
+        title: "Young Learners Summer Spanish: Ages 9+",
+        ageLabel: "Ages 9+",
+      },
+      {
+        sortDate: "2026-08-20",
+        startLabel: "20 August 2026, 10:00-12:00",
+        title: "Young Learners Summer Spanish: Ages 4-5",
+        ageLabel: "Ages 4-5",
+      },
+      {
+        sortDate: "2026-08-24",
+        startLabel: "24 August 2026, 10:00-12:00",
+        title: "Young Learners Summer Spanish: Ages 6-8",
+        ageLabel: "Ages 6-8",
+      },
+      {
+        sortDate: "2026-08-25",
+        startLabel: "25 August 2026, 10:00-12:00",
+        title: "Young Learners Summer Spanish: Ages 9+",
+        ageLabel: "Ages 9+",
+      },
+      {
+        sortDate: "2026-08-27",
+        startLabel: "27 August 2026, 10:00-12:00",
+        title: "Young Learners Summer Spanish: Ages 4-5",
+        ageLabel: "Ages 4-5",
+      },
+      {
+        sortDate: "2026-08-31",
+        startLabel: "31 August 2026, 10:00-12:00",
+        title: "Young Learners Summer Spanish: Ages 6-8",
+        ageLabel: "Ages 6-8",
+      },
+    ],
+    sortDate: "2026-07-23",
+    startLabel:
+      "Mondays, Tuesdays and Thursdays in July & August 2026, 10:00-12:00",
+    venue: "Little English Language School, 29 City Mill Lane",
+    ageLabel: "Ages 4-9+",
+    sourceName: "Little English Summer Spanish poster",
+    sourceUrl: "/clubs/little-english-summer-spanish-2026.png",
+    imageUrl: "/clubs/little-english-summer-spanish-2026.png",
+    note:
+      "Added on 22 July 2026 from the Young Learners Summer Spanish poster supplied to Kids on the Rock. The poster lists weekly July and August classes from 10am to 12pm: Mondays for ages 6 to 8, Tuesdays for ages 9+, and Thursdays for ages 4 to 5.",
   },
   {
     slug: "decorate-your-own-treasure-box-2026",
