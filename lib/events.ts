@@ -152,6 +152,18 @@ export const childFriendlyEvents: EventItem[] = [
     endDate: "2026-08-31",
     eventDates: [
       {
+        sortDate: "2026-07-20",
+        startLabel: "20 July 2026, 10:00-12:00",
+        title: "Young Learners Summer Spanish: Ages 6-8",
+        ageLabel: "Ages 6-8",
+      },
+      {
+        sortDate: "2026-07-21",
+        startLabel: "21 July 2026, 10:00-12:00",
+        title: "Young Learners Summer Spanish: Ages 9+",
+        ageLabel: "Ages 9+",
+      },
+      {
         sortDate: "2026-07-23",
         startLabel: "23 July 2026, 10:00-12:00",
         title: "Young Learners Summer Spanish: Ages 4-5",
@@ -254,7 +266,7 @@ export const childFriendlyEvents: EventItem[] = [
         ageLabel: "Ages 6-8",
       },
     ],
-    sortDate: "2026-07-23",
+    sortDate: "2026-07-20",
     startLabel:
       "Mondays, Tuesdays and Thursdays in July & August 2026, 10:00-12:00",
     venue: "Little English Language School, 29 City Mill Lane",
