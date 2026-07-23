@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "21 July 2026";
+export const eventsVerifiedDate = "23 July 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -411,11 +411,11 @@ export const childFriendlyEvents: EventItem[] = [
     startLabel: "1 August 2026",
     venue: "Eastern Beach",
     ageLabel: "All ages",
-    sourceName: "visitgibraltar.gi",
-    sourceUrl: "https://www.visitgibraltar.gi/events/big-slop",
+    sourceName: "culture.gi",
+    sourceUrl: "https://www.culture.gi/news/the-big-slop-entertainment-programme/",
     imageUrl: "/blog/default-cover.svg",
     note:
-      "Verified on 19 July 2026 from the Visit Gibraltar Big SLOP listing, which gives the event date as 1 August 2026 from 6pm at Eastern Beach and describes it as a free event for the whole family with music, entertainment, mascots, and food stalls.",
+      "Verified on 23 July 2026 from the Culture.gi Big SLOP entertainment programme, which gives the event date as 1 August 2026 from 6pm at Eastern Beach and describes it as a free event for the whole family with music, entertainment, mascots, and food stalls.",
   },
   {
     slug: "summer-storytelling-tales-and-traditions-2026",
