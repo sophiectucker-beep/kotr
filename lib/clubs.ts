@@ -1672,6 +1672,7 @@ export const localClubs: ClubItem[] = [
     name: "Alameda Gardening Club",
     category: "education-languages",
     secondaryCategories: ["arts-creative"],
+    logoUrl: "/clubs/alameda-logo.webp",
     ageRange: "School Years 3-4",
     price: "From £30 / term",
     summary:
