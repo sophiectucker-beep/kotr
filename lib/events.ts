@@ -40,6 +40,26 @@ export const eventsVerifiedDate = "23 July 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
+    slug: "gibraltar-artists-studio-summer-camp-week-2-2026",
+    title: "Gibraltar Artists Studio Summer Art Camp — Week 2",
+    summary:
+      "Five creative summer mornings where children can paint, make art, try new techniques, and enjoy a relaxed studio camp with all materials included.",
+    status: "upcoming",
+    audience: "kids",
+    relatedClubSlugs: ["gibraltar-artists-studio"],
+    cost: "See organiser",
+    endDate: "2026-08-21",
+    sortDate: "2026-08-17",
+    startLabel: "17-21 August 2026, 10:30-12:30",
+    venue: "Gibraltar Artists Studio, 1A/21 Horse Barrack Lane",
+    ageLabel: "Ages 8-12",
+    sourceName: "Gibraltar Artists Studio",
+    sourceUrl: "https://gibraltarartiststudio.com/art-classes-kids/",
+    imageUrl: "/events/gibraltar-artists-studio-summer-camp-2026.jpg",
+    note:
+      "Verified on 21 July 2026 from the organiser's official children's art classes page and supplied current poster. Week 2 runs Monday 17 to Friday 21 August from 10:30am to 12:30pm for ages 8 to 12, with all materials included. The poster marks Week 1 as full, so only Week 2 is listed as available. Contact Gerry on 54019105 to check availability and book.",
+  },
+  {
     slug: "walks-through-history-summer-programme-2026",
     title: "Walks Through History Summer Programme",
     summary:
