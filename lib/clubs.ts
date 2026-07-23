@@ -29,7 +29,7 @@ export interface ClubItem {
   galleryImages?: ClubGalleryImage[];
 }
 
-export const clubsVerifiedDate = "22 June 2026";
+export const clubsVerifiedDate = "21 July 2026";
 
 export const localClubs: ClubItem[] = [
   {
@@ -1410,7 +1410,7 @@ export const localClubs: ClubItem[] = [
     sourceUrl:
       "mailto:gibraltarpistol@outlook.com?subject=Inquiry%20via%20Kids%20on%20the%20Rock",
     aboutParagraphs: [
-      "The Gibraltar Pistol Association runs junior sessions for older school-age children and teens, with Beyond the Bell currently listing classes for Years 6 and up on Tuesdays and Thursdays. That gives this page much firmer local detail than a sport page that only talks about adult competition in general terms.",
+      "The Gibraltar Pistol Association runs junior sessions for older school-age children and teens, with current public information listing classes for Years 6 and up on Tuesdays and Thursdays. That gives this page much firmer local detail than a sport page that only talks about adult competition in general terms.",
       "The public description puts the emphasis on safety, discipline, and skill development, which is exactly what most parents will want to know first. Local reporting on the Lathbury Barracks ranges also describes purpose-built indoor and outdoor facilities, so this reads as a dedicated Gibraltar range setup rather than a makeshift arrangement.",
       "There is a proper sporting pathway behind the junior side too. Public coverage shows the association running Opens in Gibraltar and sending teams to European IPSC events, with youth development described as part of the sport's local growth. So the local value here is structured junior target shooting with regular sessions and an established competitive scene behind it.",
     ],
@@ -1560,7 +1560,7 @@ export const localClubs: ClubItem[] = [
       "mailto:mrc@medrowing.com?cc=damian.muscat71@gmail.com&subject=Inquiry%20via%20Kids%20on%20the%20Rock",
     aboutParagraphs: [
       "Mediterranean Rowing Club is one of Gibraltar's long-established rowing clubs, based at 4 Europort Road and regularly linked with junior rowing locally. Public references place the club's founding in 1899, and British Rowing coverage continues to include Mediterranean among the Gibraltar clubs travelling to race in UK competition.",
-      "The public listings describe a mix of competitive and recreational rowing, with structured training, youth development, and local or regional regatta racing. Beyond the Bell currently lists weekday after-school sessions from Monday to Thursday, plus early weekend water sessions, which makes this page feel more grounded and useful than a vague 'rowing exists' entry.",
+      "The public listings describe a mix of competitive and recreational rowing, with structured training, youth development, and local or regional regatta racing. Current information lists weekday after-school sessions from Monday to Thursday, plus early weekend water sessions, which makes this page feel more grounded and useful than a vague 'rowing exists' entry.",
       "One of the more distinctive details here is the mention of coastal boating sessions alongside the regular rowing programme. That gives the club a slightly broader water-sport feel while still keeping the main focus on technique, regular training, and preparing crews for competition.",
     ],
   },
@@ -1665,6 +1665,44 @@ export const localClubs: ClubItem[] = [
       "The Young Leaders Programme is run by the Gibraltar Youth Service for ages 14 to 17, including young people who are completely new to youth clubs. That makes it a useful page for searches around teen leadership and volunteering in Gibraltar, not just for families already inside the youth-club system.",
       "It begins with an 8-week leadership course covering communication, safeguarding, conflict resolution, and related practical skills. After that, participants volunteer in one of Gibraltar’s youth clubs one evening a week for two months, with support from a licensed Youth Worker.",
       "The strongest practical detail is that it leads somewhere concrete: hands-on youth-club experience, recorded volunteer hours, and a certificate of achievement. For teens who want responsibility, confidence, and a first step into volunteering or leadership, this is more specific and useful than an ordinary drop-in youth session.",
+    ],
+  },
+  {
+    slug: "alameda-gardening-club",
+    name: "Alameda Gardening Club",
+    category: "education-languages",
+    secondaryCategories: ["arts-creative"],
+    ageRange: "School Years 3-4",
+    price: "From £30 / term",
+    summary:
+      "A seasonal gardening club where children learn about plants, nature, and the environment in the Alameda Gardens.",
+    schedule:
+      "Tuesdays and Thursdays from October to mid-June; nine sessions per term",
+    location: "Gibraltar Botanic Gardens (The Alameda)",
+    sourceName: "Gibraltar Botanic Gardens",
+    sourceUrl: "https://www.gardens.gi/our-work/education",
+    aboutParagraphs: [
+      "Alameda Gardening Club gives children a practical way to learn about plants, gardening, and Gibraltar’s natural environment in the setting of the Alameda Gardens.",
+      "The club is listed for School Years 3 and 4, with sessions on Tuesdays and Thursdays. It runs seasonally from October to mid-June, split into three terms of nine sessions each.",
+      "The listed price starts at £30 per term. Families should check the organiser page for current places and the exact session time before attending.",
+    ],
+  },
+  {
+    slug: "gibraltar-table-tennis",
+    name: "Table Tennis",
+    category: "health-fitness",
+    ageRange: "School Years 1-13",
+    price: "From £45 / year",
+    summary:
+      "Junior table tennis for beginners and developing players looking for a year-round indoor sport in Gibraltar.",
+    schedule: "Tuesdays and Wednesdays",
+    location: "Gibraltar",
+    sourceName: "Gibraltar Table Tennis Association",
+    sourceUrl: "https://gtta.gi/",
+    aboutParagraphs: [
+      "Gibraltar’s organised table-tennis route is open across the school-age range, making it an accessible indoor option for both beginners and children who want to develop their game.",
+      "The current public listing shows sessions on Tuesdays and Wednesdays for School Years 1 through 13, with membership from £45 per year.",
+      "The public listing does not give a venue or exact session times, so families should check directly before attending.",
     ],
   },
 ];
