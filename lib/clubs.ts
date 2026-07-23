@@ -1692,6 +1692,7 @@ export const localClubs: ClubItem[] = [
     slug: "gibraltar-table-tennis",
     name: "Table Tennis",
     category: "health-fitness",
+    logoUrl: "/clubs/gtta-logo.png",
     ageRange: "School Years 1-13",
     price: "From £45 / year",
     summary:
