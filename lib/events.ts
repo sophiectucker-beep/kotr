@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "23 July 2026";
+export const eventsVerifiedDate = "3 August 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -69,15 +69,15 @@ export const childFriendlyEvents: EventItem[] = [
     cost: "Free entry",
     freeNote: "Free, booking essential",
     endDate: "2026-08-26",
-    sortDate: "2026-07-22",
-    startLabel: "22 July-26 August 2026",
+    sortDate: "2026-08-05",
+    startLabel: "5-26 August 2026",
     venue: "Various Gibraltar locations",
     ageLabel: "Ages 9-12",
     sourceName: "gibmuseum.gi",
     sourceUrl: "https://www.gibmuseum.gi/news/walks-2026",
     imageUrl: "/blog/default-cover.svg",
     note:
-      "Verified on 16 July 2026 from the live Gibraltar National Museum summer programme page, which lists free Wednesday 'Walks Through History' sessions for children aged 9 to 12 from 8 July to 26 August 2026; remaining future dates from today are 22 July, 29 July, 5 August, 12 August, 19 August, and 26 August, and booking is required.",
+      "Verified on 1 August 2026 from the live Gibraltar National Museum summer programme page, which lists free Wednesday 'Walks Through History' sessions for children aged 9 to 12 from 8 July to 26 August 2026; remaining future dates after today are 5 August, 12 August, 19 August, and 26 August, with the 5 August boat tour starting earlier at 9am and requiring adult accompaniment.",
   },
   {
     slug: "summer-book-club-2026",
@@ -89,8 +89,8 @@ export const childFriendlyEvents: EventItem[] = [
     cost: "Free entry",
     freeNote: "Free, places limited",
     endDate: "2026-08-26",
-    sortDate: "2026-07-22",
-    startLabel: "22 July-26 August 2026",
+    sortDate: "2026-08-05",
+    startLabel: "5-26 August 2026",
     venue: "John Mackintosh Hall Library",
     ageLabel: "Ages 8-14",
     sourceName: "gibraltar.gov.gi",
@@ -98,7 +98,7 @@ export const childFriendlyEvents: EventItem[] = [
       "https://www.gibraltar.gov.gi/press-releases/gcs-summer-workshops-and-activities-for-young-people-4412026-12077",
     imageUrl: "/blog/default-cover.svg",
     note:
-      "Verified on 17 July 2026 from the Government of Gibraltar press release dated 8 June 2026, which states that the Summer Book Club runs every Wednesday from 11am to 12pm at the John Mackintosh Hall Library until 26 August 2026 for children aged 8 to 14, with advance registration advised.",
+      "Verified on 1 August 2026 from the Government of Gibraltar press release dated 8 June 2026, which states that the Summer Book Club runs every Wednesday from 11am to 12pm at the John Mackintosh Hall Library until 26 August 2026 for children aged 8 to 14, with remaining future sessions after today from 5 August to 26 August and advance registration advised.",
   },
   {
     slug: "ditzy-b-summer-evenings-workshops-2026",
@@ -109,15 +109,15 @@ export const childFriendlyEvents: EventItem[] = [
     audience: "teens",
     cost: "See organiser",
     endDate: "2026-08-19",
-    sortDate: "2026-07-22",
-    startLabel: "22 July-19 August 2026, selected evenings",
+    sortDate: "2026-08-05",
+    startLabel: "5-19 August 2026, selected evenings",
     venue: "Ditzy B Arts & Craft Supplies, Main Street",
     ageLabel: "Adults and teens",
     sourceName: "Ditzy B Shop Calendar",
     sourceUrl: "https://www.ditzyb.store/pages/event-calendar",
     imageUrl: "/blog/default-cover.svg",
     note:
-      "Verified on 21 July 2026 from Ditzy B's live Shop Calendar feed (The Shop Calendar accordion widget), including its August 2026 next-month endpoint. Future sessions are listed for 22 and 29 July and 2, 5, 12, and 19 August 2026 from 6pm to 8pm; booking is essential.",
+      "Verified on 3 August 2026 from Ditzy B's live Shop Calendar feed (The Shop Calendar accordion widget) for August 2026. Remaining future sessions after today are listed for 5, 12, and 19 August 2026 from 6pm to 8pm; booking is essential.",
   },
   {
     slug: "mario-finlayson-national-art-gallery-2026",
@@ -128,7 +128,7 @@ export const childFriendlyEvents: EventItem[] = [
     audience: "family",
     cost: "See organiser",
     endDate: "2026-09-26",
-    sortDate: "2026-07-17",
+    sortDate: "2026-08-03",
     startLabel: "30 May-26 September 2026",
     venue: "City Hall, John Mackintosh Square",
     ageLabel: "All ages",
@@ -137,28 +137,7 @@ export const childFriendlyEvents: EventItem[] = [
       "https://www.visitgibraltar.gi/events/mario-finlayson-national-art-gallery",
     imageUrl: "/blog/default-cover.svg",
     note:
-      "Verified on 17 July 2026 from the Visit Gibraltar Mario Finlayson National Art Gallery listing, which shows the gallery running from 30 May to 26 September 2026 at City Hall with summer opening hours.",
-  },
-  {
-    slug: "summer-slops-catalan-bay-2026",
-    title: "Summer Slops at Catalan Bay",
-    summary:
-      "A free foam-party stop on the Summer Slops roadshow for kids and families at Catalan Bay.",
-    status: "upcoming",
-    audience: "family",
-    cost: "Free entry",
-    freeNote: "Free foam party",
-    endDate: "2026-07-23",
-    sortDate: "2026-07-23",
-    startLabel: "23 July 2026",
-    venue: "Catalan Bay",
-    ageLabel: "Children and families",
-    sourceName: "gibraltar.gov.gi",
-    sourceUrl:
-      "https://www.gibraltar.gov.gi/press-releases/summer-slops-in-2026-3272026-11959",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 17 July 2026 from the Government of Gibraltar press release dated 7 May 2026, which lists Catalan Bay on 23 July 2026 as one of this year's Summer Slops dates and describes the series as intended for all ages.",
+      "Verified on 3 August 2026 from the current Visit Gibraltar events listing, which still shows the Mario Finlayson National Art Gallery running from 30 May to 26 September 2026 at City Hall.",
   },
   {
     slug: "young-learners-summer-spanish-2026",
@@ -171,42 +150,6 @@ export const childFriendlyEvents: EventItem[] = [
     cost: "See organiser",
     endDate: "2026-08-31",
     eventDates: [
-      {
-        sortDate: "2026-07-20",
-        startLabel: "20 July 2026, 10:00-12:00",
-        title: "Young Learners Summer Spanish: Ages 6-8",
-        ageLabel: "Ages 6-8",
-      },
-      {
-        sortDate: "2026-07-21",
-        startLabel: "21 July 2026, 10:00-12:00",
-        title: "Young Learners Summer Spanish: Ages 9+",
-        ageLabel: "Ages 9+",
-      },
-      {
-        sortDate: "2026-07-23",
-        startLabel: "23 July 2026, 10:00-12:00",
-        title: "Young Learners Summer Spanish: Ages 4-5",
-        ageLabel: "Ages 4-5",
-      },
-      {
-        sortDate: "2026-07-27",
-        startLabel: "27 July 2026, 10:00-12:00",
-        title: "Young Learners Summer Spanish: Ages 6-8",
-        ageLabel: "Ages 6-8",
-      },
-      {
-        sortDate: "2026-07-28",
-        startLabel: "28 July 2026, 10:00-12:00",
-        title: "Young Learners Summer Spanish: Ages 9+",
-        ageLabel: "Ages 9+",
-      },
-      {
-        sortDate: "2026-07-30",
-        startLabel: "30 July 2026, 10:00-12:00",
-        title: "Young Learners Summer Spanish: Ages 4-5",
-        ageLabel: "Ages 4-5",
-      },
       {
         sortDate: "2026-08-03",
         startLabel: "3 August 2026, 10:00-12:00",
@@ -286,177 +229,49 @@ export const childFriendlyEvents: EventItem[] = [
         ageLabel: "Ages 6-8",
       },
     ],
-    sortDate: "2026-07-20",
+    sortDate: "2026-08-03",
     startLabel:
-      "Mondays, Tuesdays and Thursdays in July & August 2026, 10:00-12:00",
+      "Mondays, Tuesdays and Thursdays from 3 August to 31 August 2026, 10:00-12:00",
     venue: "Little English Language School, 29 City Mill Lane",
     ageLabel: "Ages 4-9+",
     sourceName: "Little English Summer Spanish poster",
     sourceUrl: "/clubs/little-english-summer-spanish-2026.png",
     imageUrl: "/clubs/little-english-summer-spanish-2026.png",
     note:
-      "Added on 22 July 2026 from the Young Learners Summer Spanish poster supplied to Kids on the Rock. The poster lists weekly July and August classes from 10am to 12pm: Mondays for ages 6 to 8, Tuesdays for ages 9+, and Thursdays for ages 4 to 5.",
+      "Added on 22 July 2026 from the Young Learners Summer Spanish poster supplied to Kids on the Rock. Remaining future classes from today are Mondays, Tuesdays, and Thursdays through August from 10am to 12pm: Mondays for ages 6 to 8, Tuesdays for ages 9+, and Thursdays for ages 4 to 5.",
   },
   {
-    slug: "decorate-your-own-treasure-box-2026",
-    title: "Decorate Your Own Treasure Box",
+    slug: "ditzy-b-pottery-workshops-august-2026",
+    title: "Ditzy B Pottery Workshops",
     summary:
-      "A creative craft-maker session where children decorate and personalise their own treasure box to take home, with snack, drink, certificate, and age-category prize included.",
-    status: "upcoming",
-    audience: "kids",
-    cost: "£10 per child",
-    endDate: "2026-07-23",
-    sortDate: "2026-07-23",
-    startLabel: "23 July 2026, 15:00-16:00 and 17:30-19:00",
-    venue: "Seawave Restaurant, Catalan Bay",
-    ageLabel: "Ages 4-12",
-    sourceName: "View poster",
-    sourceUrl: "/events/decorate-your-own-treasure-box-2026.jpg",
-    imageUrl: "/events/decorate-your-own-treasure-box-2026.jpg",
-    note:
-      "Added on 21 July 2026 from the updated event poster supplied to Kids on the Rock. The poster lists Thursday 23 July at Seawave Restaurant, Catalan Bay, with sessions for ages 4 to 8 from 3pm to 4pm and ages 8 to 12 from 5:30pm to 7pm; booking is by contacting Jayne on 54012932.",
-  },
-  {
-    slug: "pop-up-postcard-workshop-2026",
-    title: "Pop-up Postcard Workshop",
-    summary:
-      "A GCS summer-programme craft workshop for children and young people at the Fine Arts Gallery.",
-    status: "upcoming",
-    audience: "kids",
-    cost: "See organiser",
-    endDate: "2026-07-23",
-    sortDate: "2026-07-23",
-    startLabel: "23 July 2026",
-    venue: "Fine Arts Gallery",
-    ageLabel: "Children and young people",
-    sourceName: "gibraltar.gov.gi",
-    sourceUrl:
-      "https://www.gibraltar.gov.gi/press-releases/gcs-summer-workshops-and-activities-for-young-people-4412026-12077",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 20 July 2026 from the Government of Gibraltar press release dated 8 June 2026, which confirms the 2026 GCS 'Books Without Borders' summer workshops and directs readers to Culture.gi and Buytickets.gi for the full schedule; the current live event listings show Pop-up Postcard Workshop at the Fine Arts Gallery on 23 July 2026 from 10:30am to 12:00pm.",
-  },
-  {
-    slug: "ditzy-b-pottery-workshop-july-2026",
-    title: "Ditzy B Pottery Workshop",
-    summary:
-      "A two-hour pottery workshop for adults and teens at the Ditzy B craft studio.",
+      "Two evening pottery workshops for adults and teens at the Ditzy B craft studio in August.",
     status: "upcoming",
     audience: "teens",
     cost: "See organiser",
-    endDate: "2026-07-24",
-    sortDate: "2026-07-24",
-    startLabel: "24 July 2026, 18:00-20:00",
+    endDate: "2026-08-21",
+    eventDates: [
+      {
+        sortDate: "2026-08-08",
+        startLabel: "8 August 2026, 18:00-20:00",
+        title: "Ditzy B Pottery Workshop",
+        ageLabel: "Adults and teens",
+      },
+      {
+        sortDate: "2026-08-21",
+        startLabel: "21 August 2026, 18:00-20:00",
+        title: "Ditzy B Pottery Workshop",
+        ageLabel: "Adults and teens",
+      },
+    ],
+    sortDate: "2026-08-08",
+    startLabel: "8 and 21 August 2026, 18:00-20:00",
     venue: "Ditzy B Arts & Craft Supplies, Main Street",
     ageLabel: "Adults and teens",
     sourceName: "Ditzy B Shop Calendar",
     sourceUrl: "https://www.ditzyb.store/pages/event-calendar",
     imageUrl: "/blog/default-cover.svg",
     note:
-      "Verified on 21 July 2026 from the live Ditzy B Shop Calendar feed, which lists Pottery Workshop (adults & teens) on 24 July 2026 from 6pm to 8pm at Ditzy B Arts & Craft Supplies on Main Street.",
-  },
-  {
-    slug: "summer-storytelling-pirates-and-explorers-2026",
-    title: "Summer Storytelling: Pirates & Explorers",
-    summary:
-      "A free themed storytelling morning for younger children as part of the GCS summer programme.",
-    status: "upcoming",
-    audience: "kids",
-    cost: "Free entry",
-    freeNote: "Free, booking advised",
-    endDate: "2026-07-28",
-    sortDate: "2026-07-28",
-    startLabel: "28 July 2026",
-    venue: "John Mackintosh Hall Library",
-    ageLabel: "Ages 3+",
-    sourceName: "gibraltar.gov.gi",
-    sourceUrl:
-      "https://www.gibraltar.gov.gi/press-releases/gcs-summer-workshops-and-activities-for-young-people-4412026-12077",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 20 July 2026 from the Government of Gibraltar press release dated 8 June 2026, which confirms interactive GCS storytelling sessions for children aged 3 and above with the full schedule on Culture.gi; the current live event listings show Summer Storytelling 2026: Pirates & Explorers at John Mackintosh Hall Library on 28 July 2026 at 10:30am.",
-  },
-  {
-    slug: "zine-making-workshop-2026",
-    title: "Zine Making Workshop",
-    summary:
-      "A GCS summer-programme creative workshop exploring storytelling through zine-making at GEMA.",
-    status: "upcoming",
-    audience: "kids",
-    cost: "See organiser",
-    endDate: "2026-07-30",
-    sortDate: "2026-07-30",
-    startLabel: "30 July 2026",
-    venue: "GEMA Art Gallery",
-    ageLabel: "Children and young people",
-    sourceName: "gibraltar.gov.gi",
-    sourceUrl:
-      "https://www.gibraltar.gov.gi/press-releases/gcs-summer-workshops-and-activities-for-young-people-4412026-12077",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 20 July 2026 from the Government of Gibraltar press release dated 8 June 2026, which names zine-making among the 2026 GCS summer workshops and points to Culture.gi and Buytickets.gi for the dated schedule; the current live event listings show Zine Making Workshop at GEMA Art Gallery on 30 July 2026 from 10:30am to 12:00pm.",
-  },
-  {
-    slug: "summer-slops-casemates-square-2026",
-    title: "Summer Slops at Casemates Square",
-    summary:
-      "A free foam-party stop on the Summer Slops roadshow for kids and families in Casemates Square.",
-    status: "upcoming",
-    audience: "family",
-    cost: "Free entry",
-    freeNote: "Free foam party",
-    endDate: "2026-07-30",
-    sortDate: "2026-07-30",
-    startLabel: "30 July 2026",
-    venue: "Casemates Square",
-    ageLabel: "Children and families",
-    sourceName: "gibraltar.gov.gi",
-    sourceUrl:
-      "https://www.gibraltar.gov.gi/press-releases/summer-slops-in-2026-3272026-11959",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 17 July 2026 from the Government of Gibraltar press release dated 7 May 2026, which lists Casemates Square on 30 July 2026 as one of this year's Summer Slops dates and describes the series as intended for all ages.",
-  },
-  {
-    slug: "the-big-slop-2026",
-    title: "The Big SLOP",
-    summary:
-      "A free family foam-party finale at Eastern Beach with music, entertainment, mascots, and food stalls.",
-    status: "upcoming",
-    audience: "family",
-    cost: "Free entry",
-    freeNote: "Free family event",
-    endDate: "2026-08-01",
-    sortDate: "2026-08-01",
-    startLabel: "1 August 2026",
-    venue: "Eastern Beach",
-    ageLabel: "All ages",
-    sourceName: "culture.gi",
-    sourceUrl: "https://www.culture.gi/news/the-big-slop-entertainment-programme/",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 23 July 2026 from the Culture.gi Big SLOP entertainment programme, which gives the event date as 1 August 2026 from 6pm at Eastern Beach and describes it as a free event for the whole family with music, entertainment, mascots, and food stalls.",
-  },
-  {
-    slug: "summer-storytelling-tales-and-traditions-2026",
-    title: "Summer Storytelling: Tales & Traditions",
-    summary:
-      "A free gallery-based storytelling session for young children and families in the GCS summer programme.",
-    status: "upcoming",
-    audience: "kids",
-    cost: "Free entry",
-    freeNote: "Free, booking advised",
-    endDate: "2026-08-04",
-    sortDate: "2026-08-04",
-    startLabel: "4 August 2026",
-    venue: "Mario Finlayson National Gallery",
-    ageLabel: "Ages 3-7",
-    sourceName: "gibraltar.gov.gi",
-    sourceUrl:
-      "https://www.gibraltar.gov.gi/press-releases/gcs-summer-workshops-and-activities-for-young-people-4412026-12077",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 20 July 2026 from the Government of Gibraltar press release dated 8 June 2026, which confirms the 2026 storytelling series for younger children and directs families to the full Culture.gi schedule; the current live event listings show Summer Storytelling 2026: Tales & Traditions at the Mario Finlayson National Gallery on 4 August 2026 at 10:30am for ages 3 to 7.",
+      "Verified on 1 August 2026 from Ditzy B's live Shop Calendar feed for August 2026, which lists Pottery Workshop (adults & teens) on 8 August 2026 and 21 August 2026 from 6pm to 8pm at Ditzy B Arts & Craft Supplies on Main Street.",
   },
   {
     slug: "summer-slops-camp-bay-2026",
@@ -477,7 +292,7 @@ export const childFriendlyEvents: EventItem[] = [
       "https://www.gibraltar.gov.gi/press-releases/summer-slops-in-2026-3272026-11959",
     imageUrl: "/blog/default-cover.svg",
     note:
-      "Verified on 17 July 2026 from the Government of Gibraltar press release dated 7 May 2026, which lists Camp Bay on 6 August 2026 as one of this year's Summer Slops dates and describes the series as intended for all ages.",
+      "Verified on 1 August 2026 from the Government of Gibraltar press release dated 7 May 2026, which lists Camp Bay on 6 August 2026 as one of this year's Summer Slops dates and describes the series as intended for all ages.",
   },
   {
     slug: "paper-craft-workshop-2026",
@@ -492,33 +307,11 @@ export const childFriendlyEvents: EventItem[] = [
     startLabel: "6 August 2026",
     venue: "GEMA Art Gallery",
     ageLabel: "Children and young people",
-    sourceName: "gibraltar.gov.gi",
-    sourceUrl:
-      "https://www.gibraltar.gov.gi/press-releases/gcs-summer-workshops-and-activities-for-young-people-4412026-12077",
+    sourceName: "buytickets.gi",
+    sourceUrl: "https://www.buytickets.gi/events/summer-programme-1285",
     imageUrl: "/blog/default-cover.svg",
     note:
-      "Verified on 20 July 2026 from the Government of Gibraltar press release dated 8 June 2026, which names papercraft among the 2026 GCS workshops and points to Culture.gi and Buytickets.gi for the full timetable; the current live event listings show Paper Craft Workshop at GEMA Art Gallery on 6 August 2026 from 10:30am to 12:00pm.",
-  },
-  {
-    slug: "summer-storytelling-the-world-around-us-2026",
-    title: "Summer Storytelling: The World Around Us",
-    summary:
-      "A free themed storytelling session for younger children in the later part of the GCS summer reading programme.",
-    status: "upcoming",
-    audience: "kids",
-    cost: "Free entry",
-    freeNote: "Free, booking advised",
-    endDate: "2026-08-11",
-    sortDate: "2026-08-11",
-    startLabel: "11 August 2026",
-    venue: "See organiser for venue",
-    ageLabel: "Ages 3-7",
-    sourceName: "gibraltar.gov.gi",
-    sourceUrl:
-      "https://www.gibraltar.gov.gi/press-releases/gcs-summer-workshops-and-activities-for-young-people-4412026-12077",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 20 July 2026 from the Government of Gibraltar press release dated 8 June 2026, which confirms the 2026 storytelling series for younger children and directs families to the full schedule on Culture.gi; current live event listings show Summer Storytelling 2026: The World Around Us on 11 August 2026 at 10:30am, but they surface conflicting venue text, so families should confirm the final venue with the organiser when booking.",
+      "Verified on 1 August 2026 from the live BuyTickets Summer Programme page, which lists Paper Craft Workshop at GEMA Art Gallery on 6 August 2026 from 10:30am to 12:00pm for children and young people.",
   },
   {
     slug: "gibraltar-fair-2026",
@@ -533,12 +326,11 @@ export const childFriendlyEvents: EventItem[] = [
     startLabel: "21-29 August 2026",
     venue: "See organiser for 2026 venue details",
     ageLabel: "All ages",
-    sourceName: "culture.gi",
-    sourceUrl:
-      "https://www.culture.gi/news/gibraltar-fair-2026-stall-application-process/",
+    sourceName: "visitgibraltar.gi",
+    sourceUrl: "https://www.visitgibraltar.gi/events",
     imageUrl: "/blog/default-cover.svg",
     note:
-      "Verified on 21 July 2026 from the live Culture.gi Gibraltar Fair 2026 announcement and the current Visit Gibraltar events calendar, both of which list the fair from Friday 21 to Saturday 29 August 2026. The 2026 venue and opening times were not yet stated on those official pages, so families should check the organiser's latest details before travelling.",
+      "Verified on 1 August 2026 from the current Visit Gibraltar events listing, which lists Gibraltar Fair 2026 from 21 August to 29 August 2026. The live listing does not surface the venue or opening times in the current summary view, so families should check the organiser's latest details before travelling.",
   },
 ];
 
