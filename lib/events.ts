@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "3 August 2026";
+export const eventsVerifiedDate = "4 August 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -117,7 +117,7 @@ export const childFriendlyEvents: EventItem[] = [
     sourceUrl: "https://www.ditzyb.store/pages/event-calendar",
     imageUrl: "/blog/default-cover.svg",
     note:
-      "Verified on 3 August 2026 from Ditzy B's live Shop Calendar feed (The Shop Calendar accordion widget) for August 2026. Remaining future sessions after today are listed for 5, 12, and 19 August 2026 from 6pm to 8pm; booking is essential.",
+      "Verified on 4 August 2026 from Ditzy B's live Shop Calendar feed (The Shop Calendar accordion widget) for August 2026. Remaining future sessions after today are listed for 5, 12, and 19 August 2026 from 6pm to 8pm; booking is essential.",
   },
   {
     slug: "mario-finlayson-national-art-gallery-2026",
@@ -128,7 +128,7 @@ export const childFriendlyEvents: EventItem[] = [
     audience: "family",
     cost: "See organiser",
     endDate: "2026-09-26",
-    sortDate: "2026-08-03",
+    sortDate: "2026-08-04",
     startLabel: "30 May-26 September 2026",
     venue: "City Hall, John Mackintosh Square",
     ageLabel: "All ages",
@@ -137,7 +137,7 @@ export const childFriendlyEvents: EventItem[] = [
       "https://www.visitgibraltar.gi/events/mario-finlayson-national-art-gallery",
     imageUrl: "/blog/default-cover.svg",
     note:
-      "Verified on 3 August 2026 from the current Visit Gibraltar events listing, which still shows the Mario Finlayson National Art Gallery running from 30 May to 26 September 2026 at City Hall.",
+      "Verified on 4 August 2026 from the current Visit Gibraltar event page, which still shows the Mario Finlayson National Art Gallery running from 30 May to 26 September 2026 at City Hall.",
   },
   {
     slug: "young-learners-summer-spanish-2026",
@@ -150,12 +150,6 @@ export const childFriendlyEvents: EventItem[] = [
     cost: "See organiser",
     endDate: "2026-08-31",
     eventDates: [
-      {
-        sortDate: "2026-08-03",
-        startLabel: "3 August 2026, 10:00-12:00",
-        title: "Young Learners Summer Spanish: Ages 6-8",
-        ageLabel: "Ages 6-8",
-      },
       {
         sortDate: "2026-08-04",
         startLabel: "4 August 2026, 10:00-12:00",
@@ -229,9 +223,9 @@ export const childFriendlyEvents: EventItem[] = [
         ageLabel: "Ages 6-8",
       },
     ],
-    sortDate: "2026-08-03",
+    sortDate: "2026-08-04",
     startLabel:
-      "Mondays, Tuesdays and Thursdays from 3 August to 31 August 2026, 10:00-12:00",
+      "Tuesdays and Thursdays from 4 August 2026, then Mondays, Tuesdays and Thursdays from 10-31 August 2026, 10:00-12:00",
     venue: "Little English Language School, 29 City Mill Lane",
     ageLabel: "Ages 4-9+",
     sourceName: "Little English Summer Spanish poster",
@@ -271,7 +265,7 @@ export const childFriendlyEvents: EventItem[] = [
     sourceUrl: "https://www.ditzyb.store/pages/event-calendar",
     imageUrl: "/blog/default-cover.svg",
     note:
-      "Verified on 1 August 2026 from Ditzy B's live Shop Calendar feed for August 2026, which lists Pottery Workshop (adults & teens) on 8 August 2026 and 21 August 2026 from 6pm to 8pm at Ditzy B Arts & Craft Supplies on Main Street.",
+      "Verified on 4 August 2026 from Ditzy B's live Shop Calendar feed for August 2026, which lists Pottery Workshop (adults & teens) on 8 August 2026 and 21 August 2026 from 6pm to 8pm at Ditzy B Arts & Craft Supplies on Main Street.",
   },
   {
     slug: "summer-slops-camp-bay-2026",
@@ -292,7 +286,7 @@ export const childFriendlyEvents: EventItem[] = [
       "https://www.gibraltar.gov.gi/press-releases/summer-slops-in-2026-3272026-11959",
     imageUrl: "/blog/default-cover.svg",
     note:
-      "Verified on 1 August 2026 from the Government of Gibraltar press release dated 7 May 2026, which lists Camp Bay on 6 August 2026 as one of this year's Summer Slops dates and describes the series as intended for all ages.",
+      "Verified on 4 August 2026 from the Government of Gibraltar press release dated 7 May 2026 and the current Visit Gibraltar Summer Slop page, both of which list Camp Bay on 6 August 2026 and describe the series as suitable for all ages.",
   },
   {
     slug: "paper-craft-workshop-2026",
@@ -311,7 +305,27 @@ export const childFriendlyEvents: EventItem[] = [
     sourceUrl: "https://www.buytickets.gi/events/summer-programme-1285",
     imageUrl: "/blog/default-cover.svg",
     note:
-      "Verified on 1 August 2026 from the live BuyTickets Summer Programme page, which lists Paper Craft Workshop at GEMA Art Gallery on 6 August 2026 from 10:30am to 12:00pm for children and young people.",
+      "Verified on 4 August 2026 from the live BuyTickets Summer Programme page, which lists Paper Craft Workshop at GEMA Art Gallery on 6 August 2026 from 10:30am to 12:00pm for children and young people aged 6+.",
+  },
+  {
+    slug: "ocean-village-childrens-viking-party-2026",
+    title: "Ocean Village Children's Viking Party",
+    summary:
+      "Two low-cost Saturday-morning Viking-themed party sessions on the marina boat, with games, music, dancing, and family-friendly fundraising fun.",
+    status: "upcoming",
+    audience: "family",
+    cost: "£5 per child",
+    endDate: "2026-08-15",
+    sortDate: "2026-08-15",
+    startLabel: "15 August 2026, 10:00 and 11:15",
+    venue: "Ocean Village Marina",
+    ageLabel: "Children and families",
+    sourceName: "buytickets.gi",
+    sourceUrl:
+      "https://www.buytickets.gi/events/ocean-village-childrens-viking-party-1333",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 4 August 2026 from the live BuyTickets event page, which lists Ocean Village Children's Viking Party on Saturday 15 August 2026 at Ocean Village with two sessions at 10am and 11:15am, priced at £5 per child, with games, music, dancing, and proceeds donated to Childline Gibraltar.",
   },
   {
     slug: "gibraltar-fair-2026",
@@ -330,7 +344,7 @@ export const childFriendlyEvents: EventItem[] = [
     sourceUrl: "https://www.visitgibraltar.gi/events",
     imageUrl: "/blog/default-cover.svg",
     note:
-      "Verified on 1 August 2026 from the current Visit Gibraltar events listing, which lists Gibraltar Fair 2026 from 21 August to 29 August 2026. The live listing does not surface the venue or opening times in the current summary view, so families should check the organiser's latest details before travelling.",
+      "Verified on 4 August 2026 from the current Visit Gibraltar events listing, which lists Gibraltar Fair 2026 from 21 August to 29 August 2026. The linked detail page is not currently available, so families should check the organiser's latest venue and opening-time details before travelling.",
   },
 ];
 
