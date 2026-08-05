@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "4 August 2026";
+export const eventsVerifiedDate = "5 August 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -63,21 +63,21 @@ export const childFriendlyEvents: EventItem[] = [
     slug: "walks-through-history-summer-programme-2026",
     title: "Walks Through History Summer Programme",
     summary:
-      "A free Wednesday-morning summer history walk series with remaining sessions for children aged 9 to 12, with parent accompaniment welcome and required for the 5 August boat tour.",
+      "A free Wednesday-morning summer history walk series with remaining sessions for children aged 9 to 12.",
     status: "upcoming",
     audience: "kids",
     cost: "Free entry",
     freeNote: "Free, booking essential",
     endDate: "2026-08-26",
-    sortDate: "2026-08-05",
-    startLabel: "5-26 August 2026",
+    sortDate: "2026-08-12",
+    startLabel: "12-26 August 2026",
     venue: "Various Gibraltar locations",
     ageLabel: "Ages 9-12",
     sourceName: "gibmuseum.gi",
     sourceUrl: "https://www.gibmuseum.gi/news/walks-2026",
     imageUrl: "/blog/default-cover.svg",
     note:
-      "Verified on 1 August 2026 from the live Gibraltar National Museum summer programme page, which lists free Wednesday 'Walks Through History' sessions for children aged 9 to 12 from 8 July to 26 August 2026; remaining future dates after today are 5 August, 12 August, 19 August, and 26 August, with the 5 August boat tour starting earlier at 9am and requiring adult accompaniment.",
+      "Verified on 5 August 2026 from the live Gibraltar National Museum summer programme page, which lists free Wednesday 'Walks Through History' sessions for children aged 9 to 12 from 8 July to 26 August 2026; remaining future dates after today are 12 August, 19 August, and 26 August.",
   },
   {
     slug: "summer-book-club-2026",
@@ -89,8 +89,8 @@ export const childFriendlyEvents: EventItem[] = [
     cost: "Free entry",
     freeNote: "Free, places limited",
     endDate: "2026-08-26",
-    sortDate: "2026-08-05",
-    startLabel: "5-26 August 2026",
+    sortDate: "2026-08-12",
+    startLabel: "12-26 August 2026",
     venue: "John Mackintosh Hall Library",
     ageLabel: "Ages 8-14",
     sourceName: "gibraltar.gov.gi",
@@ -98,7 +98,7 @@ export const childFriendlyEvents: EventItem[] = [
       "https://www.gibraltar.gov.gi/press-releases/gcs-summer-workshops-and-activities-for-young-people-4412026-12077",
     imageUrl: "/blog/default-cover.svg",
     note:
-      "Verified on 1 August 2026 from the Government of Gibraltar press release dated 8 June 2026, which states that the Summer Book Club runs every Wednesday from 11am to 12pm at the John Mackintosh Hall Library until 26 August 2026 for children aged 8 to 14, with remaining future sessions after today from 5 August to 26 August and advance registration advised.",
+      "Verified on 5 August 2026 from the Government of Gibraltar press release dated 8 June 2026, which states that the Summer Book Club runs every Wednesday from 11am to 12pm at the John Mackintosh Hall Library until 26 August 2026 for children aged 8 to 14, with remaining future sessions after today from 12 August to 26 August and advance registration advised.",
   },
   {
     slug: "ditzy-b-summer-evenings-workshops-2026",
@@ -109,15 +109,15 @@ export const childFriendlyEvents: EventItem[] = [
     audience: "teens",
     cost: "See organiser",
     endDate: "2026-08-19",
-    sortDate: "2026-08-05",
-    startLabel: "5-19 August 2026, selected evenings",
+    sortDate: "2026-08-12",
+    startLabel: "12 and 19 August 2026, 18:00-20:00",
     venue: "Ditzy B Arts & Craft Supplies, Main Street",
     ageLabel: "Adults and teens",
     sourceName: "Ditzy B Shop Calendar",
     sourceUrl: "https://www.ditzyb.store/pages/event-calendar",
     imageUrl: "/blog/default-cover.svg",
     note:
-      "Verified on 4 August 2026 from Ditzy B's live Shop Calendar feed (The Shop Calendar accordion widget) for August 2026. Remaining future sessions after today are listed for 5, 12, and 19 August 2026 from 6pm to 8pm; booking is essential.",
+      "Verified on 5 August 2026 from Ditzy B's live Shop Calendar feed (The Shop Calendar accordion widget endpoint) for August 2026. Remaining future sessions after today are listed for 12 and 19 August 2026 from 6pm to 8pm; booking is essential.",
   },
   {
     slug: "mario-finlayson-national-art-gallery-2026",
@@ -150,12 +150,6 @@ export const childFriendlyEvents: EventItem[] = [
     cost: "See organiser",
     endDate: "2026-08-31",
     eventDates: [
-      {
-        sortDate: "2026-08-04",
-        startLabel: "4 August 2026, 10:00-12:00",
-        title: "Young Learners Summer Spanish: Ages 9+",
-        ageLabel: "Ages 9+",
-      },
       {
         sortDate: "2026-08-06",
         startLabel: "6 August 2026, 10:00-12:00",
@@ -223,9 +217,9 @@ export const childFriendlyEvents: EventItem[] = [
         ageLabel: "Ages 6-8",
       },
     ],
-    sortDate: "2026-08-04",
+    sortDate: "2026-08-06",
     startLabel:
-      "Tuesdays and Thursdays from 4 August 2026, then Mondays, Tuesdays and Thursdays from 10-31 August 2026, 10:00-12:00",
+      "Thursdays from 6 August 2026, then Mondays, Tuesdays and Thursdays from 10-31 August 2026, 10:00-12:00",
     venue: "Little English Language School, 29 City Mill Lane",
     ageLabel: "Ages 4-9+",
     sourceName: "Little English Summer Spanish poster",
