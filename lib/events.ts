@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "5 August 2026";
+export const eventsVerifiedDate = "11 August 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -151,18 +151,6 @@ export const childFriendlyEvents: EventItem[] = [
     endDate: "2026-08-31",
     eventDates: [
       {
-        sortDate: "2026-08-06",
-        startLabel: "6 August 2026, 10:00-12:00",
-        title: "Young Learners Summer Spanish: Ages 4-5",
-        ageLabel: "Ages 4-5",
-      },
-      {
-        sortDate: "2026-08-10",
-        startLabel: "10 August 2026, 10:00-12:00",
-        title: "Young Learners Summer Spanish: Ages 6-8",
-        ageLabel: "Ages 6-8",
-      },
-      {
         sortDate: "2026-08-11",
         startLabel: "11 August 2026, 10:00-12:00",
         title: "Young Learners Summer Spanish: Ages 9+",
@@ -217,16 +205,16 @@ export const childFriendlyEvents: EventItem[] = [
         ageLabel: "Ages 6-8",
       },
     ],
-    sortDate: "2026-08-06",
+    sortDate: "2026-08-11",
     startLabel:
-      "Thursdays from 6 August 2026, then Mondays, Tuesdays and Thursdays from 10-31 August 2026, 10:00-12:00",
+      "11-31 August 2026 on selected Mondays, Tuesdays and Thursdays, 10:00-12:00",
     venue: "Little English Language School, 29 City Mill Lane",
     ageLabel: "Ages 4-9+",
     sourceName: "Little English Summer Spanish poster",
     sourceUrl: "/clubs/little-english-summer-spanish-2026.png",
     imageUrl: "/clubs/little-english-summer-spanish-2026.png",
     note:
-      "Added on 22 July 2026 from the Young Learners Summer Spanish poster supplied to Kids on the Rock. Remaining future classes from today are Mondays, Tuesdays, and Thursdays through August from 10am to 12pm: Mondays for ages 6 to 8, Tuesdays for ages 9+, and Thursdays for ages 4 to 5.",
+      "Added on 22 July 2026 from the Young Learners Summer Spanish poster supplied to Kids on the Rock. Remaining future classes after 10 August 2026 are Tuesdays from 11 to 25 August, Thursdays from 13 to 27 August, and Mondays from 17 to 31 August, all from 10am to 12pm: Mondays for ages 6 to 8, Tuesdays for ages 9+, and Thursdays for ages 4 to 5.",
   },
   {
     slug: "ditzy-b-pottery-workshops-august-2026",
@@ -239,67 +227,21 @@ export const childFriendlyEvents: EventItem[] = [
     endDate: "2026-08-21",
     eventDates: [
       {
-        sortDate: "2026-08-08",
-        startLabel: "8 August 2026, 18:00-20:00",
-        title: "Ditzy B Pottery Workshop",
-        ageLabel: "Adults and teens",
-      },
-      {
         sortDate: "2026-08-21",
         startLabel: "21 August 2026, 18:00-20:00",
         title: "Ditzy B Pottery Workshop",
         ageLabel: "Adults and teens",
       },
     ],
-    sortDate: "2026-08-08",
-    startLabel: "8 and 21 August 2026, 18:00-20:00",
+    sortDate: "2026-08-21",
+    startLabel: "21 August 2026, 18:00-20:00",
     venue: "Ditzy B Arts & Craft Supplies, Main Street",
     ageLabel: "Adults and teens",
     sourceName: "Ditzy B Shop Calendar",
     sourceUrl: "https://www.ditzyb.store/pages/event-calendar",
     imageUrl: "/blog/default-cover.svg",
     note:
-      "Verified on 4 August 2026 from Ditzy B's live Shop Calendar feed for August 2026, which lists Pottery Workshop (adults & teens) on 8 August 2026 and 21 August 2026 from 6pm to 8pm at Ditzy B Arts & Craft Supplies on Main Street.",
-  },
-  {
-    slug: "summer-slops-camp-bay-2026",
-    title: "Summer Slops at Camp Bay",
-    summary:
-      "A free foam-party stop on the Summer Slops roadshow for kids and families at Camp Bay.",
-    status: "upcoming",
-    audience: "family",
-    cost: "Free entry",
-    freeNote: "Free foam party",
-    endDate: "2026-08-06",
-    sortDate: "2026-08-06",
-    startLabel: "6 August 2026",
-    venue: "Camp Bay",
-    ageLabel: "Children and families",
-    sourceName: "gibraltar.gov.gi",
-    sourceUrl:
-      "https://www.gibraltar.gov.gi/press-releases/summer-slops-in-2026-3272026-11959",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 4 August 2026 from the Government of Gibraltar press release dated 7 May 2026 and the current Visit Gibraltar Summer Slop page, both of which list Camp Bay on 6 August 2026 and describe the series as suitable for all ages.",
-  },
-  {
-    slug: "paper-craft-workshop-2026",
-    title: "Paper Craft Workshop",
-    summary:
-      "A GCS summer-programme art session at GEMA focused on hands-on paper craft for children and young people.",
-    status: "upcoming",
-    audience: "kids",
-    cost: "See organiser",
-    endDate: "2026-08-06",
-    sortDate: "2026-08-06",
-    startLabel: "6 August 2026",
-    venue: "GEMA Art Gallery",
-    ageLabel: "Children and young people",
-    sourceName: "buytickets.gi",
-    sourceUrl: "https://www.buytickets.gi/events/summer-programme-1285",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 4 August 2026 from the live BuyTickets Summer Programme page, which lists Paper Craft Workshop at GEMA Art Gallery on 6 August 2026 from 10:30am to 12:00pm for children and young people aged 6+.",
+      "Verified on 10 August 2026 from Ditzy B's live Shop Calendar feed for August 2026, which lists Pottery Workshop (adults & teens) on 8 August 2026 and 21 August 2026 from 6pm to 8pm at Ditzy B Arts & Craft Supplies on Main Street; the only remaining future session after 10 August 2026 is 21 August.",
   },
   {
     slug: "ocean-village-childrens-viking-party-2026",
@@ -339,6 +281,25 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl: "/blog/default-cover.svg",
     note:
       "Verified on 4 August 2026 from the current Visit Gibraltar events listing, which lists Gibraltar Fair 2026 from 21 August to 29 August 2026. The linked detail page is not currently available, so families should check the organiser's latest venue and opening-time details before travelling.",
+  },
+  {
+    slug: "mr-kraken-ocean-show-2026",
+    title: "Mr Kraken Ocean Show",
+    summary:
+      "A family-friendly Ocean Village boat show with giant sea bubbles, two Sunday sessions, and free adult entry with a child's ticket.",
+    status: "upcoming",
+    audience: "family",
+    cost: "£5 per child",
+    endDate: "2026-08-16",
+    sortDate: "2026-08-16",
+    startLabel: "16 August 2026, 11:00 and 12:15",
+    venue: "Ocean Village Marina, pontoon gate opposite O'Reilly's",
+    ageLabel: "Kids aged 4+ and families",
+    sourceName: "buytickets.gi",
+    sourceUrl: "https://www.buytickets.gi/events/mr-kraken-ocean-show-1339",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 11 August 2026 from the live BuyTickets event page, which lists Mr Kraken Ocean Show at Ocean Village on Sunday 16 August 2026 with sessions at 11:00am and 12:15pm. The organiser describes it as 'for kids from 4-104', says adults go free with a kid's ticket, and gives the meeting point as the marina gate opposite O'Reilly's.",
   },
 ];
 
