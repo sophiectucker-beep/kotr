@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "11 August 2026";
+export const eventsVerifiedDate = "12 August 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -151,12 +151,6 @@ export const childFriendlyEvents: EventItem[] = [
     endDate: "2026-08-31",
     eventDates: [
       {
-        sortDate: "2026-08-11",
-        startLabel: "11 August 2026, 10:00-12:00",
-        title: "Young Learners Summer Spanish: Ages 9+",
-        ageLabel: "Ages 9+",
-      },
-      {
         sortDate: "2026-08-13",
         startLabel: "13 August 2026, 10:00-12:00",
         title: "Young Learners Summer Spanish: Ages 4-5",
@@ -205,16 +199,16 @@ export const childFriendlyEvents: EventItem[] = [
         ageLabel: "Ages 6-8",
       },
     ],
-    sortDate: "2026-08-11",
+    sortDate: "2026-08-13",
     startLabel:
-      "11-31 August 2026 on selected Mondays, Tuesdays and Thursdays, 10:00-12:00",
+      "13-31 August 2026 on selected Mondays, Tuesdays and Thursdays, 10:00-12:00",
     venue: "Little English Language School, 29 City Mill Lane",
     ageLabel: "Ages 4-9+",
     sourceName: "Little English Summer Spanish poster",
     sourceUrl: "/clubs/little-english-summer-spanish-2026.png",
     imageUrl: "/clubs/little-english-summer-spanish-2026.png",
     note:
-      "Added on 22 July 2026 from the Young Learners Summer Spanish poster supplied to Kids on the Rock. Remaining future classes after 10 August 2026 are Tuesdays from 11 to 25 August, Thursdays from 13 to 27 August, and Mondays from 17 to 31 August, all from 10am to 12pm: Mondays for ages 6 to 8, Tuesdays for ages 9+, and Thursdays for ages 4 to 5.",
+      "Added on 22 July 2026 from the Young Learners Summer Spanish poster supplied to Kids on the Rock. Remaining future classes after 12 August 2026 are Thursdays from 13 to 27 August, Mondays from 17 to 31 August, and Tuesdays from 18 to 25 August, all from 10am to 12pm: Mondays for ages 6 to 8, Tuesdays for ages 9+, and Thursdays for ages 4 to 5.",
   },
   {
     slug: "ditzy-b-pottery-workshops-august-2026",
