@@ -36,221 +36,9 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "13 August 2026";
+export const eventsVerifiedDate = "29 August 2026";
 
 export const childFriendlyEvents: EventItem[] = [
-  {
-    slug: "gibraltar-artists-studio-summer-camp-week-2-2026",
-    title: "Gibraltar Artists Studio Summer Art Camp — Week 2",
-    summary:
-      "Five creative summer mornings where children can paint, make art, try new techniques, and enjoy a relaxed studio camp with all materials included.",
-    status: "upcoming",
-    audience: "kids",
-    relatedClubSlugs: ["gibraltar-artists-studio"],
-    cost: "See organiser",
-    endDate: "2026-08-21",
-    sortDate: "2026-08-17",
-    startLabel: "17-21 August 2026, 10:30-12:30",
-    venue: "Gibraltar Artists Studio, 1A/21 Horse Barrack Lane",
-    ageLabel: "Ages 8-12",
-    sourceName: "Gibraltar Artists Studio",
-    sourceUrl: "https://gibraltarartiststudio.com/art-classes-kids/",
-    imageUrl: "/events/gibraltar-artists-studio-summer-camp-2026.jpg",
-    note:
-      "Verified on 21 July 2026 from the organiser's official children's art classes page and supplied current poster. Week 2 runs Monday 17 to Friday 21 August from 10:30am to 12:30pm for ages 8 to 12, with all materials included. The poster marks Week 1 as full, so only Week 2 is listed as available. Contact Gerry on 54019105 to check availability and book.",
-  },
-  {
-    slug: "walks-through-history-summer-programme-2026",
-    title: "Walks Through History Summer Programme",
-    summary:
-      "A free Wednesday-morning summer history walk series with remaining sessions for children aged 9 to 12.",
-    status: "upcoming",
-    audience: "kids",
-    cost: "Free entry",
-    freeNote: "Free, booking essential",
-    endDate: "2026-08-26",
-    sortDate: "2026-08-19",
-    startLabel: "19-26 August 2026",
-    venue: "Various Gibraltar locations",
-    ageLabel: "Ages 9-12",
-    sourceName: "gibmuseum.gi",
-    sourceUrl: "https://www.gibmuseum.gi/news/walks-2026",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 13 August 2026 from the live Gibraltar National Museum summer programme page, which lists free Wednesday 'Walks Through History' sessions for children aged 9 to 12 from 8 July to 26 August 2026; the remaining future dates after 13 August 2026 are 19 August and 26 August.",
-  },
-  {
-    slug: "summer-book-club-2026",
-    title: "Summer Book Club",
-    summary:
-      "A weekly Wednesday summer reading club at the John Mackintosh Hall Library for children aged 8 to 14.",
-    status: "upcoming",
-    audience: "kids",
-    cost: "Free entry",
-    freeNote: "Free, places limited",
-    endDate: "2026-08-26",
-    sortDate: "2026-08-19",
-    startLabel: "19-26 August 2026",
-    venue: "John Mackintosh Hall Library",
-    ageLabel: "Ages 8-14",
-    sourceName: "gibraltar.gov.gi",
-    sourceUrl:
-      "https://www.gibraltar.gov.gi/press-releases/gcs-summer-workshops-and-activities-for-young-people-4412026-12077",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 13 August 2026 from the Government of Gibraltar press release dated 8 June 2026, which states that the Summer Book Club runs every Wednesday from 11am to 12pm at the John Mackintosh Hall Library until 26 August 2026 for children aged 8 to 14, with the remaining future sessions after 13 August 2026 on 19 August and 26 August; advance registration is advised.",
-  },
-  {
-    slug: "ditzy-b-summer-evenings-workshops-2026",
-    title: "Ditzy B Summer Evenings Workshops",
-    summary:
-      "A series of Wednesday-evening craft workshops for adults and teens, with a different summer craft each week and a complimentary drink.",
-    status: "upcoming",
-    audience: "teens",
-    cost: "See organiser",
-    endDate: "2026-08-19",
-    sortDate: "2026-08-19",
-    startLabel: "19 August 2026, 18:00-20:00",
-    venue: "Ditzy B Arts & Craft Supplies, Main Street",
-    ageLabel: "Adults and teens",
-    sourceName: "Ditzy B Shop Calendar",
-    sourceUrl: "https://www.ditzyb.store/pages/event-calendar",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 13 August 2026 from Ditzy B's live Shop Calendar feed (The Shop Calendar accordion widget endpoint) for August 2026. The only remaining future Summer Evenings workshop after 13 August 2026 is listed for 19 August 2026 from 6pm to 8pm; booking is essential.",
-  },
-  {
-    slug: "mario-finlayson-national-art-gallery-2026",
-    title: "Mario Finlayson National Art Gallery",
-    summary:
-      "A long-running city-centre gallery event open across summer dates at City Hall.",
-    status: "upcoming",
-    audience: "family",
-    cost: "See organiser",
-    endDate: "2026-09-26",
-    sortDate: "2026-08-04",
-    startLabel: "30 May-26 September 2026",
-    venue: "City Hall, John Mackintosh Square",
-    ageLabel: "All ages",
-    sourceName: "visitgibraltar.gi",
-    sourceUrl:
-      "https://www.visitgibraltar.gi/events/mario-finlayson-national-art-gallery",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 4 August 2026 from the current Visit Gibraltar event page, which still shows the Mario Finlayson National Art Gallery running from 30 May to 26 September 2026 at City Hall.",
-  },
-  {
-    slug: "young-learners-summer-spanish-2026",
-    title: "Young Learners Summer Spanish",
-    summary:
-      "Weekly summer Spanish classes with Little English for young learners, grouped by age and running from 10am to 12pm.",
-    status: "upcoming",
-    audience: "kids",
-    relatedClubSlugs: ["little-english-language-school"],
-    cost: "See organiser",
-    endDate: "2026-08-31",
-    eventDates: [
-      {
-        sortDate: "2026-08-17",
-        startLabel: "17 August 2026, 10:00-12:00",
-        title: "Young Learners Summer Spanish: Ages 6-8",
-        ageLabel: "Ages 6-8",
-      },
-      {
-        sortDate: "2026-08-18",
-        startLabel: "18 August 2026, 10:00-12:00",
-        title: "Young Learners Summer Spanish: Ages 9+",
-        ageLabel: "Ages 9+",
-      },
-      {
-        sortDate: "2026-08-20",
-        startLabel: "20 August 2026, 10:00-12:00",
-        title: "Young Learners Summer Spanish: Ages 4-5",
-        ageLabel: "Ages 4-5",
-      },
-      {
-        sortDate: "2026-08-24",
-        startLabel: "24 August 2026, 10:00-12:00",
-        title: "Young Learners Summer Spanish: Ages 6-8",
-        ageLabel: "Ages 6-8",
-      },
-      {
-        sortDate: "2026-08-25",
-        startLabel: "25 August 2026, 10:00-12:00",
-        title: "Young Learners Summer Spanish: Ages 9+",
-        ageLabel: "Ages 9+",
-      },
-      {
-        sortDate: "2026-08-27",
-        startLabel: "27 August 2026, 10:00-12:00",
-        title: "Young Learners Summer Spanish: Ages 4-5",
-        ageLabel: "Ages 4-5",
-      },
-      {
-        sortDate: "2026-08-31",
-        startLabel: "31 August 2026, 10:00-12:00",
-        title: "Young Learners Summer Spanish: Ages 6-8",
-        ageLabel: "Ages 6-8",
-      },
-    ],
-    sortDate: "2026-08-17",
-    startLabel:
-      "17-31 August 2026 on selected Mondays, Tuesdays and Thursdays, 10:00-12:00",
-    venue: "Little English Language School, 29 City Mill Lane",
-    ageLabel: "Ages 4-9+",
-    sourceName: "Little English Summer Spanish poster",
-    sourceUrl: "/clubs/little-english-summer-spanish-2026.png",
-    imageUrl: "/clubs/little-english-summer-spanish-2026.png",
-    note:
-      "Added on 22 July 2026 from the Young Learners Summer Spanish poster supplied to Kids on the Rock. Remaining future classes after 13 August 2026 are Mondays from 17 to 31 August, Tuesdays from 18 to 25 August, and Thursdays from 20 to 27 August, all from 10am to 12pm: Mondays for ages 6 to 8, Tuesdays for ages 9+, and Thursdays for ages 4 to 5.",
-  },
-  {
-    slug: "ditzy-b-pottery-workshops-august-2026",
-    title: "Ditzy B Pottery Workshops",
-    summary:
-      "Two evening pottery workshops for adults and teens at the Ditzy B craft studio in August.",
-    status: "upcoming",
-    audience: "teens",
-    cost: "See organiser",
-    endDate: "2026-08-21",
-    eventDates: [
-      {
-        sortDate: "2026-08-21",
-        startLabel: "21 August 2026, 18:00-20:00",
-        title: "Ditzy B Pottery Workshop",
-        ageLabel: "Adults and teens",
-      },
-    ],
-    sortDate: "2026-08-21",
-    startLabel: "21 August 2026, 18:00-20:00",
-    venue: "Ditzy B Arts & Craft Supplies, Main Street",
-    ageLabel: "Adults and teens",
-    sourceName: "Ditzy B Shop Calendar",
-    sourceUrl: "https://www.ditzyb.store/pages/event-calendar",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 13 August 2026 from Ditzy B's live Shop Calendar feed for August 2026, which lists Pottery Workshop (adults & teens) on 8 August 2026 and 21 August 2026 from 6pm to 8pm at Ditzy B Arts & Craft Supplies on Main Street; the only remaining future session after 13 August 2026 is 21 August.",
-  },
-  {
-    slug: "ocean-village-childrens-viking-party-2026",
-    title: "Ocean Village Children's Viking Party",
-    summary:
-      "Two low-cost Saturday-morning Viking-themed party sessions on the marina boat, with games, music, dancing, and family-friendly fundraising fun.",
-    status: "upcoming",
-    audience: "family",
-    cost: "£5 per child",
-    endDate: "2026-08-15",
-    sortDate: "2026-08-15",
-    startLabel: "15 August 2026, 10:00 and 11:15",
-    venue: "Ocean Village Marina",
-    ageLabel: "Children and families",
-    sourceName: "buytickets.gi",
-    sourceUrl:
-      "https://www.buytickets.gi/events/ocean-village-childrens-viking-party-1333",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 4 August 2026 from the live BuyTickets event page, which lists Ocean Village Children's Viking Party on Saturday 15 August 2026 at Ocean Village with two sessions at 10am and 11:15am, priced at £5 per child, with games, music, dancing, and proceeds donated to Childline Gibraltar.",
-  },
   {
     slug: "gibraltar-fair-2026",
     title: "Gibraltar Fair 2026",
@@ -262,32 +50,94 @@ export const childFriendlyEvents: EventItem[] = [
     endDate: "2026-08-29",
     sortDate: "2026-08-21",
     startLabel: "21-29 August 2026",
-    venue: "See organiser for 2026 venue details",
+    venue: "Victoria Stadium and surrounding fairground area",
     ageLabel: "All ages",
-    sourceName: "visitgibraltar.gi",
-    sourceUrl: "https://www.visitgibraltar.gi/events",
+    sourceName: "culture.gi",
+    sourceUrl: "https://www.culture.gi/news/gibraltar-fair/",
     imageUrl: "/blog/default-cover.svg",
     note:
-      "Verified on 4 August 2026 from the current Visit Gibraltar events listing, which lists Gibraltar Fair 2026 from 21 August to 29 August 2026. The linked detail page is not currently available, so families should check the organiser's latest venue and opening-time details before travelling.",
+      "Verified on 29 August 2026 from Gibraltar Cultural Services, which lists Gibraltar Fair from 21 August 2026 to 29 August 2026 at the fairground by Victoria Stadium.",
   },
   {
-    slug: "mr-kraken-ocean-show-2026",
-    title: "Mr Kraken Ocean Show",
+    slug: "mario-finlayson-national-art-gallery-2026",
+    title: "Mario Finlayson National Art Gallery",
     summary:
-      "A family-friendly Ocean Village boat show with giant sea bubbles, two Sunday sessions, and free adult entry with a child's ticket.",
+      "A long-running city-centre gallery event open across summer dates at City Hall.",
     status: "upcoming",
     audience: "family",
-    cost: "£5 per child",
-    endDate: "2026-08-16",
-    sortDate: "2026-08-16",
-    startLabel: "16 August 2026, 11:00 and 12:15",
-    venue: "Ocean Village Marina, pontoon gate opposite O'Reilly's",
-    ageLabel: "Kids aged 4+ and families",
-    sourceName: "buytickets.gi",
-    sourceUrl: "https://www.buytickets.gi/events/mr-kraken-ocean-show-1339",
+    cost: "See organiser",
+    endDate: "2026-09-26",
+    sortDate: "2026-08-30",
+    startLabel: "30 May-26 September 2026",
+    venue: "City Hall, John Mackintosh Square",
+    ageLabel: "All ages",
+    sourceName: "visitgibraltar.gi",
+    sourceUrl:
+      "https://www.visitgibraltar.gi/index.php/events/mario-finlayson-national-art-gallery",
     imageUrl: "/blog/default-cover.svg",
     note:
-      "Verified on 11 August 2026 from the live BuyTickets event page, which lists Mr Kraken Ocean Show at Ocean Village on Sunday 16 August 2026 with sessions at 11:00am and 12:15pm. The organiser describes it as 'for kids from 4-104', says adults go free with a kid's ticket, and gives the meeting point as the marina gate opposite O'Reilly's.",
+      "Verified on 29 August 2026 from the current Visit Gibraltar event page, which lists Mario Finlayson National Art Gallery at City Hall from 30 May 2026 to 26 September 2026.",
+  },
+  {
+    slug: "gibraltar-national-day-2026",
+    title: "Gibraltar National Day 2026",
+    summary:
+      "A full National Day programme with children's attractions, live entertainment, and evening fireworks for all ages.",
+    status: "upcoming",
+    audience: "family",
+    cost: "Free entry",
+    freeNote: "Free public events",
+    endDate: "2026-09-10",
+    sortDate: "2026-09-10",
+    startLabel: "10 September 2026",
+    venue:
+      "Casemates Square, John Mackintosh Square, Main Street, and Grand Casemates Square",
+    ageLabel: "All ages",
+    sourceName: "culture.gi",
+    sourceUrl: "https://www.culture.gi/news/gibraltar-national-day-events/",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 29 August 2026 from Gibraltar Cultural Services' National Day events programme for Thursday 10 September 2026, which lists family attractions from 11am in John Mackintosh Square and Main Street, evening entertainment in Casemates Square and Grand Casemates Square, and a fireworks and drone display at 10pm.",
+  },
+  {
+    slug: "gibraltar-national-day-childrens-fancy-dress-competition-2026",
+    title: "National Day Children's Fancy Dress Competition",
+    summary:
+      "A themed National Day fancy dress competition for children, with judging before the main evening celebrations.",
+    status: "upcoming",
+    audience: "kids",
+    cost: "Free entry",
+    freeNote: "Free to enter",
+    endDate: "2026-09-10",
+    sortDate: "2026-09-10",
+    startLabel: "10 September 2026, 18:00",
+    venue: "John Mackintosh Square",
+    ageLabel: "Children",
+    sourceName: "culture.gi",
+    sourceUrl:
+      "https://www.culture.gi/news/gibraltar-national-day-2026-childrens-fancy-dress-competition/",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 29 August 2026 from Gibraltar Cultural Services, which lists the National Day 2026 Children's Fancy Dress Competition at 6pm on Thursday 10 September 2026 in John Mackintosh Square.",
+  },
+  {
+    slug: "walk-the-beat-2026",
+    title: "Walk The Beat 2026",
+    summary:
+      "A 24-hour sponsored walk and community challenge open to families, friends, and individuals.",
+    status: "upcoming",
+    audience: "family",
+    cost: "See organiser",
+    endDate: "2026-09-30",
+    sortDate: "2026-09-29",
+    startLabel: "29 September 2026, 10:30 to 30 September 2026, 10:30",
+    venue: "Victoria Stadium",
+    ageLabel: "All ages",
+    sourceName: "visitgibraltar.gi",
+    sourceUrl: "https://www.visitgibraltar.gi/events/walk-the-beat",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 29 August 2026 from the current Visit Gibraltar event page, which lists Walk The Beat from 10:30am on 29 September 2026 to 10:30am on 30 September 2026 at Victoria Stadium and describes it as a challenge that families, friends, and individuals can register for.",
   },
 ];
 
