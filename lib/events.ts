@@ -36,28 +36,9 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "29 August 2026";
+export const eventsVerifiedDate = "30 August 2026";
 
 export const childFriendlyEvents: EventItem[] = [
-  {
-    slug: "gibraltar-fair-2026",
-    title: "Gibraltar Fair 2026",
-    summary:
-      "Nine days of fairground rides, games, food, stalls, and summer entertainment for all ages.",
-    status: "upcoming",
-    audience: "family",
-    cost: "See organiser",
-    endDate: "2026-08-29",
-    sortDate: "2026-08-21",
-    startLabel: "21-29 August 2026",
-    venue: "Victoria Stadium and surrounding fairground area",
-    ageLabel: "All ages",
-    sourceName: "culture.gi",
-    sourceUrl: "https://www.culture.gi/news/gibraltar-fair/",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 29 August 2026 from Gibraltar Cultural Services, which lists Gibraltar Fair from 21 August 2026 to 29 August 2026 at the fairground by Victoria Stadium.",
-  },
   {
     slug: "mario-finlayson-national-art-gallery-2026",
     title: "Mario Finlayson National Art Gallery",
@@ -76,7 +57,7 @@ export const childFriendlyEvents: EventItem[] = [
       "https://www.visitgibraltar.gi/index.php/events/mario-finlayson-national-art-gallery",
     imageUrl: "/blog/default-cover.svg",
     note:
-      "Verified on 29 August 2026 from the current Visit Gibraltar event page, which lists Mario Finlayson National Art Gallery at City Hall from 30 May 2026 to 26 September 2026.",
+      "Verified on 30 August 2026 from the current Visit Gibraltar event page, which lists Mario Finlayson National Art Gallery at City Hall from 30 May 2026 to 26 September 2026.",
   },
   {
     slug: "gibraltar-national-day-2026",
@@ -90,35 +71,35 @@ export const childFriendlyEvents: EventItem[] = [
     endDate: "2026-09-10",
     sortDate: "2026-09-10",
     startLabel: "10 September 2026",
-    venue:
-      "Casemates Square, John Mackintosh Square, Main Street, and Grand Casemates Square",
+    venue: "Across Gibraltar city centre",
     ageLabel: "All ages",
-    sourceName: "culture.gi",
-    sourceUrl: "https://www.culture.gi/news/gibraltar-national-day-events/",
+    sourceName: "visitgibraltar.gi",
+    sourceUrl:
+      "https://www.visitgibraltar.gi/index.php/events/gibraltar-national-day-2026",
     imageUrl: "/blog/default-cover.svg",
     note:
-      "Verified on 29 August 2026 from Gibraltar Cultural Services' National Day events programme for Thursday 10 September 2026, which lists family attractions from 11am in John Mackintosh Square and Main Street, evening entertainment in Casemates Square and Grand Casemates Square, and a fireworks and drone display at 10pm.",
+      "Verified on 30 August 2026 from the current Visit Gibraltar National Day 2026 page, which describes a full day of celebrations on Thursday 10 September 2026 with entertainment across the city, children's activities, fun day attractions, live performances, and a fireworks and drone display over the Bay of Gibraltar at 10pm.",
   },
   {
     slug: "gibraltar-national-day-childrens-fancy-dress-competition-2026",
     title: "National Day Children's Fancy Dress Competition",
     summary:
-      "A themed National Day fancy dress competition for children, with judging before the main evening celebrations.",
+      "A themed National Day fancy dress competition for children, with morning judging as part of the wider National Day celebrations.",
     status: "upcoming",
     audience: "kids",
     cost: "Free entry",
     freeNote: "Free to enter",
     endDate: "2026-09-10",
     sortDate: "2026-09-10",
-    startLabel: "10 September 2026, 18:00",
-    venue: "John Mackintosh Square",
-    ageLabel: "Children",
+    startLabel: "10 September 2026, 10:00",
+    venue: "Casemates Square",
+    ageLabel: "Ages 11 and under",
     sourceName: "culture.gi",
     sourceUrl:
       "https://www.culture.gi/news/gibraltar-national-day-2026-childrens-fancy-dress-competition/",
     imageUrl: "/blog/default-cover.svg",
     note:
-      "Verified on 29 August 2026 from Gibraltar Cultural Services, which lists the National Day 2026 Children's Fancy Dress Competition at 6pm on Thursday 10 September 2026 in John Mackintosh Square.",
+      "Verified on 30 August 2026 from Gibraltar Cultural Services, which says the National Day 2026 Children's Fancy Dress Competition will be held at Casemates Square on Thursday 10 September 2026, with participants arriving by 9.30am and judging starting at 10am for ages 6 and under and ages 7 to 11.",
   },
   {
     slug: "walk-the-beat-2026",
@@ -137,7 +118,7 @@ export const childFriendlyEvents: EventItem[] = [
     sourceUrl: "https://www.visitgibraltar.gi/events/walk-the-beat",
     imageUrl: "/blog/default-cover.svg",
     note:
-      "Verified on 29 August 2026 from the current Visit Gibraltar event page, which lists Walk The Beat from 10:30am on 29 September 2026 to 10:30am on 30 September 2026 at Victoria Stadium and describes it as a challenge that families, friends, and individuals can register for.",
+      "Verified on 30 August 2026 from the current Visit Gibraltar event page, which lists Walk The Beat from 10:30am on 29 September 2026 to 10:30am on 30 September 2026 at Victoria Stadium and describes it as a 24-hour walk that families, friends, and individuals can register for.",
   },
 ];
 
