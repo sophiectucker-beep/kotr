@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "30 August 2026";
+export const eventsVerifiedDate = "3 September 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -100,25 +100,6 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl: "/blog/default-cover.svg",
     note:
       "Verified on 30 August 2026 from Gibraltar Cultural Services, which says the National Day 2026 Children's Fancy Dress Competition will be held at Casemates Square on Thursday 10 September 2026, with participants arriving by 9.30am and judging starting at 10am for ages 6 and under and ages 7 to 11.",
-  },
-  {
-    slug: "walk-the-beat-2026",
-    title: "Walk The Beat 2026",
-    summary:
-      "A 24-hour sponsored walk and community challenge open to families, friends, and individuals.",
-    status: "upcoming",
-    audience: "family",
-    cost: "See organiser",
-    endDate: "2026-09-30",
-    sortDate: "2026-09-29",
-    startLabel: "29 September 2026, 10:30 to 30 September 2026, 10:30",
-    venue: "Victoria Stadium",
-    ageLabel: "All ages",
-    sourceName: "visitgibraltar.gi",
-    sourceUrl: "https://www.visitgibraltar.gi/events/walk-the-beat",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 30 August 2026 from the current Visit Gibraltar event page, which lists Walk The Beat from 10:30am on 29 September 2026 to 10:30am on 30 September 2026 at Victoria Stadium and describes it as a 24-hour walk that families, friends, and individuals can register for.",
   },
 ];
 
