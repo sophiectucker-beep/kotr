@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "3 September 2026";
+export const eventsVerifiedDate = "5 September 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -100,6 +100,63 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl: "/blog/default-cover.svg",
     note:
       "Verified on 30 August 2026 from Gibraltar Cultural Services, which says the National Day 2026 Children's Fancy Dress Competition will be held at Casemates Square on Thursday 10 September 2026, with participants arriving by 9.30am and judging starting at 10am for ages 6 and under and ages 7 to 11.",
+  },
+  {
+    slug: "national-day-feast-2026",
+    title: "National Day Feast",
+    summary:
+      "A National Day lunch with live music and children's activities at the Sunborn.",
+    status: "upcoming",
+    audience: "family",
+    cost: "Adults £46; ages 4-12 £12; under-4s free",
+    sortDate: "2026-09-10",
+    startLabel: "10 September 2026, 13:00",
+    venue: "Sunborn Gibraltar, Ocean Village",
+    ageLabel: "All ages",
+    sourceName: "visitgibraltar.gi",
+    sourceUrl:
+      "https://www.visitgibraltar.gi/index.php/events/national-day-feast",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 5 September 2026 from the current Visit Gibraltar event page, which lists the National Day Feast at 1pm on 10 September with live music and children's activities. Adults cost £46, children aged 4 to 12 cost £12, and children under 4 eat free. Booking is through Sunborn Gibraltar.",
+  },
+  {
+    slug: "literary-festival-wolf-siren-workshop-2026",
+    title: "Wolf Siren: Fairy Tale Retelling Workshop",
+    summary:
+      "An interactive Literary Festival workshop where young readers create inclusive fairy-tale characters, plots, and story openings.",
+    status: "upcoming",
+    audience: "kids",
+    cost: "£9 students; £13 adults",
+    sortDate: "2026-11-14",
+    startLabel: "14 November 2026, 12:00",
+    venue: "Charles Hunt Room, John Mackintosh Hall",
+    ageLabel: "Young readers and aspiring writers",
+    sourceName: "buytickets.gi",
+    sourceUrl:
+      "https://www.buytickets.gi/events/gibunco-gibraltar-international-literary-festival-2026-1352",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 5 September 2026 from the live BuyTickets Gibraltar Literary Festival listing and HM Government's ticket announcement. Children's author Beth O'Brien leads this interactive workshop for young readers at noon on 14 November, and the published festival prices are £9 for students aged 18 and under and £13 for adults.",
+  },
+  {
+    slug: "literary-festival-family-quiz-show-2026",
+    title: "The What on Earth! Family Quiz Show",
+    summary:
+      "A team-based Literary Festival quiz with Christopher Lloyd, covering big questions and prizes for every round.",
+    status: "upcoming",
+    audience: "family",
+    cost: "£9 students; £13 adults",
+    sortDate: "2026-11-14",
+    startLabel: "14 November 2026, 14:00",
+    venue: "Lower Exhibition Room, John Mackintosh Hall",
+    ageLabel: "Ages 6+",
+    sourceName: "buytickets.gi",
+    sourceUrl:
+      "https://www.buytickets.gi/events/gibunco-gibraltar-international-literary-festival-2026-1352",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 5 September 2026 from the live BuyTickets Gibraltar Literary Festival listing and HM Government's ticket announcement. Christopher Lloyd's family quiz is at 2pm on 14 November, is advertised as suitable for ages 6 to 106, and the published festival prices are £9 for students aged 18 and under and £13 for adults.",
   },
 ];
 
