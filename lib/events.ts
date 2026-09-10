@@ -36,9 +36,30 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "7 September 2026";
+export const eventsVerifiedDate = "10 September 2026";
 
 export const childFriendlyEvents: EventItem[] = [
+  {
+    slug: "our-gibraltar-annual-exhibition-2026",
+    title: "Our Gibraltar Annual Exhibition 2026",
+    summary:
+      "The annual national-celebrations exhibition of local art and photography at the Fine Arts Gallery.",
+    status: "upcoming",
+    audience: "family",
+    cost: "Free entry",
+    freeNote: "Free public exhibition",
+    endDate: "2026-09-11",
+    sortDate: "2026-08-26",
+    startLabel: "26 August-11 September 2026, weekdays 09:30-15:30",
+    venue: "Fine Arts Gallery, Casemates Square",
+    ageLabel: "All ages",
+    sourceName: "culture.gi",
+    sourceUrl:
+      "https://www.culture.gi/news/national-celebrations-our-gibraltar-competition-results-4/",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 10 September 2026 from Gibraltar Cultural Services, which confirms that the annual Our Gibraltar exhibition of local art and photography is open to the public at the Fine Arts Gallery through Friday 11 September, weekdays from 9.30am to 3.30pm.",
+  },
   {
     slug: "mario-finlayson-national-art-gallery-2026",
     title: "Mario Finlayson National Art Gallery",
