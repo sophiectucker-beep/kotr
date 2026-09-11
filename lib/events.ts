@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "10 September 2026";
+export const eventsVerifiedDate = "11 September 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -79,67 +79,6 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl: "/blog/default-cover.svg",
     note:
       "Verified on 30 August 2026 from the current Visit Gibraltar event page, which lists Mario Finlayson National Art Gallery at City Hall from 30 May 2026 to 26 September 2026.",
-  },
-  {
-    slug: "gibraltar-national-day-2026",
-    title: "Gibraltar National Day 2026",
-    summary:
-      "A full National Day programme with children's attractions, live entertainment, and evening fireworks for all ages.",
-    status: "upcoming",
-    audience: "family",
-    cost: "Free entry",
-    freeNote: "Free public events",
-    endDate: "2026-09-10",
-    sortDate: "2026-09-10",
-    startLabel: "10 September 2026",
-    venue: "Across Gibraltar city centre",
-    ageLabel: "All ages",
-    sourceName: "visitgibraltar.gi",
-    sourceUrl:
-      "https://www.visitgibraltar.gi/index.php/events/gibraltar-national-day-2026",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 30 August 2026 from the current Visit Gibraltar National Day 2026 page, which describes a full day of celebrations on Thursday 10 September 2026 with entertainment across the city, children's activities, fun day attractions, live performances, and a fireworks and drone display over the Bay of Gibraltar at 10pm.",
-  },
-  {
-    slug: "gibraltar-national-day-childrens-fancy-dress-competition-2026",
-    title: "National Day Children's Fancy Dress Competition",
-    summary:
-      "A themed National Day fancy dress competition for children, with morning judging as part of the wider National Day celebrations.",
-    status: "upcoming",
-    audience: "kids",
-    cost: "Free entry",
-    freeNote: "Free to enter",
-    endDate: "2026-09-10",
-    sortDate: "2026-09-10",
-    startLabel: "10 September 2026, 10:00",
-    venue: "Casemates Square",
-    ageLabel: "Ages 11 and under",
-    sourceName: "culture.gi",
-    sourceUrl:
-      "https://www.culture.gi/news/gibraltar-national-day-2026-childrens-fancy-dress-competition/",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 30 August 2026 from Gibraltar Cultural Services, which says the National Day 2026 Children's Fancy Dress Competition will be held at Casemates Square on Thursday 10 September 2026, with participants arriving by 9.30am and judging starting at 10am for ages 6 and under and ages 7 to 11.",
-  },
-  {
-    slug: "national-day-feast-2026",
-    title: "National Day Feast",
-    summary:
-      "A National Day lunch with live music and children's activities at the Sunborn.",
-    status: "upcoming",
-    audience: "family",
-    cost: "Adults £46; ages 4-12 £12; under-4s free",
-    sortDate: "2026-09-10",
-    startLabel: "10 September 2026, 13:00",
-    venue: "Sunborn Gibraltar, Ocean Village",
-    ageLabel: "All ages",
-    sourceName: "visitgibraltar.gi",
-    sourceUrl:
-      "https://www.visitgibraltar.gi/index.php/events/national-day-feast",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 5 September 2026 from the current Visit Gibraltar event page, which lists the National Day Feast at 1pm on 10 September with live music and children's activities. Adults cost £46, children aged 4 to 12 cost £12, and children under 4 eat free. Booking is through Sunborn Gibraltar.",
   },
   {
     slug: "sunrise-of-hope-2026",
