@@ -36,30 +36,9 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "11 September 2026";
+export const eventsVerifiedDate = "12 September 2026";
 
 export const childFriendlyEvents: EventItem[] = [
-  {
-    slug: "our-gibraltar-annual-exhibition-2026",
-    title: "Our Gibraltar Annual Exhibition 2026",
-    summary:
-      "The annual national-celebrations exhibition of local art and photography at the Fine Arts Gallery.",
-    status: "upcoming",
-    audience: "family",
-    cost: "Free entry",
-    freeNote: "Free public exhibition",
-    endDate: "2026-09-11",
-    sortDate: "2026-08-26",
-    startLabel: "26 August-11 September 2026, weekdays 09:30-15:30",
-    venue: "Fine Arts Gallery, Casemates Square",
-    ageLabel: "All ages",
-    sourceName: "culture.gi",
-    sourceUrl:
-      "https://www.culture.gi/news/national-celebrations-our-gibraltar-competition-results-4/",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 10 September 2026 from Gibraltar Cultural Services, which confirms that the annual Our Gibraltar exhibition of local art and photography is open to the public at the Fine Arts Gallery through Friday 11 September, weekdays from 9.30am to 3.30pm.",
-  },
   {
     slug: "mario-finlayson-national-art-gallery-2026",
     title: "Mario Finlayson National Art Gallery",
@@ -79,25 +58,6 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl: "/blog/default-cover.svg",
     note:
       "Verified on 30 August 2026 from the current Visit Gibraltar event page, which lists Mario Finlayson National Art Gallery at City Hall from 30 May 2026 to 26 September 2026.",
-  },
-  {
-    slug: "sunrise-of-hope-2026",
-    title: "Sunrise of Hope 2026",
-    summary:
-      "An early-morning community walk for mental wellbeing, with a gentle family route to Europa Point and breakfast afterwards.",
-    status: "upcoming",
-    audience: "family",
-    cost: "Under-5s free; ages 6-12 £5; ages 13+ from £10",
-    freeNote: "Free for under-5s",
-    sortDate: "2026-09-12",
-    startLabel: "12 September 2026, 05:30",
-    venue: "Casemates Square to Europa Point",
-    ageLabel: "All ages",
-    sourceName: "GibSams",
-    sourceUrl: "https://gibsams.gi/event/sunrise-of-hope-2026",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 7 September 2026 from the organiser's current event and ticket page. Meet at Casemates at 5.30am for the Sunrise of Hope walk; the family route to Europa Point is suitable for all ages and fitness levels, with breakfast afterwards. Under-5s are free, ages 6 to 12 cost £5, and ages 13+ cost from £10.",
   },
   {
     slug: "literary-festival-wolf-siren-workshop-2026",
