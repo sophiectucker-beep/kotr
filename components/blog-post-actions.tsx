@@ -48,6 +48,7 @@ export function BlogPostActions({
       window.localStorage.setItem(deviceStorageKey, deviceId);
     }
 
+    const locallyLiked = window.localStorage.getItem(likeStorageKey) === "1";
     let cancelled = false;
 
     async function loadLikes() {
@@ -70,8 +71,9 @@ export function BlogPostActions({
         if (cancelled) return;
         setLikesEnabled(data.enabled);
         setLikeCount(data.count);
-        setLiked(data.liked);
-        if (data.liked) {
+        const nextLiked = data.liked || locallyLiked;
+        setLiked(nextLiked);
+        if (nextLiked) {
           window.localStorage.setItem(likeStorageKey, "1");
         } else {
           window.localStorage.removeItem(likeStorageKey);

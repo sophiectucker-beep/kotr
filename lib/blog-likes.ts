@@ -32,6 +32,10 @@ function deviceSetKey(slug: string) {
   return `blog:likes:devices:${slug}`;
 }
 
+function redisBoolean(value: unknown) {
+  return value === 1 || value === true;
+}
+
 export async function getBlogLikeState(slug: string) {
   return getBlogLikeStateForDevice(slug);
 }
@@ -55,7 +59,7 @@ export async function getBlogLikeStateForDevice(slug: string, deviceId?: string)
   return {
     enabled: true,
     count: count ?? 0,
-    liked: liked === 1,
+    liked: redisBoolean(liked),
   };
 }
 
@@ -71,15 +75,15 @@ export async function addBlogLike(slug: string, deviceId: string) {
   }
 
   const added = await redis.sadd(deviceSetKey(slug), deviceId);
-  const liked = added === 1;
-  const count = liked
+  const addedLike = redisBoolean(added);
+  const count = addedLike
     ? await redis.incr(countKey(slug))
     : ((await redis.get<number>(countKey(slug))) ?? 0);
 
   return {
     enabled: true,
     count,
-    liked,
+    liked: true,
   };
 }
 
@@ -96,7 +100,7 @@ export async function removeBlogLike(slug: string, deviceId: string) {
 
   const removed = await redis.srem(deviceSetKey(slug), deviceId);
 
-  if (removed === 1) {
+  if (redisBoolean(removed)) {
     const currentCount = (await redis.get<number>(countKey(slug))) ?? 0;
     const nextCount = Math.max(0, currentCount - 1);
     await redis.set(countKey(slug), nextCount);
