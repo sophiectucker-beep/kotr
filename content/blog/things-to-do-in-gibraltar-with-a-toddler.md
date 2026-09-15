@@ -157,6 +157,16 @@ Children under two currently enter free, parking is free and you’re allowed to
 
 **Toddler reality:** Very strong choice. Don't feel obliged to see every last enclosure. Toddlers do not understand value-for-money tourism.
 
+### Granja Escuela Los Barrios
+
+For toddlers who would happily spend an hour saying hello to a goat, this is an easy win.
+
+Granja Escuela Los Barrios is set on a huge working estate near Los Barrios, with farm animals, nature and family activities designed to let children get properly involved rather than just peer through a fence. It’s bilingual, open daily and, unusually helpfully, you don’t need to book in advance.
+
+There’s also a Farmer’s Market on the second and last Sunday of the month outside the summer period, with food trucks and farm visits running through the day, which could make it an especially good Sunday outing. (Try the artisan chilli honey! And the cheese. All the cheese.)
+
+**Toddler reality:** Animals, space to roam and no complicated advance planning. Big yes from me.
+
 ### La Pequeña África, Jimena: when they want MORE ANIMALS
 
 If animals are currently your toddler’s entire personality, La Pequeña África near Jimena is another one worth having on your radar.
