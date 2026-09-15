@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import {
   Bookmark,
   Facebook,
@@ -13,6 +13,53 @@ import {
 
 import { Button } from "@/components/ui/button";
 
+const deviceStorageKey = "kotr-like-device-id";
+const likeStorageEventName = "kotr-like-storage-change";
+
+function getOrCreateDeviceId() {
+  const existingDeviceId = window.localStorage.getItem(deviceStorageKey);
+  const deviceId =
+    existingDeviceId ??
+    (typeof crypto !== "undefined" && "randomUUID" in crypto
+      ? crypto.randomUUID()
+      : `${Date.now()}-${Math.random().toString(36).slice(2)}`);
+
+  if (!existingDeviceId) {
+    window.localStorage.setItem(deviceStorageKey, deviceId);
+  }
+
+  return deviceId;
+}
+
+function getLikeStorageKey(slug: string) {
+  return `kotr-like-${slug}`;
+}
+
+function setStoredLike(slug: string, liked: boolean) {
+  if (liked) {
+    window.localStorage.setItem(getLikeStorageKey(slug), "1");
+  } else {
+    window.localStorage.removeItem(getLikeStorageKey(slug));
+  }
+
+  window.dispatchEvent(new Event(likeStorageEventName));
+}
+
+function subscribeToStoredLike(onStoreChange: () => void) {
+  window.addEventListener("storage", onStoreChange);
+  window.addEventListener(likeStorageEventName, onStoreChange);
+
+  return () => {
+    window.removeEventListener("storage", onStoreChange);
+    window.removeEventListener(likeStorageEventName, onStoreChange);
+  };
+}
+
+function getStoredLike(slug: string) {
+  if (typeof window === "undefined") return false;
+  return window.localStorage.getItem(getLikeStorageKey(slug)) === "1";
+}
+
 export function BlogPostActions({
   slug,
   title,
@@ -23,32 +70,22 @@ export function BlogPostActions({
   const [copied, setCopied] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [bookmarkHint, setBookmarkHint] = useState("");
-  const [liked, setLiked] = useState(() => {
-    if (typeof window === "undefined") return false;
-    return window.localStorage.getItem(`kotr-like-${slug}`) === "1";
-  });
+  const [serverLiked, setServerLiked] = useState(false);
   const [likeCount, setLikeCount] = useState(0);
   const [likesEnabled, setLikesEnabled] = useState(true);
   const pageUrl = typeof window === "undefined" ? "" : window.location.href;
   const rootRef = useRef<HTMLDivElement | null>(null);
-  const deviceStorageKey = "kotr-like-device-id";
-  const likeStorageKey = `kotr-like-${slug}`;
+  const locallyLiked = useSyncExternalStore(
+    subscribeToStoredLike,
+    () => getStoredLike(slug),
+    () => false
+  );
+  const liked = serverLiked || locallyLiked;
 
   useEffect(() => {
     if (typeof window === "undefined") return;
 
-    const existingDeviceId = window.localStorage.getItem(deviceStorageKey);
-    const deviceId =
-      existingDeviceId ??
-      (typeof crypto !== "undefined" && "randomUUID" in crypto
-        ? crypto.randomUUID()
-        : `${Date.now()}-${Math.random().toString(36).slice(2)}`);
-
-    if (!existingDeviceId) {
-      window.localStorage.setItem(deviceStorageKey, deviceId);
-    }
-
-    const locallyLiked = window.localStorage.getItem(likeStorageKey) === "1";
+    const deviceId = getOrCreateDeviceId();
     let cancelled = false;
 
     async function loadLikes() {
@@ -71,12 +108,9 @@ export function BlogPostActions({
         if (cancelled) return;
         setLikesEnabled(data.enabled);
         setLikeCount(data.count);
-        const nextLiked = data.liked || locallyLiked;
-        setLiked(nextLiked);
-        if (nextLiked) {
-          window.localStorage.setItem(likeStorageKey, "1");
-        } else {
-          window.localStorage.removeItem(likeStorageKey);
+        setServerLiked(data.liked);
+        if (data.liked) {
+          setStoredLike(slug, true);
         }
       } catch {
         if (!cancelled) {
@@ -90,7 +124,7 @@ export function BlogPostActions({
     return () => {
       cancelled = true;
     };
-  }, [likeStorageKey, slug]);
+  }, [slug]);
 
   useEffect(() => {
     if (!isOpen) return;
@@ -154,20 +188,11 @@ export function BlogPostActions({
   function handleLike() {
     if (typeof window === "undefined") return;
 
-    const existingDeviceId = window.localStorage.getItem(deviceStorageKey);
-    const deviceId =
-      existingDeviceId ??
-      (typeof crypto !== "undefined" && "randomUUID" in crypto
-        ? crypto.randomUUID()
-        : `${Date.now()}-${Math.random().toString(36).slice(2)}`);
-
-    if (!existingDeviceId) {
-      window.localStorage.setItem(deviceStorageKey, deviceId);
-    }
+    const deviceId = getOrCreateDeviceId();
 
     if (liked) {
-      window.localStorage.removeItem(likeStorageKey);
-      setLiked(false);
+      setStoredLike(slug, false);
+      setServerLiked(false);
       setLikeCount((current) => Math.max(0, current - 1));
 
       void fetch(`/api/blog-likes/${slug}`, {
@@ -189,7 +214,8 @@ export function BlogPostActions({
           if (!data) return;
           setLikesEnabled(data.enabled);
           setLikeCount(data.count);
-          setLiked(data.liked);
+          setServerLiked(data.liked);
+          setStoredLike(slug, data.liked);
         })
         .catch(() => {
           setLikesEnabled(false);
@@ -198,8 +224,8 @@ export function BlogPostActions({
       return;
     }
 
-    window.localStorage.setItem(likeStorageKey, "1");
-    setLiked(true);
+    setStoredLike(slug, true);
+    setServerLiked(true);
     setLikeCount((current) => (likesEnabled ? current + 1 : Math.max(1, current)));
 
     void fetch(`/api/blog-likes/${slug}`, {
@@ -221,13 +247,18 @@ export function BlogPostActions({
         if (!data) return;
         setLikesEnabled(data.enabled);
         setLikeCount(data.count);
-        setLiked(data.liked);
+        setServerLiked(data.liked);
+        setStoredLike(slug, data.liked);
         if (!data.enabled) {
+          setStoredLike(slug, true);
+          setServerLiked(true);
           setLikeCount(1);
         }
       })
       .catch(() => {
         setLikesEnabled(false);
+        setStoredLike(slug, true);
+        setServerLiked(true);
         setLikeCount(1);
       });
   }
