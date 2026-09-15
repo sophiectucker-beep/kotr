@@ -35,7 +35,7 @@ These are the outings for days when you would like to Do Something, but not so m
 
 ### Alameda Gardens + Wildlife Conservation Park
 
-Gibraltar Botanic Gardens and Alameda Wildlife Conservation Park are probably one of Gibraltar’s best toddler combinations because they provide all the necessary ingredients for a successful morning: things to point at, places to wander and the possibility of being home before nap time.
+[Gibraltar Botanic Gardens](/family-day-out#gibraltar-botanic-gardens) and [Alameda Wildlife Conservation Park](/family-day-out#alameda-wildlife-conservation-park) are probably one of Gibraltar’s best toddler combinations because they provide all the necessary ingredients for a successful morning: things to point at, places to wander and the possibility of being home before nap time.
 
 The Botanic Gardens are free, shady and full of winding paths, plants, ponds and things that can be examined at great length by somebody who has recently discovered sticks. There’s also an adventure playground for younger children, so you can quite happily come here without spending anything at all. The gardens are currently open every day from 8am until sunset.
 
@@ -47,7 +47,7 @@ If you want to turn it into more of an outing, head into the Alameda Wildlife Co
 
 Sometimes the best toddler outing is simply somewhere they can run around while you drink a coffee that is still vaguely warm.
 
-Commonwealth Park is ideal for a low-stakes potter in the middle of town, and neighbouring Campion Park has green space plus a natural children’s play area with wooden play structures.
+[Commonwealth Park](/family-day-out#commonwealth-park) is ideal for a low-stakes potter in the middle of town, and neighbouring [Campion Park](/family-day-out#campion-park) has green space plus a natural children’s play area with wooden play structures.
 
 This is particularly useful when you have errands to do in town and need to disguise them as a Fun Family Morning.
 
@@ -63,11 +63,11 @@ Everyone thinks they’ve had a day out.
 
 Parenting is mostly marketing.
 
-**Toddler reality:** Free, central and extremely easy to abandon when nap time starts looming. The King’s Bastion Leisure Centre bridging the two parks will either be a perk or a hindrance, depending on your nervous system. With mini bowling and an abundance of arcade-style games rides and games for kids of all ages, kids are drawn to it like a moth to a flame. As someone who is overstimulated on a good day, it is my own personal hell. And yet we own 3 Leisure Centre cards.
+**Toddler reality:** Free, central and extremely easy to abandon when nap time starts looming. The [King’s Bastion Leisure Centre](/family-day-out#kings-bastion-leisure-centre) bridging the two parks will either be a perk or a hindrance, depending on your nervous system. With mini bowling and an abundance of arcade-style games rides and games for kids of all ages, kids are drawn to it like a moth to a flame. As someone who is overstimulated on a good day, it is my own personal hell. And yet we own 3 Leisure Centre cards.
 
 ### Europa Point: for running them like a Labrador
 
-If your toddler needs space rather than an attraction, Europa Point is hard to beat.
+If your toddler needs space rather than an attraction, [Europa Point](/family-day-out#europa-point) is hard to beat.
 
 There’s the playground, plenty to look at, enormous views across the Strait and lots of room for that particular toddler activity known as Running In A Completely Unnecessary Direction.
 
@@ -83,7 +83,7 @@ There is a stage of parenthood where you can spend 45 minutes researching enrich
 
 Respect the bucket.
 
-Gibraltar’s beaches are hard to beat for the zero-planning day out. Sandy Bay and Catalan Bay are particularly easy choices when the weather behaves, then there’s Eastern, Western, and of course Quarri (AKA the ‘Quarribean’). Take snacks, sun cream, several apparently essential plastic digging implements and a change of clothes.
+[Gibraltar’s beaches](/family-day-out#beaches) are hard to beat for the zero-planning day out. Sandy Bay and Catalan Bay are particularly easy choices when the weather behaves, then there’s Eastern, Western, and of course Quarri (AKA the ‘Quarribean’). Take snacks, sun cream, several apparently essential plastic digging implements and a change of clothes.
 
 Then add another change of clothes.
 
@@ -99,17 +99,17 @@ There comes a point in summer when “shall we go for a walk?” sounds less lik
 
 Dream Play Zone is useful to pop in your parenting back pocket when your small person needs to burn energy and you would prefer not to personally be the climbing apparatus.
 
-There are also the usual rainy-day/too-hot-day fallbacks at King’s Bastion Leisure Centre, depending on your toddler’s age and attention span and your mental capacity.
+There are also the usual rainy-day/too-hot-day fallbacks at [King’s Bastion Leisure Centre](/family-day-out#kings-bastion-leisure-centre), depending on your toddler’s age and attention span and your mental capacity.
 
-And if what you actually want is other adults who understand why you’ve arrived somewhere carrying a sock but no shoes, PACS runs regular weekday baby and toddler sessions including toddler play, sensory play, songs and stories. (The current programme varies by age and some sessions need pre-booking.)
+And if what you actually want is other adults who understand why you’ve arrived somewhere carrying a sock but no shoes, [PACS](/clubs-classes/parent-and-child-society-pacs) runs regular weekday baby and toddler sessions including toddler play, sensory play, songs and stories. (The current programme varies by age and some sessions need pre-booking.)
 
 ## Upper Rock: but choose your battles
 
 You absolutely can take a toddler up the Rock. You just need to abandon any fantasy of calmly ticking off every attraction while your child develops a precocious interest in military history.
 
-St Michael’s Cave can be a great one: it’s dramatic, weird and visually interesting enough to hold small attention spans. The macaques are obviously exciting too, although toddlers and wild monkeys are two populations not especially famous for respecting personal boundaries, so keep little ones close and follow the official guidance.
+[St Michael’s Cave](/family-day-out#st-michaels-cave) can be a great one: it’s dramatic, weird and visually interesting enough to hold small attention spans. The macaques are obviously exciting too, although toddlers and wild monkeys are two populations not especially famous for respecting personal boundaries, so keep little ones close and follow the official guidance.
 
-One very important update: **the Cable Car is currently closed for a full refurbishment and is expected to reopen in 2027.** So at the moment, a spontaneous “let’s just take the cable car up” plan is not a thing. With a toddler, think carefully about transport and how much walking you actually want to commit to before heading up.
+One very important update: **the [Cable Car](/family-day-out#cable-car-gibraltar) is currently closed for a full refurbishment and is expected to reopen in 2027.** So at the moment, a spontaneous “let’s just take the cable car up” plan is not a thing. With a toddler, think carefully about transport and how much walking you actually want to commit to before heading up.
 
 All free for locals. For non-locals, children aged 0-4 currently have free Nature Reserve admission, although transport is separate.
 

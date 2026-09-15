@@ -268,7 +268,10 @@ function DayOutCard({
   const showsFreeOnce = Boolean(entry.freeNote) && /free|gratis/i.test(entry.cost);
 
   return (
-    <article className="flex h-full flex-col rounded-[1.5rem] border border-navy/8 bg-white p-5 shadow-[0_12px_34px_rgba(45,56,77,0.08)] transition-transform hover:-translate-y-1">
+    <article
+      id={entry.slug}
+      className="scroll-mt-28 flex h-full flex-col rounded-[1.5rem] border border-navy/8 bg-white p-5 shadow-[0_12px_34px_rgba(45,56,77,0.08)] transition-transform hover:-translate-y-1"
+    >
       <div className="flex flex-wrap gap-2">
         {categories.map((category) => {
           const config = categoryConfig[category];
