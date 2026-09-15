@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "12 September 2026";
+export const eventsVerifiedDate = "15 September 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -58,6 +58,26 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl: "/blog/default-cover.svg",
     note:
       "Verified on 30 August 2026 from the current Visit Gibraltar event page, which lists Mario Finlayson National Art Gallery at City Hall from 30 May 2026 to 26 September 2026.",
+  },
+  {
+    slug: "gibraltar-united-nations-exhibition-2026",
+    title: "Gibraltar at the United Nations 1946–2026",
+    summary:
+      "A free exhibition tracing Gibraltar's relationship with the United Nations through archive documents, photographs, correspondence, and public submissions.",
+    status: "upcoming",
+    audience: "family",
+    cost: "Free",
+    endDate: "2026-10-02",
+    sortDate: "2026-09-14",
+    startLabel: "14 September-2 October 2026",
+    venue: "Fine Arts Gallery, Casemates",
+    ageLabel: "All ages",
+    sourceName: "gibraltar.gov.gi",
+    sourceUrl:
+      "https://www.gibraltar.gov.gi/press-releases/gibraltar-at-the-united-nations-exhibition-opens-at-the-fine-arts-gallery-6702026-12330",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 15 September 2026 from HM Government's opening announcement, which confirms that the free Gibraltar National Archives exhibition is open at the Fine Arts Gallery until 2 October 2026.",
   },
   {
     slug: "literary-festival-wolf-siren-workshop-2026",
