@@ -1,6 +1,6 @@
 ---
 title: "Things to Do in Gibraltar (and Nearby Spain) With a Toddler"
-excerpt: "Genuinely toddler-friendly days out, from “we have 45 minutes to kill” to “we have packed snacks and crossed an international border”"
+excerpt: "Toddler-friendly days out, from “we have 30 minutes to kill” to “we have packed snacks and crossed an international border”"
 seoTitle: "Things to Do in Gibraltar With a Toddler: Easy Days Out in Gibraltar & Nearby Spain"
 seoDescription: "Looking for things to do with a toddler? From Gibraltar playgrounds and beaches to Bounce Jump, animal parks and easy trips into Spain, here are days out that work with little ones."
 date: "2026-09-15"
@@ -74,6 +74,8 @@ There’s the playground, plenty to look at, enormous views across the Strait an
 You can spot ships, look at the lighthouse, wander about and then leave whenever you like. No timed entry. No expensive ticket you feel morally obliged to squeeze three hours out of. This is important. With toddlers, the ability to abandon an outing after 22 minutes without feeling you’ve wasted £60 is an underrated luxury.
 
 **Toddler reality:** High entertainment-to-effort ratio. Bring a layer if it’s windy, because Europa Point is often wiiiindy.
+
+![A parent and toddler walking in Gibraltar with the Rock in the background.](/blog/things-to-do-gibraltar-toddler-doodle.png)
 
 ### Beach + bucket = basically a full itinerary
 
