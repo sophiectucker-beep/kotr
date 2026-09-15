@@ -2,6 +2,8 @@ export interface BlogPostMeta {
   slug: string;
   title: string;
   excerpt: string;
+  seoTitle?: string;
+  seoDescription?: string;
   date: string;
   category: string;
   tags: string[];

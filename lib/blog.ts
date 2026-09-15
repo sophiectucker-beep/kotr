@@ -14,6 +14,8 @@ const canPreviewDrafts = process.env.NODE_ENV === "development";
 interface BlogFrontmatter {
   title?: string;
   excerpt?: string;
+  seoTitle?: string;
+  seoDescription?: string;
   date?: string;
   category?: string;
   tags?: string[];
@@ -45,6 +47,8 @@ function toMeta(fileName: string, frontmatter: BlogFrontmatter): BlogPostMeta {
     slug,
     title: frontmatter.title ?? slug,
     excerpt: frontmatter.excerpt ?? "",
+    seoTitle: frontmatter.seoTitle,
+    seoDescription: frontmatter.seoDescription,
     date: frontmatter.date ?? new Date().toISOString(),
     category: frontmatter.category ?? "Guides",
     tags: frontmatter.tags ?? [],

@@ -37,10 +37,12 @@ export async function generateMetadata({
   }
 
   const shareImageUrl = getBlogShareImageUrl(slug);
+  const metadataTitle = post.seoTitle ?? post.title;
+  const metadataDescription = post.seoDescription ?? post.excerpt;
 
   return {
-    title: `${post.title} | Kids on the Rock`,
-    description: post.excerpt,
+    title: `${metadataTitle} | Kids on the Rock`,
+    description: metadataDescription,
     keywords: post.tags,
     authors: [{ name: "Kids on the Rock" }],
     creator: "Kids on the Rock",
@@ -50,7 +52,7 @@ export async function generateMetadata({
     },
     openGraph: {
       title: post.title,
-      description: post.excerpt,
+      description: metadataDescription,
       type: "article",
       url: `https://kidsontherock.gi/blog/${slug}`,
       publishedTime: post.date,
@@ -70,7 +72,7 @@ export async function generateMetadata({
     twitter: {
       card: "summary_large_image",
       title: post.title,
-      description: post.excerpt,
+      description: metadataDescription,
       images: [shareImageUrl],
     },
   };
@@ -85,6 +87,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   }
 
   const shareImageUrl = getBlogShareImageUrl(slug);
+  const schemaDescription = post.seoDescription ?? post.excerpt;
   const headerImage =
     post.inlineImage ?? (post.coverImage !== "/blog/default-cover.svg" ? post.coverImage : null);
 
@@ -123,7 +126,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: post.title,
-    description: post.excerpt,
+    description: schemaDescription,
     datePublished: post.date,
     dateModified: post.date,
     articleSection: post.category,
