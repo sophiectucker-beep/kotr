@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "15 September 2026";
+export const eventsVerifiedDate = "16 September 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -78,6 +78,25 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl: "/blog/default-cover.svg",
     note:
       "Verified on 15 September 2026 from HM Government's opening announcement, which confirms that the free Gibraltar National Archives exhibition is open at the Fine Arts Gallery until 2 October 2026.",
+  },
+  {
+    slug: "literary-festival-britannica-encyclopaedia-2026",
+    title: "Britannica Encyclopaedia with Christopher Lloyd",
+    summary:
+      "A lively, all-ages Literary Festival journey through natural and human history, brought to life with Christopher Lloyd's signature coat of many pockets.",
+    status: "upcoming",
+    audience: "family",
+    cost: "£9 students; £13 adults",
+    sortDate: "2026-11-14",
+    startLabel: "14 November 2026, 10:00",
+    venue: "Lower Exhibition Room, John Mackintosh Hall",
+    ageLabel: "All ages",
+    sourceName: "buytickets.gi",
+    sourceUrl:
+      "https://www.buytickets.gi/events/gibunco-gibraltar-international-literary-festival-2026-1352",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 16 September 2026 from the live BuyTickets Gibraltar Literary Festival listing. World history author Christopher Lloyd presents an all-ages journey from the beginning of time to the present day at 10am on 14 November, and the published festival prices are £9 for students aged 18 and under and £13 for adults.",
   },
   {
     slug: "literary-festival-wolf-siren-workshop-2026",
