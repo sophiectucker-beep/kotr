@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "16 September 2026";
+export const eventsVerifiedDate = "17 September 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -78,6 +78,44 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl: "/blog/default-cover.svg",
     note:
       "Verified on 15 September 2026 from HM Government's opening announcement, which confirms that the free Gibraltar National Archives exhibition is open at the Fine Arts Gallery until 2 October 2026.",
+  },
+  {
+    slug: "main-street-morning-entertainment-2026",
+    title: "Main Street Morning Entertainment",
+    summary:
+      "A morning of community entertainment on Main Street as part of Gibraltar's official autumn cultural programme.",
+    status: "upcoming",
+    audience: "family",
+    cost: "See organiser",
+    sortDate: "2026-10-24",
+    startLabel: "24 October 2026",
+    venue: "Main Street",
+    ageLabel: "All ages",
+    sourceName: "culture.gi",
+    sourceUrl:
+      "https://www.culture.gi/news/autumn-cultural-programme-2026/",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 17 September 2026 from Gibraltar Cultural Services' official Autumn Cultural Programme, which lists Main Street Morning Entertainment for 24 October. The organiser has not yet published a time or further programme details.",
+  },
+  {
+    slug: "gibraltar-bonfire-night-2026",
+    title: "Gibraltar Bonfire Night",
+    summary:
+      "The community Bonfire Night date in Gibraltar's official autumn cultural programme.",
+    status: "upcoming",
+    audience: "family",
+    cost: "See organiser",
+    sortDate: "2026-11-05",
+    startLabel: "5 November 2026",
+    venue: "Venue to be announced",
+    ageLabel: "All ages",
+    sourceName: "culture.gi",
+    sourceUrl:
+      "https://www.culture.gi/news/autumn-cultural-programme-2026/",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 17 September 2026 from Gibraltar Cultural Services' official Autumn Cultural Programme. Bonfire Night is listed for 5 November; the organiser has not yet published a time, venue, or ticket details.",
   },
   {
     slug: "literary-festival-britannica-encyclopaedia-2026",
@@ -135,6 +173,93 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl: "/blog/default-cover.svg",
     note:
       "Verified on 5 September 2026 from the live BuyTickets Gibraltar Literary Festival listing and HM Government's ticket announcement. Christopher Lloyd's family quiz is at 2pm on 14 November, is advertised as suitable for ages 6 to 106, and the published festival prices are £9 for students aged 18 and under and £13 for adults.",
+  },
+  {
+    slug: "gibraltar-christmas-festival-of-lights-2026",
+    title: "Christmas Festival of Lights",
+    summary:
+      "Gibraltar's community Christmas lights celebration, opening the festive attractions season.",
+    status: "upcoming",
+    audience: "family",
+    cost: "See organiser",
+    sortDate: "2026-11-20",
+    startLabel: "20 November 2026",
+    venue: "Venue to be announced",
+    ageLabel: "All ages",
+    sourceName: "culture.gi",
+    sourceUrl:
+      "https://www.culture.gi/news/autumn-cultural-programme-2026/",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 17 September 2026 from Gibraltar Cultural Services' official Autumn Cultural Programme. The Christmas Festival of Lights is listed for 20 November; the organiser has not yet published a time, venue, or programme details.",
+  },
+  {
+    slug: "gibraltar-christmas-attractions-2026",
+    title: "Gibraltar Christmas Attractions",
+    summary:
+      "Seasonal family attractions running from the Festival of Lights through the Christmas and New Year period.",
+    status: "upcoming",
+    audience: "family",
+    cost: "See organiser",
+    endDate: "2027-01-05",
+    sortDate: "2026-11-20",
+    startLabel: "20 November 2026-5 January 2027",
+    venue: "Details to be announced",
+    ageLabel: "All ages",
+    sourceName: "culture.gi",
+    sourceUrl:
+      "https://www.culture.gi/news/autumn-cultural-programme-2026/",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 17 September 2026 from Gibraltar Cultural Services' official Autumn Cultural Programme, which confirms Christmas Attractions from 20 November through 5 January. Locations, opening hours, and individual attraction details are still to be announced.",
+  },
+  {
+    slug: "gibraltar-christmas-saturdays-2026",
+    title: "Christmas Saturdays",
+    summary:
+      "Two festive Saturdays of community Christmas entertainment in Gibraltar.",
+    status: "upcoming",
+    audience: "family",
+    cost: "See organiser",
+    eventDates: [
+      {
+        sortDate: "2026-12-05",
+        startLabel: "5 December 2026",
+      },
+      {
+        sortDate: "2026-12-12",
+        startLabel: "12 December 2026",
+      },
+    ],
+    sortDate: "2026-12-05",
+    startLabel: "5 and 12 December 2026",
+    venue: "Details to be announced",
+    ageLabel: "All ages",
+    sourceName: "culture.gi",
+    sourceUrl:
+      "https://www.culture.gi/news/autumn-cultural-programme-2026/",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 17 September 2026 from Gibraltar Cultural Services' official Autumn Cultural Programme, which lists Christmas Saturday events on 5 and 12 December. Times, locations, and activity details are still to be announced.",
+  },
+  {
+    slug: "gibraltar-new-years-celebrations-2026",
+    title: "Gibraltar New Year's Celebrations",
+    summary:
+      "Gibraltar's official community celebrations to welcome the new year.",
+    status: "upcoming",
+    audience: "family",
+    cost: "See organiser",
+    sortDate: "2026-12-31",
+    startLabel: "31 December 2026",
+    venue: "Venue to be announced",
+    ageLabel: "All ages",
+    sourceName: "culture.gi",
+    sourceUrl:
+      "https://www.culture.gi/news/autumn-cultural-programme-2026/",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 17 September 2026 from Gibraltar Cultural Services' official Autumn Cultural Programme. New Year's Celebrations are listed for 31 December; the organiser has not yet published a time, venue, or programme details.",
   },
 ];
 
