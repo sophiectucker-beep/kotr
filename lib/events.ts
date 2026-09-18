@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "17 September 2026";
+export const eventsVerifiedDate = "18 September 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -97,6 +97,83 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl: "/blog/default-cover.svg",
     note:
       "Verified on 17 September 2026 from Gibraltar Cultural Services' official Autumn Cultural Programme, which lists Main Street Morning Entertainment for 24 October. The organiser has not yet published a time or further programme details.",
+  },
+  {
+    slug: "ditzyb-halloween-slime-workshop-2026",
+    title: "Glow-in-the-Dark Halloween Slime Workshop",
+    summary:
+      "A Halloween craft session where children make two glow-in-the-dark slimes with scents, charms, glitter, and other decorations to take home.",
+    status: "upcoming",
+    audience: "kids",
+    cost: "£15",
+    sortDate: "2026-10-28",
+    startLabel: "28 October 2026, 11:30-13:00",
+    venue: "DitzyB Arts & Craft Supplies, Main Street",
+    ageLabel: "Ages 6+; under-6s with an adult",
+    sourceName: "Ditzy B",
+    sourceUrl:
+      "https://www.ditzyb.store/products/halloween-slime-workshop",
+    imageUrl:
+      "https://cdn.shopify.com/s/files/1/1085/5554/files/Purple_Green_Playful_Happy_Halloween_Instagram_Post_1.png?v=1789559470",
+    note:
+      "Verified on 18 September 2026 from Ditzy B's live Shop Calendar feed and ticket product. The workshop runs from 11:30am to 1pm on 28 October, costs £15, and is aimed at ages 6+, with younger children welcome when accompanied by an adult.",
+  },
+  {
+    slug: "ditzyb-halloween-craft-parties-2026",
+    title: "Ditzy B Halloween Craft Parties",
+    summary:
+      "Age-grouped Halloween craft parties with separate shorter sessions for under-6s and longer afternoon sessions for children aged 6 and over.",
+    status: "upcoming",
+    audience: "kids",
+    cost: "£15 under-6s; £18 ages 6+",
+    eventDates: [
+      {
+        sortDate: "2026-10-29",
+        startLabel: "29 October 2026, 12:00-13:00",
+        title: "Under-6s session",
+        ageLabel: "Under 6s with an adult",
+      },
+      {
+        sortDate: "2026-10-29",
+        startLabel: "29 October 2026, 15:00-16:00",
+        title: "Under-6s afternoon session",
+        ageLabel: "Under 6s with an adult",
+      },
+      {
+        sortDate: "2026-10-30",
+        startLabel: "30 October 2026, 12:00-13:00",
+        title: "Under-6s session",
+        ageLabel: "Under 6s with an adult",
+      },
+      {
+        sortDate: "2026-10-30",
+        startLabel: "30 October 2026, 15:00-16:30",
+        title: "Ages 6+ session",
+        ageLabel: "Ages 6+",
+      },
+      {
+        sortDate: "2026-10-31",
+        startLabel: "31 October 2026, 12:00-13:00",
+        title: "Under-6s session",
+        ageLabel: "Under 6s with an adult",
+      },
+      {
+        sortDate: "2026-10-31",
+        startLabel: "31 October 2026, 15:00-16:30",
+        title: "Ages 6+ session",
+        ageLabel: "Ages 6+",
+      },
+    ],
+    sortDate: "2026-10-29",
+    startLabel: "29-31 October 2026",
+    venue: "DitzyB Arts & Craft Supplies, Main Street",
+    ageLabel: "Under-6 and ages 6+ sessions",
+    sourceName: "Ditzy B",
+    sourceUrl: "https://www.ditzyb.store/collections/halloween-events",
+    imageUrl:
+      "https://cdn.shopify.com/s/files/1/1085/5554/files/Purple_Illustrative_Halloween_Kids_Party_Poster.png?v=1789480214",
+    note:
+      "Verified on 18 September 2026 from Ditzy B's live Shop Calendar feed and ticket products. Bookable sessions run on 29, 30, and 31 October; under-6 sessions cost £15 and require an accompanying adult, while ages 6+ sessions cost £18. Product variants were used for the confirmed times where the calendar description conflicted with its displayed time.",
   },
   {
     slug: "gibraltar-bonfire-night-2026",
