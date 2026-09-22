@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "18 September 2026";
+export const eventsVerifiedDate = "22 September 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -289,6 +289,25 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl: "/blog/default-cover.svg",
     note:
       "Verified on 17 September 2026 from Gibraltar Cultural Services' official Autumn Cultural Programme, which confirms Christmas Attractions from 20 November through 5 January. Locations, opening hours, and individual attraction details are still to be announced.",
+  },
+  {
+    slug: "ditzyb-scale-model-workshop-2026",
+    title: "Scale Model Workshop",
+    summary:
+      "A hands-on workshop with scale modeller Roy Perez, covering model painting techniques and including a model plus use of paints, materials, and airbrushes.",
+    status: "upcoming",
+    audience: "teens",
+    cost: "£40",
+    sortDate: "2026-11-28",
+    startLabel: "28 November 2026, 10:00-15:00",
+    venue: "DitzyB Arts & Craft Supplies, Main Street",
+    ageLabel: "Older teens and adults",
+    sourceName: "Ditzy B",
+    sourceUrl: "https://www.ditzyb.store/products/scale-model-workshop",
+    imageUrl:
+      "https://cdn.shopify.com/s/files/1/1085/5554/files/WhatsAppImage2026-09-16at16.10.31.jpg?v=1789571987",
+    note:
+      "Verified on 22 September 2026 from Ditzy B's live ticket product. The five-hour workshop runs from 10am to 3pm on Saturday 28 November, costs £40, includes a scale model and use of painting materials and airbrushes, and is designed for older teens and adults. Booking is essential and spaces are limited.",
   },
   {
     slug: "gibraltar-christmas-saturdays-2026",
