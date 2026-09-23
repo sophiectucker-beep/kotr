@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "22 September 2026";
+export const eventsVerifiedDate = "23 September 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -78,6 +78,25 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl: "/blog/default-cover.svg",
     note:
       "Verified on 15 September 2026 from HM Government's opening announcement, which confirms that the free Gibraltar National Archives exhibition is open at the Fine Arts Gallery until 2 October 2026.",
+  },
+  {
+    slug: "welsh-choir-concert-gibraltar-2026",
+    title: "Côr Meibion Onllwyn Welsh Choir Concert",
+    summary:
+      "A friendly, light-hearted male voice choir concert mixing traditional and modern music in a varied popular programme.",
+    status: "upcoming",
+    audience: "family",
+    cost: "Free",
+    sortDate: "2026-09-26",
+    startLabel: "26 September 2026, 12:00",
+    venue: "Holy Trinity Cathedral, Cathedral Square",
+    ageLabel: "All ages",
+    sourceName: "buytickets.gi",
+    sourceUrl:
+      "https://www.buytickets.gi/events/welsh-choir-concert-free-1364",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 23 September 2026 from the live BuyTickets Gibraltar listing. Côr Meibion Onllwyn performs a free concert at Holy Trinity Cathedral at noon on Saturday 26 September, with a light-hearted programme mixing traditional and modern music.",
   },
   {
     slug: "main-street-morning-entertainment-2026",
