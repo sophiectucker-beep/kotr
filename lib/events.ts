@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "23 September 2026";
+export const eventsVerifiedDate = "24 September 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
