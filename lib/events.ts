@@ -36,47 +36,27 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "1 October 2026";
+export const eventsVerifiedDate = "3 October 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
-    slug: "gibraltar-united-nations-exhibition-2026",
-    title: "Gibraltar at the United Nations 1946–2026",
+    slug: "concurso-de-elegancia-public-viewing-2026",
+    title: "Concurso de Elegancia: Public Car Viewing",
     summary:
-      "A free exhibition tracing Gibraltar's relationship with the United Nations through archive documents, photographs, correspondence, and public submissions.",
+      "See rare, classic and luxury cars visiting Gibraltar, with a public display outside the airport and viewpoints for the runway drives.",
     status: "upcoming",
     audience: "family",
-    cost: "Free",
-    endDate: "2026-10-02",
-    sortDate: "2026-09-14",
-    startLabel: "14 September-2 October 2026",
-    venue: "Fine Arts Gallery, Casemates",
+    cost: "See organiser",
+    sortDate: "2026-10-03",
+    startLabel: "3 October 2026; public display time not announced",
+    venue: "Outside Gibraltar International Airport; public viewpoints around Gibraltar",
     ageLabel: "All ages",
     sourceName: "gibraltar.gov.gi",
     sourceUrl:
-      "https://www.gibraltar.gov.gi/press-releases/gibraltar-at-the-united-nations-exhibition-opens-at-the-fine-arts-gallery-6702026-12330",
+      "https://www.gibraltar.gov.gi/press-releases/concurso-de-elegancia-comes-to-gibraltar-for-the-first-time-7442026-12417",
     imageUrl: "/blog/default-cover.svg",
     note:
-      "Verified on 15 September 2026 from HM Government's opening announcement, which confirms that the free Gibraltar National Archives exhibition is open at the Fine Arts Gallery until 2 October 2026.",
-  },
-  {
-    slug: "autumn-poetry-competition-deadline-2026",
-    title: "Autumn Poetry Competition: Entry Deadline",
-    summary:
-      "Submit original poems to Gibraltar’s autumn competition, with school-age and adult categories in English, Spanish and Llanito.",
-    status: "upcoming",
-    audience: "kids",
-    cost: "See organiser",
-    sortDate: "2026-10-02",
-    startLabel: "2 October 2026: entry deadline",
-    venue: "Submit by email or at John Mackintosh Hall",
-    ageLabel: "School Year 4 upwards; adult categories",
-    sourceName: "culture.gi",
-    sourceUrl:
-      "https://www.culture.gi/events/event/deadline-autumn-poetry-competition/",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 1 October 2026 from Gibraltar Cultural Services' live event feed. The deadline is 2 October. Gibraltarians and Gibraltar residents may submit two original poems with entry forms to info@culture.gi or John Mackintosh Hall reception. Forms and rules are available at culture.gi/forms.",
+      "Verified on 3 October 2026 from HM Government's announcement. Participating cars will be displayed outside the airport for a period, with no exact display time published. Public viewpoints for runway drives include Western Beach, the Winston Churchill Avenue runway barriers and Princess Caroline's Battery. The runway event itself is invitation-only; follow official access arrangements.",
   },
   {
     slug: "community-active-travel-event-2026",
