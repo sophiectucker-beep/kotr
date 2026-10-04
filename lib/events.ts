@@ -36,28 +36,9 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "3 October 2026";
+export const eventsVerifiedDate = "4 October 2026";
 
 export const childFriendlyEvents: EventItem[] = [
-  {
-    slug: "concurso-de-elegancia-public-viewing-2026",
-    title: "Concurso de Elegancia: Public Car Viewing",
-    summary:
-      "See rare, classic and luxury cars visiting Gibraltar, with a public display outside the airport and viewpoints for the runway drives.",
-    status: "upcoming",
-    audience: "family",
-    cost: "See organiser",
-    sortDate: "2026-10-03",
-    startLabel: "3 October 2026; public display time not announced",
-    venue: "Outside Gibraltar International Airport; public viewpoints around Gibraltar",
-    ageLabel: "All ages",
-    sourceName: "gibraltar.gov.gi",
-    sourceUrl:
-      "https://www.gibraltar.gov.gi/press-releases/concurso-de-elegancia-comes-to-gibraltar-for-the-first-time-7442026-12417",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 3 October 2026 from HM Government's announcement. Participating cars will be displayed outside the airport for a period, with no exact display time published. Public viewpoints for runway drives include Western Beach, the Winston Churchill Avenue runway barriers and Princess Caroline's Battery. The runway event itself is invitation-only; follow official access arrangements.",
-  },
   {
     slug: "community-active-travel-event-2026",
     title: "Community Walk, Run & Cycle",
