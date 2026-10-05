@@ -36,28 +36,9 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "4 October 2026";
+export const eventsVerifiedDate = "5 October 2026";
 
 export const childFriendlyEvents: EventItem[] = [
-  {
-    slug: "community-active-travel-event-2026",
-    title: "Community Walk, Run & Cycle",
-    summary:
-      "An inclusive community walk, run or cycle supporting Active Travel Month, with ticket proceeds going to GBC Open Day.",
-    status: "upcoming",
-    audience: "family",
-    cost: "£1",
-    sortDate: "2026-10-04",
-    startLabel: "4 October 2026, 10:00 (registration from 09:00)",
-    venue: "Eastern Beach Dog Park",
-    ageLabel: "All ages and abilities",
-    sourceName: "buytickets.gi",
-    sourceUrl:
-      "https://www.buytickets.gi/events/community-walk-run-cycle-active-travel-event-1338",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 1 October 2026 from the live BuyTickets listing. OTWO welcomes families and all ages and abilities; registration opens at 9am and the event starts at 10am.",
-  },
   {
     slug: "bookmark-competition-deadline-2026",
     title: "Bookmark Competition: Entry Deadline",
@@ -189,7 +170,7 @@ export const childFriendlyEvents: EventItem[] = [
       },
       {
         sortDate: "2026-10-30",
-        startLabel: "30 October 2026, 12:00-13:00",
+        startLabel: "30 October 2026, 12:00-13:00 (sold out)",
         title: "Under-6s session",
         ageLabel: "Under 6s with an adult",
       },
@@ -201,7 +182,7 @@ export const childFriendlyEvents: EventItem[] = [
       },
       {
         sortDate: "2026-10-31",
-        startLabel: "31 October 2026, 12:00-13:00",
+        startLabel: "31 October 2026, 12:00-13:00 (sold out)",
         title: "Under-6s session",
         ageLabel: "Under 6s with an adult",
       },
@@ -222,7 +203,7 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl:
       "https://cdn.shopify.com/s/files/1/1085/5554/files/Purple_Illustrative_Halloween_Kids_Party_Poster.png?v=1789480214",
     note:
-      "Verified on 1 October 2026 from Ditzy B's live October Shop Calendar feed and ticket variants. Sessions run on 29, 30, and 31 October; under-6 sessions cost £15 and require an accompanying adult, while ages 6+ sessions cost £18. Some sessions are sold out; check live ticket availability. Product variants confirm times where the calendar description differs.",
+      "Verified on 5 October 2026 from Ditzy B's live October Shop Calendar feed and ticket variants. Sessions run on 29, 30, and 31 October; under-6 sessions cost £15 and require an accompanying adult, while ages 6+ sessions cost £18. The under-6 sessions on 30 and 31 October are sold out; ages 6+ sessions remain available. Check live ticket availability. Product variants confirm times where the calendar description differs.",
   },
   {
     slug: "paws-for-a-cause-2026",
