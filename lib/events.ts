@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "5 October 2026";
+export const eventsVerifiedDate = "7 October 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -358,6 +358,26 @@ export const childFriendlyEvents: EventItem[] = [
       "https://cdn.shopify.com/s/files/1/1085/5554/files/WhatsAppImage2026-09-16at16.10.31.jpg?v=1789571987",
     note:
       "Verified on 22 September 2026 from Ditzy B's live ticket product. The five-hour workshop runs from 10am to 3pm on Saturday 28 November, costs £40, includes a scale model and use of painting materials and airbrushes, and is designed for older teens and adults. Booking is essential and spaces are limited.",
+  },
+  {
+    slug: "masbro-cancer-relief-community-5k-fun-run-2026",
+    title: "Masbro + Cancer Relief Community 5K Fun Run",
+    summary:
+      "A community 5K fun run, jog or walk supporting Cancer Relief Gibraltar, with refreshments at the finish.",
+    status: "upcoming",
+    audience: "family",
+    cost: "Free for under-10s; £0-£10 otherwise",
+    sortDate: "2026-11-29",
+    startLabel: "29 November 2026, registration from 09:00; run at 10:00",
+    venue: "Wellington Boxing Club, Wellington Front",
+    ageLabel: "All ages; children under 10 run free",
+    sourceName: "buytickets.gi",
+    sourceUrl:
+      "https://www.buytickets.gi/events/masbro-cancer-relief-community-5k-fun-run-1353",
+    imageUrl:
+      "https://www.buytickets.gi/uploads/events/wQCwF_BuyTicket_Cancer_Relief_5K_Fun_Run_Poster.jpg",
+    note:
+      "Verified on 7 October 2026 from the live BuyTickets listing. The community event starts and finishes at Wellington Boxing Club on Sunday 29 November; registration opens at 9am and the 5K starts at 10am. Children under 10 run free, and proceeds support Cancer Relief Gibraltar.",
   },
   {
     slug: "gibraltar-christmas-saturdays-2026",
