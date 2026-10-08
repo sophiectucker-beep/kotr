@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "7 October 2026";
+export const eventsVerifiedDate = "8 October 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -76,6 +76,26 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl: "/blog/default-cover.svg",
     note:
       "Verified on 1 October 2026 from Gibraltar Cultural Services' detailed programme. Entertainment runs from 10:30am to 3pm on 24 October, with GFA Playmakers at Casemates from 11am to 2pm and historical re-enactment on Main Street from noon to 12:30pm.",
+  },
+  {
+    slug: "halloween-childrens-storytelling-2026",
+    title: "Halloween Children's Storytelling",
+    summary:
+      "A gentle Halloween storytelling session with self-led creative art activities for young children and their families.",
+    status: "upcoming",
+    audience: "kids",
+    cost: "Free; booking required",
+    sortDate: "2026-10-24",
+    startLabel: "24 October 2026, 11:00",
+    venue: "MFG Gallery, City Hall",
+    ageLabel: "Ages 3-7 and their families",
+    sourceName: "buytickets.gi",
+    sourceUrl:
+      "https://www.buytickets.gi/events/halloween-cultural-programme-1382",
+    imageUrl:
+      "https://www.buytickets.gi/uploads/events/FZkGC_Storytelling.jpg",
+    note:
+      "Verified on 8 October 2026 from the live BuyTickets Halloween Cultural Programme. This Halloween-themed session is for children aged 3-7 and their families, with storytelling and self-led creative art activities; advance booking is required.",
   },
   {
     slug: "ditzyb-halloween-slime-workshop-2026",
@@ -148,6 +168,26 @@ export const childFriendlyEvents: EventItem[] = [
       "Verified on 1 October 2026 from Ditzy B's live October Shop Calendar feed and ticket product. The organiser confirms drop-in sessions on Tuesday 27 October between 10:30am and 4:30pm, lasting 30 minutes and costing £15 including materials and kiln firing; no minimum age is published.",
   },
   {
+    slug: "halloween-childrens-puppet-workshop-2026",
+    title: "Children's Halloween Puppet Workshop",
+    summary:
+      "A hands-on session where children make and take home their own Halloween-themed puppet.",
+    status: "upcoming",
+    audience: "kids",
+    cost: "Free; booking required",
+    sortDate: "2026-10-27",
+    startLabel: "27 October 2026, 11:00",
+    venue: "GEMA Art Gallery",
+    ageLabel: "Children; check age suitability with organiser",
+    sourceName: "buytickets.gi",
+    sourceUrl:
+      "https://www.buytickets.gi/events/halloween-cultural-programme-1382",
+    imageUrl:
+      "https://www.buytickets.gi/uploads/events/QVr17_Puppet_making.jpg",
+    note:
+      "Verified on 8 October 2026 from the live BuyTickets Halloween Cultural Programme. Shane Dalmedo leads this puppet-making workshop; all materials are provided and every participant takes home their creation. Booking is required; the organiser has not published a minimum age.",
+  },
+  {
     slug: "ditzyb-halloween-craft-parties-2026",
     title: "Ditzy B Halloween Craft Parties",
     summary:
@@ -204,6 +244,26 @@ export const childFriendlyEvents: EventItem[] = [
       "https://cdn.shopify.com/s/files/1/1085/5554/files/Purple_Illustrative_Halloween_Kids_Party_Poster.png?v=1789480214",
     note:
       "Verified on 5 October 2026 from Ditzy B's live October Shop Calendar feed and ticket variants. Sessions run on 29, 30, and 31 October; under-6 sessions cost £15 and require an accompanying adult, while ages 6+ sessions cost £18. The under-6 sessions on 30 and 31 October are sold out; ages 6+ sessions remain available. Check live ticket availability. Product variants confirm times where the calendar description differs.",
+  },
+  {
+    slug: "halloween-childrens-storytelling-gema-2026",
+    title: "Children's Halloween Storytelling at GEMA",
+    summary:
+      "An interactive, dress-up-welcome Halloween storytelling session for young imaginations.",
+    status: "upcoming",
+    audience: "kids",
+    cost: "Free; booking required",
+    sortDate: "2026-10-29",
+    startLabel: "29 October 2026, 11:00",
+    venue: "GEMA Art Gallery",
+    ageLabel: "Children; check age suitability with organiser",
+    sourceName: "buytickets.gi",
+    sourceUrl:
+      "https://www.buytickets.gi/events/halloween-cultural-programme-1382",
+    imageUrl:
+      "https://www.buytickets.gi/uploads/events/2UDAT_Storytelling.jpg",
+    note:
+      "Verified on 8 October 2026 from the live BuyTickets Halloween Cultural Programme. Storyteller Denise leads an immersive Halloween session with playful frights and magical stories; children are welcome to dress up. Booking is required; no specific age range is published.",
   },
   {
     slug: "paws-for-a-cause-2026",
