@@ -98,6 +98,26 @@ export const childFriendlyEvents: EventItem[] = [
       "Verified on 8 October 2026 from the live BuyTickets Halloween Cultural Programme. This Halloween-themed session is for children aged 3-7 and their families, with storytelling and self-led creative art activities; advance booking is required.",
   },
   {
+    slug: "gibraltar-international-art-exhibition-2026",
+    title: "53rd Gibraltar International Art Exhibition",
+    summary:
+      "The annual Gibraltar International Art Competition exhibition, presenting selected paintings and sculptures at the Gustavo Bacarisas Gallery.",
+    status: "upcoming",
+    audience: "family",
+    cost: "See organiser",
+    endDate: "2026-10-31",
+    sortDate: "2026-10-21",
+    startLabel: "21-31 October 2026",
+    venue: "Gustavo Bacarisas Gallery",
+    ageLabel: "All ages",
+    sourceName: "culture.gi",
+    sourceUrl:
+      "https://www.culture.gi/events/event/national-art-competition/",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 8 October 2026 from Gibraltar Cultural Services' National Art Competition listing and its current autumn programme. The 53rd competition exhibition is at the Gustavo Bacarisas Gallery from 21 to 31 October; opening hours and admission details are not published.",
+  },
+  {
     slug: "ditzyb-halloween-slime-workshop-2026",
     title: "Glow-in-the-Dark Halloween Slime Workshop",
     summary:
