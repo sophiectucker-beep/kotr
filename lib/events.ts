@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "8 October 2026";
+export const eventsVerifiedDate = "9 October 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -116,6 +116,26 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl: "/blog/default-cover.svg",
     note:
       "Verified on 8 October 2026 from Gibraltar Cultural Services' National Art Competition listing and its current autumn programme. The 53rd competition exhibition is at the Gustavo Bacarisas Gallery from 21 to 31 October; opening hours and admission details are not published.",
+  },
+  {
+    slug: "mid-term-halloween-zoo-boo-2026",
+    title: "Mid-Term Halloween Zoo Boo!",
+    summary:
+      "A Halloween half-term visit to the Alameda Wildlife Conservation Park, with a spooky activity pack for children.",
+    status: "upcoming",
+    audience: "family",
+    cost: "See organiser",
+    endDate: "2026-10-31",
+    sortDate: "2026-10-25",
+    startLabel: "25-31 October 2026, 10:00-16:30",
+    venue: "Alameda Wildlife Conservation Park",
+    ageLabel: "Children and families",
+    sourceName: "visitgibraltar.gi",
+    sourceUrl:
+      "https://www.visitgibraltar.gi/index.php/events/mid-term-halloween-zoo-boo",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 9 October 2026 from Visit Gibraltar's live event listing. Zoo Boo runs daily from 25 to 31 October at the Alameda Wildlife Conservation Park; children receive a Halloween pack with a freaky-facts sheet, sticker and spooky mask. Check the linked booking page for admission and availability.",
   },
   {
     slug: "ditzyb-halloween-slime-workshop-2026",
@@ -206,6 +226,44 @@ export const childFriendlyEvents: EventItem[] = [
       "https://www.buytickets.gi/uploads/events/QVr17_Puppet_making.jpg",
     note:
       "Verified on 8 October 2026 from the live BuyTickets Halloween Cultural Programme. Shane Dalmedo leads this puppet-making workshop; all materials are provided and every participant takes home their creation. Booking is required; the organiser has not published a minimum age.",
+  },
+  {
+    slug: "halloween-lantern-workshop-2026",
+    title: "Halloween Lantern Workshop",
+    summary:
+      "A Kitchen Studios family workshop to create unique Halloween lantern decorations.",
+    status: "upcoming",
+    audience: "family",
+    cost: "See organiser",
+    sortDate: "2026-10-28",
+    startLabel: "28 October 2026, 14:00",
+    venue: "GEMA Art Gallery",
+    ageLabel: "Families",
+    sourceName: "gibraltar.gov.gi",
+    sourceUrl:
+      "https://www.gibraltar.gov.gi/press-releases/halloween-midterm-cultural-programme-returns-this-october-7622026-12437",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 9 October 2026 from HM Government's Halloween & Midterm Cultural Programme announcement. Kitchen Studios hosts this family lantern-making workshop at GEMA at 2pm; tickets are sold through Gibkitchen.com, with prices and age guidance to be confirmed by the organiser.",
+  },
+  {
+    slug: "halloween-murder-mystery-workshop-2026",
+    title: "Halloween Murder Mystery Workshop",
+    summary:
+      "A Kitchen Studios Halloween mystery workshop designed to keep young detectives engaged.",
+    status: "upcoming",
+    audience: "kids",
+    cost: "See organiser",
+    sortDate: "2026-10-28",
+    startLabel: "28 October 2026, 17:30",
+    venue: "GEMA Art Gallery",
+    ageLabel: "Children; check age suitability with organiser",
+    sourceName: "gibraltar.gov.gi",
+    sourceUrl:
+      "https://www.gibraltar.gov.gi/press-releases/halloween-midterm-cultural-programme-returns-this-october-7622026-12437",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 9 October 2026 from HM Government's Halloween & Midterm Cultural Programme announcement. Kitchen Studios hosts this themed workshop for young detectives at GEMA at 5:30pm; tickets are sold through Gibkitchen.com, with price and age guidance to be confirmed by the organiser.",
   },
   {
     slug: "ditzyb-halloween-craft-parties-2026",
