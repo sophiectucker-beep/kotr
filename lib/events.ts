@@ -36,28 +36,9 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "9 October 2026";
+export const eventsVerifiedDate = "10 October 2026";
 
 export const childFriendlyEvents: EventItem[] = [
-  {
-    slug: "bookmark-competition-deadline-2026",
-    title: "Bookmark Competition: Entry Deadline",
-    summary:
-      "Design an original bookmark on the theme Different Minds, Brilliant Minds, celebrating the different ways people think and learn.",
-    status: "upcoming",
-    audience: "kids",
-    cost: "See organiser",
-    sortDate: "2026-10-09",
-    startLabel: "9 October 2026: entry deadline",
-    venue: "Submit by email or at John Mackintosh Hall",
-    ageLabel: "School Year 3 upwards; adult category",
-    sourceName: "culture.gi",
-    sourceUrl:
-      "https://www.culture.gi/events/event/deadline-bookmark-competition/",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 1 October 2026 from Gibraltar Cultural Services' live event feed. The deadline is 9 October. Gibraltar residents may submit up to three original designs with entry forms to info@culture.gi or John Mackintosh Hall reception. Forms and rules are available at culture.gi/forms.",
-  },
   {
     slug: "main-street-morning-entertainment-2026",
     title: "Autumn Festival Entertainment",
