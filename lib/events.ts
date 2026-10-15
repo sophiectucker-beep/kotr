@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "10 October 2026";
+export const eventsVerifiedDate = "15 October 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -347,20 +347,20 @@ export const childFriendlyEvents: EventItem[] = [
     slug: "gibraltar-bonfire-night-2026",
     title: "Gibraltar Bonfire Night",
     summary:
-      "The community Bonfire Night date in Gibraltar's official autumn cultural programme.",
+      "A community Bonfire Night with the Best Guy competition, live entertainment and food stalls.",
     status: "upcoming",
     audience: "family",
-    cost: "See organiser",
+    cost: "Free entry; £5 to enter the Best Guy competition",
     sortDate: "2026-11-05",
-    startLabel: "5 November 2026",
-    venue: "Venue to be announced",
+    startLabel: "5 November 2026, 18:30-20:30",
+    venue: "Little Bay Car Park",
     ageLabel: "All ages",
-    sourceName: "culture.gi",
+    sourceName: "gibraltar.gov.gi",
     sourceUrl:
-      "https://www.culture.gi/news/autumn-cultural-programme-2026/",
+      "https://www.gibraltar.gov.gi/press-releases/bonfire-night-2026-7562026-12429",
     imageUrl: "/blog/default-cover.svg",
     note:
-      "Verified on 17 September 2026 from Gibraltar Cultural Services' official Autumn Cultural Programme. Bonfire Night is listed for 5 November; the organiser has not yet published a time, venue, or ticket details.",
+      "Verified on 15 October 2026 from HM Government's Bonfire Night announcement. The event runs at Little Bay Car Park from 6:30pm to 8:30pm, with live entertainment and food stalls. The Best Guy competition costs £5 to enter, with proceeds going to GBC Open Day.",
   },
   {
     slug: "literary-festival-britannica-encyclopaedia-2026",
