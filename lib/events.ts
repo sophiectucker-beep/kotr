@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "15 October 2026";
+export const eventsVerifiedDate = "20 October 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -97,6 +97,25 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl: "/blog/default-cover.svg",
     note:
       "Verified on 8 October 2026 from Gibraltar Cultural Services' National Art Competition listing and its current autumn programme. The 53rd competition exhibition is at the Gustavo Bacarisas Gallery from 21 to 31 October; opening hours and admission details are not published.",
+  },
+  {
+    slug: "hms-queen-elizabeth-open-day-2026",
+    title: "HMS Queen Elizabeth Open Day",
+    summary:
+      "A public visit aboard the Royal Navy aircraft carrier during its Gibraltar stop.",
+    status: "upcoming",
+    audience: "family",
+    cost: "Free; booking required",
+    sortDate: "2026-10-25",
+    startLabel: "25 October 2026, timed entry 10:00-13:30",
+    venue: "North Mole, Harbour",
+    ageLabel: "Children and adults; check suitability with organiser",
+    sourceName: "buytickets.gi",
+    sourceUrl:
+      "https://www.buytickets.gi/events/ship-open-to-visitors-day-hms-queen-elizabeth-1397",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 20 October 2026 from the MOD's BuyTickets listing. Free timed tickets are required; check availability. Arrive at least 25 minutes before your slot for security screening. Visitors aged 16 and over must bring a valid UK passport or Gibraltar Residents Card. The gangway has steps; contact the organiser in advance about mobility needs.",
   },
   {
     slug: "mid-term-halloween-zoo-boo-2026",
