@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "20 October 2026";
+export const eventsVerifiedDate = "22 October 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -85,7 +85,7 @@ export const childFriendlyEvents: EventItem[] = [
       "The annual Gibraltar International Art Competition exhibition, presenting selected paintings and sculptures at the Gustavo Bacarisas Gallery.",
     status: "upcoming",
     audience: "family",
-    cost: "See organiser",
+    cost: "Free",
     endDate: "2026-10-31",
     sortDate: "2026-10-21",
     startLabel: "21-31 October 2026",
@@ -93,10 +93,10 @@ export const childFriendlyEvents: EventItem[] = [
     ageLabel: "All ages",
     sourceName: "culture.gi",
     sourceUrl:
-      "https://www.culture.gi/events/event/national-art-competition/",
+      "https://www.culture.gi/news/53rd-gibraltar-international-art-exhibition-2026/",
     imageUrl: "/blog/default-cover.svg",
     note:
-      "Verified on 8 October 2026 from Gibraltar Cultural Services' National Art Competition listing and its current autumn programme. The 53rd competition exhibition is at the Gustavo Bacarisas Gallery from 21 to 31 October; opening hours and admission details are not published.",
+      "Verified on 22 October 2026 from Gibraltar Cultural Services' exhibition announcement. Admission is free; the exhibition is open until 31 October, weekdays 10:30am-6:30pm and Saturdays 10:30am-1:30pm.",
   },
   {
     slug: "hms-queen-elizabeth-open-day-2026",
@@ -476,6 +476,30 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl: "/blog/default-cover.svg",
     note:
       "Verified on 17 September 2026 from Gibraltar Cultural Services' official Autumn Cultural Programme, which confirms Christmas Attractions from 20 November through 5 January. Locations, opening hours, and individual attraction details are still to be announced.",
+  },
+  {
+    slug: "believe-santa-is-stuck-2026",
+    title: "Believe: Santa Is Stuck",
+    summary:
+      "A festive show with music and dancing as a family, elves and familiar Christmas characters try to free Santa from a chimney.",
+    status: "upcoming",
+    audience: "family",
+    cost: "£15; tickets coming soon",
+    eventDates: [
+      { sortDate: "2026-11-27", startLabel: "27 November 2026, 19:00" },
+      { sortDate: "2026-11-28", startLabel: "28 November 2026, 15:00" },
+      { sortDate: "2026-11-28", startLabel: "28 November 2026, 19:00" },
+    ],
+    endDate: "2026-11-28",
+    sortDate: "2026-11-27",
+    startLabel: "27-28 November 2026",
+    venue: "Inces Hall Theatre",
+    ageLabel: "Families; check age suitability with organiser",
+    sourceName: "buytickets.gi",
+    sourceUrl: "https://www.buytickets.gi/events/believe-santa-is-stuck-1396",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 22 October 2026 from the Musicians Association of Gibraltar's BuyTickets listing. Performances are at 7pm on 27 November and 3pm and 7pm on 28 November. Tickets are £15 and listed as coming soon; no age guidance is published.",
   },
   {
     slug: "ditzyb-scale-model-workshop-2026",
