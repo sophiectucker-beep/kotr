@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "22 October 2026";
+export const eventsVerifiedDate = "23 October 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -275,6 +275,12 @@ export const childFriendlyEvents: EventItem[] = [
     cost: "£15 under-6s; £18 ages 6+",
     eventDates: [
       {
+        sortDate: "2026-10-28",
+        startLabel: "28 October 2026, 15:00-16:00",
+        title: "Under-6s session",
+        ageLabel: "Under 6s with an adult",
+      },
+      {
         sortDate: "2026-10-29",
         startLabel: "29 October 2026, 12:00-13:00",
         title: "Under-6s session",
@@ -311,8 +317,8 @@ export const childFriendlyEvents: EventItem[] = [
         ageLabel: "Ages 6+",
       },
     ],
-    sortDate: "2026-10-29",
-    startLabel: "29-31 October 2026",
+    sortDate: "2026-10-28",
+    startLabel: "28-31 October 2026",
     venue: "DitzyB Arts & Craft Supplies, Main Street",
     ageLabel: "Under-6 and ages 6+ sessions",
     sourceName: "Ditzy B",
@@ -321,7 +327,7 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl:
       "https://cdn.shopify.com/s/files/1/1085/5554/files/Purple_Illustrative_Halloween_Kids_Party_Poster.png?v=1789480214",
     note:
-      "Verified on 5 October 2026 from Ditzy B's live October Shop Calendar feed and ticket variants. Sessions run on 29, 30, and 31 October; under-6 sessions cost £15 and require an accompanying adult, while ages 6+ sessions cost £18. The under-6 sessions on 30 and 31 October are sold out; ages 6+ sessions remain available. Check live ticket availability. Product variants confirm times where the calendar description differs.",
+      "Verified on 23 October 2026 from Ditzy B's October Shop Calendar and ticket products. An under-6 session is also listed on 28 October, 3pm-4pm; other sessions run on 29, 30, and 31 October; under-6 sessions cost £15 and require an accompanying adult, while ages 6+ sessions cost £18. The under-6 sessions on 30 and 31 October are sold out; ages 6+ sessions remain available. Check live ticket availability. Product variants confirm times where the calendar description differs.",
   },
   {
     slug: "halloween-childrens-storytelling-gema-2026",
