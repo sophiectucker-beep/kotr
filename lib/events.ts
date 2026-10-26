@@ -36,48 +36,9 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "23 October 2026";
+export const eventsVerifiedDate = "26 October 2026";
 
 export const childFriendlyEvents: EventItem[] = [
-  {
-    slug: "main-street-morning-entertainment-2026",
-    title: "Autumn Festival Entertainment",
-    summary:
-      "Music, DJs, GFA Playmakers and historical re-enactment bring Main Street and Casemates to life for an autumn community celebration.",
-    status: "upcoming",
-    audience: "family",
-    cost: "See organiser",
-    sortDate: "2026-10-24",
-    startLabel: "24 October 2026, 10:30-15:00",
-    venue: "Main Street and Casemates Square",
-    ageLabel: "All ages",
-    sourceName: "culture.gi",
-    sourceUrl:
-      "https://www.culture.gi/news/autumn-festival-entertainment/",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 1 October 2026 from Gibraltar Cultural Services' detailed programme. Entertainment runs from 10:30am to 3pm on 24 October, with GFA Playmakers at Casemates from 11am to 2pm and historical re-enactment on Main Street from noon to 12:30pm.",
-  },
-  {
-    slug: "halloween-childrens-storytelling-2026",
-    title: "Halloween Children's Storytelling",
-    summary:
-      "A gentle Halloween storytelling session with self-led creative art activities for young children and their families.",
-    status: "upcoming",
-    audience: "kids",
-    cost: "Free; booking required",
-    sortDate: "2026-10-24",
-    startLabel: "24 October 2026, 11:00",
-    venue: "MFG Gallery, City Hall",
-    ageLabel: "Ages 3-7 and their families",
-    sourceName: "buytickets.gi",
-    sourceUrl:
-      "https://www.buytickets.gi/events/halloween-cultural-programme-1382",
-    imageUrl:
-      "https://www.buytickets.gi/uploads/events/FZkGC_Storytelling.jpg",
-    note:
-      "Verified on 8 October 2026 from the live BuyTickets Halloween Cultural Programme. This Halloween-themed session is for children aged 3-7 and their families, with storytelling and self-led creative art activities; advance booking is required.",
-  },
   {
     slug: "gibraltar-international-art-exhibition-2026",
     title: "53rd Gibraltar International Art Exhibition",
@@ -97,25 +58,6 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl: "/blog/default-cover.svg",
     note:
       "Verified on 22 October 2026 from Gibraltar Cultural Services' exhibition announcement. Admission is free; the exhibition is open until 31 October, weekdays 10:30am-6:30pm and Saturdays 10:30am-1:30pm.",
-  },
-  {
-    slug: "hms-queen-elizabeth-open-day-2026",
-    title: "HMS Queen Elizabeth Open Day",
-    summary:
-      "A public visit aboard the Royal Navy aircraft carrier during its Gibraltar stop.",
-    status: "upcoming",
-    audience: "family",
-    cost: "Free; booking required",
-    sortDate: "2026-10-25",
-    startLabel: "25 October 2026, timed entry 10:00-13:30",
-    venue: "North Mole, Harbour",
-    ageLabel: "Children and adults; check suitability with organiser",
-    sourceName: "buytickets.gi",
-    sourceUrl:
-      "https://www.buytickets.gi/events/ship-open-to-visitors-day-hms-queen-elizabeth-1397",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 20 October 2026 from the MOD's BuyTickets listing. Free timed tickets are required; check availability. Arrive at least 25 minutes before your slot for security screening. Visitors aged 16 and over must bring a valid UK passport or Gibraltar Residents Card. The gangway has steps; contact the organiser in advance about mobility needs.",
   },
   {
     slug: "mid-term-halloween-zoo-boo-2026",
@@ -275,21 +217,9 @@ export const childFriendlyEvents: EventItem[] = [
     cost: "£15 under-6s; £18 ages 6+",
     eventDates: [
       {
-        sortDate: "2026-10-28",
-        startLabel: "28 October 2026, 15:00-16:00",
-        title: "Under-6s session",
-        ageLabel: "Under 6s with an adult",
-      },
-      {
         sortDate: "2026-10-29",
         startLabel: "29 October 2026, 12:00-13:00",
         title: "Under-6s session",
-        ageLabel: "Under 6s with an adult",
-      },
-      {
-        sortDate: "2026-10-29",
-        startLabel: "29 October 2026, 15:00-16:00",
-        title: "Under-6s afternoon session",
         ageLabel: "Under 6s with an adult",
       },
       {
@@ -317,8 +247,8 @@ export const childFriendlyEvents: EventItem[] = [
         ageLabel: "Ages 6+",
       },
     ],
-    sortDate: "2026-10-28",
-    startLabel: "28-31 October 2026",
+    sortDate: "2026-10-29",
+    startLabel: "29-31 October 2026",
     venue: "DitzyB Arts & Craft Supplies, Main Street",
     ageLabel: "Under-6 and ages 6+ sessions",
     sourceName: "Ditzy B",
@@ -327,7 +257,7 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl:
       "https://cdn.shopify.com/s/files/1/1085/5554/files/Purple_Illustrative_Halloween_Kids_Party_Poster.png?v=1789480214",
     note:
-      "Verified on 23 October 2026 from Ditzy B's October Shop Calendar and ticket products. An under-6 session is also listed on 28 October, 3pm-4pm; other sessions run on 29, 30, and 31 October; under-6 sessions cost £15 and require an accompanying adult, while ages 6+ sessions cost £18. The under-6 sessions on 30 and 31 October are sold out; ages 6+ sessions remain available. Check live ticket availability. Product variants confirm times where the calendar description differs.",
+      "Verified on 26 October 2026 from Ditzy B's live October Shop Calendar. The remaining sessions run on 29, 30 and 31 October; the calendar no longer lists the 28 October or 29 October afternoon under-6 sessions. Under-6 sessions cost £15 and require an accompanying adult, while ages 6+ sessions cost £18. The under-6 sessions on 30 and 31 October are sold out; ages 6+ sessions remain available. Check live ticket availability.",
   },
   {
     slug: "halloween-childrens-storytelling-gema-2026",
