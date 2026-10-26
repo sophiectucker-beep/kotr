@@ -438,6 +438,26 @@ export const childFriendlyEvents: EventItem[] = [
       "Verified on 22 October 2026 from the Musicians Association of Gibraltar's BuyTickets listing. Performances are at 7pm on 27 November and 3pm and 7pm on 28 November. Tickets are £15 and listed as coming soon; no age guidance is published.",
   },
   {
+    slug: "no1-school-of-models-production-show-2026",
+    title: "No1 School of Models Production Show",
+    summary:
+      "A stage showcase celebrating young models' style, confidence, creativity and performance.",
+    status: "upcoming",
+    audience: "teens",
+    cost: "£20",
+    sortDate: "2026-11-25",
+    startLabel: "25 November 2026, 19:00",
+    venue: "John Mackintosh Hall Theatre",
+    ageLabel: "Young models, teens and their families",
+    sourceName: "buytickets.gi",
+    sourceUrl:
+      "https://www.buytickets.gi/events/no1-school-of-models-production-show-1400",
+    imageUrl:
+      "https://www.buytickets.gi/uploads/events/ZB0ND_Glamorous_End_of_Term_Fashion_Show.png",
+    note:
+      "Verified on 26 October 2026 from the live BuyTickets listing. No1 School of Models presents its production show at 7pm on 25 November at the John Mackintosh Hall Theatre; tickets are £20. The organiser describes a showcase of its models' talent, confidence, creativity and performance.",
+  },
+  {
     slug: "ditzyb-scale-model-workshop-2026",
     title: "Scale Model Workshop",
     summary:
