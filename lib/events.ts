@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "26 October 2026";
+export const eventsVerifiedDate = "27 October 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -89,17 +89,13 @@ export const childFriendlyEvents: EventItem[] = [
     cost: "£15",
     eventDates: [
       {
-        sortDate: "2026-10-26",
-        startLabel: "26 October 2026, 11:30-13:00",
-      },
-      {
         sortDate: "2026-10-28",
         startLabel: "28 October 2026, 11:30-13:00 (sold out)",
       },
     ],
     endDate: "2026-10-28",
-    sortDate: "2026-10-26",
-    startLabel: "26 and 28 October 2026, 11:30-13:00",
+    sortDate: "2026-10-28",
+    startLabel: "28 October 2026, 11:30-13:00 (sold out)",
     venue: "DitzyB Arts & Craft Supplies, Main Street",
     ageLabel: "Ages 6+; under-6s with an adult",
     sourceName: "Ditzy B",
@@ -108,7 +104,7 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl:
       "https://cdn.shopify.com/s/files/1/1085/5554/files/Purple_Green_Playful_Happy_Halloween_Instagram_Post_1.png?v=1789559470",
     note:
-      "Verified on 1 October 2026 from Ditzy B's live October Shop Calendar feed and ticket variants. An extra session is available on 26 October; the 28 October session is sold out. Both run from 11:30am to 1pm, cost £15, and welcome ages 6+, with younger children accompanied by an adult.",
+      "Verified on 27 October 2026 from Ditzy B's live October Shop Calendar feed and ticket variants. The remaining 28 October session is sold out. It runs from 11:30am to 1pm, costs £15, and welcomes ages 6+, with younger children accompanied by an adult.",
   },
   {
     slug: "gsla-community-sports-leadership-2026",
