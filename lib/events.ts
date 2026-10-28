@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "27 October 2026";
+export const eventsVerifiedDate = "28 October 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -125,45 +125,6 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl: "/blog/default-cover.svg",
     note:
       "Verified on 1 October 2026 from HM Government’s GSLA announcement. Register interest via sportsdevelopment@gsla.gi. An assessment and ten volunteering sessions are also required; places are limited and the course depends on minimum numbers. Cost and venue are not specified.",
-  },
-  {
-    slug: "ditzyb-halloween-ceramic-painting-2026",
-    title: "Halloween Ceramic Painting",
-    summary:
-      "Drop in for a 30-minute Halloween ceramic painting session, with a ceramic piece, paints and kiln firing included.",
-    status: "upcoming",
-    audience: "kids",
-    cost: "£15",
-    sortDate: "2026-10-27",
-    startLabel: "27 October 2026, drop in 10:30-16:30",
-    venue: "DitzyB Arts & Craft Supplies, Main Street",
-    ageLabel: "Check age suitability with organiser",
-    sourceName: "Ditzy B",
-    sourceUrl:
-      "https://www.ditzyb.store/products/halloween-ceramic-painting",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 1 October 2026 from Ditzy B's live October Shop Calendar feed and ticket product. The organiser confirms drop-in sessions on Tuesday 27 October between 10:30am and 4:30pm, lasting 30 minutes and costing £15 including materials and kiln firing; no minimum age is published.",
-  },
-  {
-    slug: "halloween-childrens-puppet-workshop-2026",
-    title: "Children's Halloween Puppet Workshop",
-    summary:
-      "A hands-on session where children make and take home their own Halloween-themed puppet.",
-    status: "upcoming",
-    audience: "kids",
-    cost: "Free; booking required",
-    sortDate: "2026-10-27",
-    startLabel: "27 October 2026, 11:00",
-    venue: "GEMA Art Gallery",
-    ageLabel: "Children; check age suitability with organiser",
-    sourceName: "buytickets.gi",
-    sourceUrl:
-      "https://www.buytickets.gi/events/halloween-cultural-programme-1382",
-    imageUrl:
-      "https://www.buytickets.gi/uploads/events/QVr17_Puppet_making.jpg",
-    note:
-      "Verified on 8 October 2026 from the live BuyTickets Halloween Cultural Programme. Shane Dalmedo leads this puppet-making workshop; all materials are provided and every participant takes home their creation. Booking is required; the organiser has not published a minimum age.",
   },
   {
     slug: "halloween-lantern-workshop-2026",
