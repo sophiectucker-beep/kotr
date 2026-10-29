@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "28 October 2026";
+export const eventsVerifiedDate = "29 October 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -80,33 +80,6 @@ export const childFriendlyEvents: EventItem[] = [
       "Verified on 9 October 2026 from Visit Gibraltar's live event listing. Zoo Boo runs daily from 25 to 31 October at the Alameda Wildlife Conservation Park; children receive a Halloween pack with a freaky-facts sheet, sticker and spooky mask. Check the linked booking page for admission and availability.",
   },
   {
-    slug: "ditzyb-halloween-slime-workshop-2026",
-    title: "Glow-in-the-Dark Halloween Slime Workshop",
-    summary:
-      "A Halloween craft session where children make two glow-in-the-dark slimes with scents, charms, glitter, and other decorations to take home.",
-    status: "upcoming",
-    audience: "kids",
-    cost: "£15",
-    eventDates: [
-      {
-        sortDate: "2026-10-28",
-        startLabel: "28 October 2026, 11:30-13:00 (sold out)",
-      },
-    ],
-    endDate: "2026-10-28",
-    sortDate: "2026-10-28",
-    startLabel: "28 October 2026, 11:30-13:00 (sold out)",
-    venue: "DitzyB Arts & Craft Supplies, Main Street",
-    ageLabel: "Ages 6+; under-6s with an adult",
-    sourceName: "Ditzy B",
-    sourceUrl:
-      "https://www.ditzyb.store/products/halloween-slime-workshop",
-    imageUrl:
-      "https://cdn.shopify.com/s/files/1/1085/5554/files/Purple_Green_Playful_Happy_Halloween_Instagram_Post_1.png?v=1789559470",
-    note:
-      "Verified on 27 October 2026 from Ditzy B's live October Shop Calendar feed and ticket variants. The remaining 28 October session is sold out. It runs from 11:30am to 1pm, costs £15, and welcomes ages 6+, with younger children accompanied by an adult.",
-  },
-  {
     slug: "gsla-community-sports-leadership-2026",
     title: "Community Sports Leadership Award (Level 2)",
     summary:
@@ -125,44 +98,6 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl: "/blog/default-cover.svg",
     note:
       "Verified on 1 October 2026 from HM Government’s GSLA announcement. Register interest via sportsdevelopment@gsla.gi. An assessment and ten volunteering sessions are also required; places are limited and the course depends on minimum numbers. Cost and venue are not specified.",
-  },
-  {
-    slug: "halloween-lantern-workshop-2026",
-    title: "Halloween Lantern Workshop",
-    summary:
-      "A Kitchen Studios family workshop to create unique Halloween lantern decorations.",
-    status: "upcoming",
-    audience: "family",
-    cost: "See organiser",
-    sortDate: "2026-10-28",
-    startLabel: "28 October 2026, 14:00",
-    venue: "GEMA Art Gallery",
-    ageLabel: "Families",
-    sourceName: "gibraltar.gov.gi",
-    sourceUrl:
-      "https://www.gibraltar.gov.gi/press-releases/halloween-midterm-cultural-programme-returns-this-october-7622026-12437",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 9 October 2026 from HM Government's Halloween & Midterm Cultural Programme announcement. Kitchen Studios hosts this family lantern-making workshop at GEMA at 2pm; tickets are sold through Gibkitchen.com, with prices and age guidance to be confirmed by the organiser.",
-  },
-  {
-    slug: "halloween-murder-mystery-workshop-2026",
-    title: "Halloween Murder Mystery Workshop",
-    summary:
-      "A Kitchen Studios Halloween mystery workshop designed to keep young detectives engaged.",
-    status: "upcoming",
-    audience: "kids",
-    cost: "See organiser",
-    sortDate: "2026-10-28",
-    startLabel: "28 October 2026, 17:30",
-    venue: "GEMA Art Gallery",
-    ageLabel: "Children; check age suitability with organiser",
-    sourceName: "gibraltar.gov.gi",
-    sourceUrl:
-      "https://www.gibraltar.gov.gi/press-releases/halloween-midterm-cultural-programme-returns-this-october-7622026-12437",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 9 October 2026 from HM Government's Halloween & Midterm Cultural Programme announcement. Kitchen Studios hosts this themed workshop for young detectives at GEMA at 5:30pm; tickets are sold through Gibkitchen.com, with price and age guidance to be confirmed by the organiser.",
   },
   {
     slug: "ditzyb-halloween-craft-parties-2026",
