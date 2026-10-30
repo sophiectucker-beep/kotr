@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "29 October 2026";
+export const eventsVerifiedDate = "30 October 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -109,12 +109,6 @@ export const childFriendlyEvents: EventItem[] = [
     cost: "£15 under-6s; £18 ages 6+",
     eventDates: [
       {
-        sortDate: "2026-10-29",
-        startLabel: "29 October 2026, 12:00-13:00",
-        title: "Under-6s session",
-        ageLabel: "Under 6s with an adult",
-      },
-      {
         sortDate: "2026-10-30",
         startLabel: "30 October 2026, 12:00-13:00 (sold out)",
         title: "Under-6s session",
@@ -149,27 +143,7 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl:
       "https://cdn.shopify.com/s/files/1/1085/5554/files/Purple_Illustrative_Halloween_Kids_Party_Poster.png?v=1789480214",
     note:
-      "Verified on 26 October 2026 from Ditzy B's live October Shop Calendar. The remaining sessions run on 29, 30 and 31 October; the calendar no longer lists the 28 October or 29 October afternoon under-6 sessions. Under-6 sessions cost £15 and require an accompanying adult, while ages 6+ sessions cost £18. The under-6 sessions on 30 and 31 October are sold out; ages 6+ sessions remain available. Check live ticket availability.",
-  },
-  {
-    slug: "halloween-childrens-storytelling-gema-2026",
-    title: "Children's Halloween Storytelling at GEMA",
-    summary:
-      "An interactive, dress-up-welcome Halloween storytelling session for young imaginations.",
-    status: "upcoming",
-    audience: "kids",
-    cost: "Free; booking required",
-    sortDate: "2026-10-29",
-    startLabel: "29 October 2026, 11:00",
-    venue: "GEMA Art Gallery",
-    ageLabel: "Children; check age suitability with organiser",
-    sourceName: "buytickets.gi",
-    sourceUrl:
-      "https://www.buytickets.gi/events/halloween-cultural-programme-1382",
-    imageUrl:
-      "https://www.buytickets.gi/uploads/events/2UDAT_Storytelling.jpg",
-    note:
-      "Verified on 8 October 2026 from the live BuyTickets Halloween Cultural Programme. Storyteller Denise leads an immersive Halloween session with playful frights and magical stories; children are welcome to dress up. Booking is required; no specific age range is published.",
+      "Verified on 30 October 2026 from Ditzy B's live Shop Calendar and ticket collection. The remaining sessions run on 30 and 31 October. Under-6 sessions cost £15 and require an accompanying adult, while ages 6+ sessions cost £18. The under-6 sessions on 30 and 31 October are sold out; ages 6+ sessions remain available. Check live ticket availability.",
   },
   {
     slug: "paws-for-a-cause-2026",
@@ -275,7 +249,7 @@ export const childFriendlyEvents: EventItem[] = [
     audience: "family",
     cost: "See organiser",
     sortDate: "2026-11-20",
-    startLabel: "20 November 2026",
+    startLabel: "20 November 2026, 18:30-19:30 or 20:30-21:30",
     venue: "Grand Casemates Square",
     ageLabel: "All ages",
     sourceName: "culture.gi",
@@ -283,7 +257,7 @@ export const childFriendlyEvents: EventItem[] = [
       "https://www.culture.gi/christmas-festival-of-lights-2026/",
     imageUrl: "/blog/default-cover.svg",
     note:
-      "Verified on 1 October 2026 from Gibraltar Cultural Services' dedicated Christmas Festival of Lights page and save-the-date announcement. The family celebration takes place at Grand Casemates Square on 20 November; the start time and full programme are still to be announced.",
+      "Verified on 30 October 2026 from HM Government's full event announcement. Error 404: Christmas Not Found has two identical 60-minute shows, at 6:30pm and 8:30pm. Entry is via Market Place; gates open at 5:30pm for the first show and 8pm for the second. The show includes strobe lighting, smoke, pyrotechnics, lasers, fire and loud noises; capacity is limited to 4,500 per show.",
   },
   {
     slug: "gibraltar-christmas-attractions-2026",
