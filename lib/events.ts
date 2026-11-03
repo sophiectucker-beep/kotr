@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "1 November 2026";
+export const eventsVerifiedDate = "3 November 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -237,6 +237,25 @@ export const childFriendlyEvents: EventItem[] = [
       "https://www.buytickets.gi/uploads/events/wQCwF_BuyTicket_Cancer_Relief_5K_Fun_Run_Poster.jpg",
     note:
       "Verified on 7 October 2026 from the live BuyTickets listing. The community event starts and finishes at Wellington Boxing Club on Sunday 29 November; registration opens at 9am and the 5K starts at 10am. Children under 10 run free, and proceeds support Cancer Relief Gibraltar.",
+  },
+  {
+    slug: "paul-riley-big-band-christmas-show-2026",
+    title: "The Paul Riley Big Band Christmas Show!",
+    summary:
+      "A festive big-band evening of Christmas classics and brass arrangements for the whole family.",
+    status: "upcoming",
+    audience: "family",
+    cost: "£4-£8",
+    sortDate: "2026-11-30",
+    startLabel: "30 November 2026, 19:00",
+    venue: "Inces Hall Theatre",
+    ageLabel: "All ages",
+    sourceName: "buytickets.gi",
+    sourceUrl:
+      "https://www.buytickets.gi/events/the-paul-riley-big-band-christmas-show-1412",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 3 November 2026 from the live BuyTickets listing. The Musicians Association of Gibraltar presents the show at 7pm on 30 November as part of Golden Week; tickets are £4-£8 and the organiser describes it as perfect for the whole family.",
   },
   {
     slug: "gibraltar-christmas-saturdays-2026",
