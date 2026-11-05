@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "4 November 2026";
+export const eventsVerifiedDate = "5 November 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -237,6 +237,57 @@ export const childFriendlyEvents: EventItem[] = [
       "https://www.buytickets.gi/uploads/events/wQCwF_BuyTicket_Cancer_Relief_5K_Fun_Run_Poster.jpg",
     note:
       "Verified on 7 October 2026 from the live BuyTickets listing. The community event starts and finishes at Wellington Boxing Club on Sunday 29 November; registration opens at 9am and the 5K starts at 10am. Children under 10 run free, and proceeds support Cancer Relief Gibraltar.",
+  },
+  {
+    slug: "tea-with-santa-sunborn-2026",
+    title: "Tea with Santa",
+    summary:
+      "A festive family afternoon tea with a visit to Santa's grotto and children's entertainment.",
+    status: "upcoming",
+    audience: "family",
+    cost: "£18-£32; under-4s eat free",
+    eventDates: [
+      { sortDate: "2026-11-28", startLabel: "28 November 2026, 14:30" },
+      { sortDate: "2026-12-05", startLabel: "5 December 2026, 14:30" },
+      { sortDate: "2026-12-12", startLabel: "12 December 2026, 14:30" },
+      { sortDate: "2026-12-19", startLabel: "19 December 2026, 14:30" },
+    ],
+    endDate: "2026-12-19",
+    sortDate: "2026-11-28",
+    startLabel: "28 November-19 December 2026, Saturdays at 14:30",
+    venue: "Sunborn Gibraltar, Ocean Village",
+    ageLabel: "Families; under-4s eat free",
+    sourceName: "buytickets.gi",
+    sourceUrl: "https://www.buytickets.gi/events/tea-with-santa-1404",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 5 November 2026 from the live BuyTickets listing. Tea with Santa runs on four Saturdays at 2:30pm, with a grotto visit, children's entertainment and festive afternoon tea served to the table. Booking is mandatory.",
+  },
+  {
+    slug: "sunday-roast-with-santa-sunborn-2026",
+    title: "Sunday Roast with Santa",
+    summary:
+      "A family Sunday roast buffet with a chance to meet Santa at Sunborn Gibraltar.",
+    status: "upcoming",
+    audience: "family",
+    cost: "£20-£48",
+    eventDates: [
+      { sortDate: "2026-11-29", startLabel: "29 November 2026, 13:00" },
+      { sortDate: "2026-12-06", startLabel: "6 December 2026, 13:00" },
+      { sortDate: "2026-12-13", startLabel: "13 December 2026, 13:00" },
+      { sortDate: "2026-12-20", startLabel: "20 December 2026, 13:00" },
+    ],
+    endDate: "2026-12-20",
+    sortDate: "2026-11-29",
+    startLabel: "29 November-20 December 2026, Sundays at 13:00",
+    venue: "Sunborn Gibraltar, Ocean Village",
+    ageLabel: "Families",
+    sourceName: "buytickets.gi",
+    sourceUrl:
+      "https://www.buytickets.gi/events/sunday-roast-with-santa-1405",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 5 November 2026 from the live BuyTickets listing. The family buffet and Santa visit run on four Sundays at 1pm; booking is mandatory.",
   },
   {
     slug: "paul-riley-big-band-christmas-show-2026",
