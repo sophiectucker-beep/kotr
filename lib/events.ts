@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "5 November 2026";
+export const eventsVerifiedDate = "6 November 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -374,6 +374,26 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl: "/blog/default-cover.svg",
     note:
       "Verified on 1 October 2026 from Gibraltar Cultural Services' live calendar feed and announcement. The parade is confirmed for 5 January 2027; a start time and route are not yet published.",
+  },
+  {
+    slug: "young-artist-competition-exhibition-2027",
+    title: "Young Artist Competition 2027 Exhibition",
+    summary:
+      "An exhibition of original work from Gibraltar's annual competition for school-age and young artists.",
+    status: "upcoming",
+    audience: "teens",
+    cost: "Free; see organiser for competition entry details",
+    endDate: "2027-03-05",
+    sortDate: "2027-02-23",
+    startLabel: "23 February-5 March 2027",
+    venue: "GEMA Art Gallery",
+    ageLabel: "Entrants: Years 9-13 and young artists up to age 24",
+    sourceName: "gibraltar.gov.gi",
+    sourceUrl:
+      "https://www.gibraltar.gov.gi/press-releases/the-young-artist-competition-2027-8602026-12545",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 6 November 2026 from HM Government of Gibraltar's official announcement. The competition is open to Gibraltar residents in school Years 9-13 and young Gibraltarian artists up to 24; submitted work will be exhibited at GEMA Art Gallery from 23 February to 5 March 2027. Entry forms are available from Gibraltar Cultural Services, with works handed in 8-10 February.",
   },
 ];
 
