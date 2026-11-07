@@ -36,28 +36,9 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "6 November 2026";
+export const eventsVerifiedDate = "7 November 2026";
 
 export const childFriendlyEvents: EventItem[] = [
-  {
-    slug: "gibraltar-bonfire-night-2026",
-    title: "Gibraltar Bonfire Night",
-    summary:
-      "A community Bonfire Night with the Best Guy competition, live entertainment and food stalls.",
-    status: "upcoming",
-    audience: "family",
-    cost: "Free entry; £5 to enter the Best Guy competition",
-    sortDate: "2026-11-06",
-    startLabel: "6 November 2026, 18:30-20:30",
-    venue: "Little Bay Car Park",
-    ageLabel: "All ages",
-    sourceName: "visitgibraltar.gi",
-    sourceUrl:
-      "https://www.visitgibraltar.gi/events/bonfire-night",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 4 November 2026 from Visit Gibraltar's updated official listing. The event has moved to Friday 6 November and runs at Little Bay Car Park from 6:30pm to 8:30pm, with live entertainment and food stalls. The Best Guy competition costs £5 to enter, with proceeds going to GBC Open Day.",
-  },
   {
     slug: "literary-festival-britannica-encyclopaedia-2026",
     title: "Britannica Encyclopaedia with Christopher Lloyd",
@@ -114,6 +95,25 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl: "/blog/default-cover.svg",
     note:
       "Verified on 5 September 2026 from the live BuyTickets Gibraltar Literary Festival listing and HM Government's ticket announcement. Christopher Lloyd's family quiz is at 2pm on 14 November, is advertised as suitable for ages 6 to 106, and the published festival prices are £9 for students aged 18 and under and £13 for adults.",
+  },
+  {
+    slug: "gibraltar-careers-fair-2026",
+    title: "Careers Fair 2026",
+    summary:
+      "A public careers fair bringing Gibraltar employers, training providers and young people together, with interactive displays and demonstrations.",
+    status: "upcoming",
+    audience: "teens",
+    cost: "Free",
+    sortDate: "2026-11-18",
+    startLabel: "18 November 2026, 16:00-20:00",
+    venue: "MUGA, Bayside Sports Complex",
+    ageLabel: "Young people, parents and job seekers",
+    sourceName: "gibraltar.gov.gi",
+    sourceUrl:
+      "https://www.gibraltar.gov.gi/press-releases/careers-fair-2026-calls-on-gibraltars-industries-to-get-involved-5332026-12173",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 7 November 2026 from HM Government of Gibraltar's official announcement. The fair is open to the public from 4pm to 8pm, and invites young people, parents and job seekers to explore career opportunities through sector stands, interactive displays and demonstrations.",
   },
   {
     slug: "gibraltar-christmas-festival-of-lights-2026",
@@ -309,6 +309,30 @@ export const childFriendlyEvents: EventItem[] = [
       "Verified on 3 November 2026 from the live BuyTickets listing. The Musicians Association of Gibraltar presents the show at 7pm on 30 November as part of Golden Week; tickets are £4-£8 and the organiser describes it as perfect for the whole family.",
   },
   {
+    slug: "wonder-of-christmas-2026",
+    title: "The Wonder of Christmas",
+    summary:
+      "A festive choral concert of harmonies and Christmas favourites by Harmonics Choir.",
+    status: "upcoming",
+    audience: "family",
+    cost: "£15",
+    eventDates: [
+      { sortDate: "2026-12-07", startLabel: "7 December 2026, 19:30" },
+      { sortDate: "2026-12-08", startLabel: "8 December 2026, 19:30" },
+    ],
+    endDate: "2026-12-08",
+    sortDate: "2026-12-07",
+    startLabel: "7-8 December 2026, 19:30",
+    venue: "Holy Trinity Cathedral",
+    ageLabel: "All ages",
+    sourceName: "buytickets.gi",
+    sourceUrl:
+      "https://www.buytickets.gi/events/the-wonder-of-christmas-1394",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 7 November 2026 from the live BuyTickets listing. Harmonics Choir presents this festive concert at 7:30pm on Monday 7 and Tuesday 8 December at Holy Trinity Cathedral; tickets are £15.",
+  },
+  {
     slug: "gibraltar-christmas-saturdays-2026",
     title: "Christmas Saturdays",
     summary:
@@ -336,6 +360,48 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl: "/blog/default-cover.svg",
     note:
       "Verified on 17 September 2026 from Gibraltar Cultural Services' official Autumn Cultural Programme, which lists Christmas Saturday events on 5 and 12 December. Times, locations, and activity details are still to be announced.",
+  },
+  {
+    slug: "christmas-on-strings-2026",
+    title: "Concerts by Candlelight: Christmas on Strings",
+    summary:
+      "A candlelit Christmas concert with a string quartet, Nathan Payas and soloists from the Gibraltar Youth Choir.",
+    status: "upcoming",
+    audience: "family",
+    cost: "£15",
+    eventDates: [
+      { sortDate: "2026-12-14", startLabel: "14 December 2026, 19:00" },
+      { sortDate: "2026-12-15", startLabel: "15 December 2026, 19:00" },
+    ],
+    endDate: "2026-12-15",
+    sortDate: "2026-12-14",
+    startLabel: "14-15 December 2026, 19:00",
+    venue: "Holy Trinity Cathedral",
+    ageLabel: "All ages",
+    sourceName: "buytickets.gi",
+    sourceUrl:
+      "https://www.buytickets.gi/events/concerts-by-candlelight-christmas-on-strings-1385",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 7 November 2026 from the live BuyTickets listing and Gibraltar Cultural Services' official announcement. The two performances begin at 7pm and cost £15, including mulled wine and mince pies.",
+  },
+  {
+    slug: "baila-a-la-navidad-2026",
+    title: "Baila a la Navidad",
+    summary:
+      "A family-centred flamenco Christmas show combining dance, villancicos and traditional rhythms.",
+    status: "upcoming",
+    audience: "family",
+    cost: "£20",
+    sortDate: "2026-12-16",
+    startLabel: "16 December 2026, 18:00",
+    venue: "John Mackintosh Hall",
+    ageLabel: "All ages",
+    sourceName: "buytickets.gi",
+    sourceUrl: "https://www.buytickets.gi/events/baila-a-la-navidad-1393",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 7 November 2026 from the live BuyTickets listing. David Morales brings flamenco dance, Christmas carols and traditional instruments to the John Mackintosh Hall at 6pm, with the organiser presenting it as a way to share festive traditions with younger generations.",
   },
   {
     slug: "gibraltar-new-years-celebrations-2026",
