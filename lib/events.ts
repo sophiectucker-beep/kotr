@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "7 November 2026";
+export const eventsVerifiedDate = "9 November 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -331,6 +331,26 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl: "/blog/default-cover.svg",
     note:
       "Verified on 7 November 2026 from the live BuyTickets listing. Harmonics Choir presents this festive concert at 7:30pm on Monday 7 and Tuesday 8 December at Holy Trinity Cathedral; tickets are £15.",
+  },
+  {
+    slug: "danza-academy-choreography-competition-2026",
+    title: "Danza Academy's Choreography Competition 2026",
+    summary:
+      "A stage competition showcasing choreography from Danza Academy performers.",
+    status: "upcoming",
+    audience: "teens",
+    cost: "£15",
+    sortDate: "2026-12-10",
+    startLabel: "10 December 2026, 19:00",
+    venue: "Inces Hall Theatre",
+    ageLabel: "Dance students, teens and their families",
+    sourceName: "buytickets.gi",
+    sourceUrl:
+      "https://www.buytickets.gi/events/danza-academys-choreography-competition-2026-1416",
+    imageUrl:
+      "https://www.buytickets.gi/uploads/events/oPE6m_danza_academy_800x450.jpg",
+    note:
+      "Verified on 9 November 2026 from the live BuyTickets listing. Danza Academy's competition is at Inces Hall Theatre on Thursday 10 December at 7pm; tickets are £15. The organiser has not published a specific age range.",
   },
   {
     slug: "gibraltar-christmas-saturdays-2026",
