@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "9 November 2026";
+export const eventsVerifiedDate = "11 November 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -480,6 +480,25 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl: "/blog/default-cover.svg",
     note:
       "Verified on 6 November 2026 from HM Government of Gibraltar's official announcement. The competition is open to Gibraltar residents in school Years 9-13 and young Gibraltarian artists up to 24; submitted work will be exhibited at GEMA Art Gallery from 23 February to 5 March 2027. Entry forms are available from Gibraltar Cultural Services, with works handed in 8-10 February.",
+  },
+  {
+    slug: "med-steps-5-challenge-2027",
+    title: "Med Steps 5 Challenge",
+    summary:
+      "A community fundraising challenge on the Mediterranean Steps for individuals, families, friends and teams, supporting the Gibraltar Society for Cancer Relief.",
+    status: "upcoming",
+    audience: "family",
+    cost: "£25",
+    sortDate: "2027-05-08",
+    startLabel: "8 May 2027, 09:00",
+    venue: "Mediterranean Steps",
+    ageLabel: "Families; under-16s must be accompanied by an adult",
+    sourceName: "buytickets.gi",
+    sourceUrl:
+      "https://www.buytickets.gi/events/med-steps-5-challenge-1326",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 11 November 2026 from the live BuyTickets listing. The community fundraising challenge starts at 9am on Saturday 8 May 2027 on the Mediterranean Steps and welcomes individuals, families, friends and teams. Participants under 16 must be accompanied by an appropriate adult; proceeds support the Gibraltar Society for Cancer Relief.",
   },
 ];
 
