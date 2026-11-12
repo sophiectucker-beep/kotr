@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "11 November 2026";
+export const eventsVerifiedDate = "12 November 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -138,21 +138,42 @@ export const childFriendlyEvents: EventItem[] = [
     slug: "gibraltar-christmas-attractions-2026",
     title: "Gibraltar Christmas Attractions",
     summary:
-      "Seasonal family attractions running from the Festival of Lights through the Christmas and New Year period.",
+      "Christmas fair rides in John Mackintosh Square, launching alongside the Festival of Lights and running daily through the festive season.",
     status: "upcoming",
     audience: "family",
     cost: "See organiser",
     endDate: "2027-01-05",
     sortDate: "2026-11-20",
-    startLabel: "20 November 2026-5 January 2027",
-    venue: "Details to be announced",
+    startLabel: "20 November 2026-5 January 2027; daily 13:00-19:00 from 21 November",
+    venue: "John Mackintosh Square",
     ageLabel: "All ages",
-    sourceName: "culture.gi",
+    sourceName: "gibraltar.gov.gi",
     sourceUrl:
-      "https://www.culture.gi/news/autumn-cultural-programme-2026/",
+      "https://www.gibraltar.gov.gi/press-releases/christmas-fair-attractions-2026-8792026-12566",
     imageUrl: "/blog/default-cover.svg",
     note:
-      "Verified on 17 September 2026 from Gibraltar Cultural Services' official Autumn Cultural Programme, which confirms Christmas Attractions from 20 November through 5 January. Locations, opening hours, and individual attraction details are still to be announced.",
+      "Verified on 12 November 2026 from HM Government's official announcement. The fair attractions open at 6:30pm on Friday 20 November with free rides that evening, then run daily in John Mackintosh Square from 1pm to 7pm from 21 November to 5 January; rides cost £3, except on 10 December when they are free for the GBC Open Day fundraiser.",
+  },
+  {
+    slug: "ditzyb-drop-in-crafts-weekdays-2026",
+    title: "Drop-in Crafts",
+    summary:
+      "A weekday open craft workshop where teens can choose a project or bring one to work on, with materials and equipment available.",
+    status: "upcoming",
+    audience: "teens",
+    cost: "From £10; standard ticket £15",
+    endDate: "2026-12-31",
+    sortDate: "2026-12-01",
+    startLabel: "Weekdays from 1 December 2026, 10:30-15:30",
+    venue: "DitzyB Arts & Craft Supplies, Main Street",
+    ageLabel: "Teens and adults",
+    sourceName: "Ditzy B",
+    sourceUrl:
+      "https://www.ditzyb.store/collections/tickets/products/coffee-crafts",
+    imageUrl:
+      "https://images.theshopcalendar.com/event/300087/Copy_of_Copy_of_pottery_painting_%281%29.jpg?1789640812",
+    note:
+      "Verified on 12 November 2026 from Ditzy B's live Shop Calendar feed and ticket product. The calendar lists Drop-in Crafts for adults and teens on weekdays from 10:30am to 3:30pm, starting 1 December. The product lists a £15 standard ticket, ceramic painting from £10 plus the ceramic chosen, and alternative rates for project continuation or workshop/equipment use.",
   },
   {
     slug: "believe-santa-is-stuck-2026",
@@ -371,15 +392,15 @@ export const childFriendlyEvents: EventItem[] = [
       },
     ],
     sortDate: "2026-12-05",
-    startLabel: "5 and 12 December 2026",
-    venue: "Details to be announced",
+    startLabel: "5 December, 10:30-15:00; 12 December, 10:30-14:30",
+    venue: "Main Street, Casemates Square and Cathedral Square",
     ageLabel: "All ages",
-    sourceName: "culture.gi",
+    sourceName: "gibraltar.gov.gi",
     sourceUrl:
-      "https://www.culture.gi/news/autumn-cultural-programme-2026/",
+      "https://www.gibraltar.gov.gi/press-releases/christmas-saturdays-in-town-2026-8812026-12568",
     imageUrl: "/blog/default-cover.svg",
     note:
-      "Verified on 17 September 2026 from Gibraltar Cultural Services' official Autumn Cultural Programme, which lists Christmas Saturday events on 5 and 12 December. Times, locations, and activity details are still to be announced.",
+      "Verified on 12 November 2026 from HM Government's official programme. Christmas Saturdays bring family-friendly entertainment to Main Street: Renditions Choir, GFA Play Makers, DJs, GBC Open Day and bands on 5 December; and On-X, school choir, bands and a Lindsay Olivero flamenco Zambomba on 12 December.",
   },
   {
     slug: "christmas-on-strings-2026",
