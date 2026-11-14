@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "12 November 2026";
+export const eventsVerifiedDate = "14 November 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -153,6 +153,26 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl: "/blog/default-cover.svg",
     note:
       "Verified on 12 November 2026 from HM Government's official announcement. The fair attractions open at 6:30pm on Friday 20 November with free rides that evening, then run daily in John Mackintosh Square from 1pm to 7pm from 21 November to 5 January; rides cost £3, except on 10 December when they are free for the GBC Open Day fundraiser.",
+  },
+  {
+    slug: "stylos-dance-royale-2026",
+    title: "Stylos Dance Royale 2026",
+    summary:
+      "A dance championship and pageant showcase where young performers compete and take to the stage.",
+    status: "upcoming",
+    audience: "teens",
+    cost: "£15",
+    sortDate: "2026-11-21",
+    startLabel: "21 November 2026, 14:00",
+    venue: "Special Olympics Sports Complex",
+    ageLabel: "Young dancers, teens and their families",
+    sourceName: "buytickets.gi",
+    sourceUrl:
+      "https://www.buytickets.gi/events/stylos-dance-royale-2026-1421",
+    imageUrl:
+      "https://www.buytickets.gi/uploads/events/uQf2S_Event_covers__58_.png",
+    note:
+      "Verified on 14 November 2026 from the live BuyTickets listing. Stylos Dance Studios presents its dance championship and pageant showcase at the Special Olympics Sports Complex at 2pm on Saturday 21 November; tickets are £15. The organiser describes an event for dancers to showcase their talent and for audiences to cheer them on.",
   },
   {
     slug: "ditzyb-drop-in-crafts-weekdays-2026",
@@ -425,6 +445,25 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl: "/blog/default-cover.svg",
     note:
       "Verified on 7 November 2026 from the live BuyTickets listing and Gibraltar Cultural Services' official announcement. The two performances begin at 7pm and cost £15, including mulled wine and mince pies.",
+  },
+  {
+    slug: "winter-arts-showcase-2026",
+    title: "Winter Arts Showcase",
+    summary:
+      "A festive evening celebrating Prior Park School Gibraltar students' creativity and achievement across the arts.",
+    status: "upcoming",
+    audience: "family",
+    cost: "£15",
+    sortDate: "2026-12-15",
+    startLabel: "15 December 2026, 17:45-19:00",
+    venue: "Sunborn Gibraltar, Ocean Village",
+    ageLabel: "School-age performers, families and supporters",
+    sourceName: "buytickets.gi",
+    sourceUrl: "https://www.buytickets.gi/events/winter-arts-showcase-1419",
+    imageUrl:
+      "https://www.buytickets.gi/uploads/events/ChbjU_WAS_2026_-_POSTER_TBC___800_x_450_px_.png",
+    note:
+      "Verified on 14 November 2026 from the live BuyTickets listing. Prior Park School Gibraltar's Winter Arts Showcase runs from 5:45pm to 7pm on Tuesday 15 December at Sunborn Gibraltar, with £15 tickets. The school describes it as a festive celebration of its students' creativity, talent and achievement across the arts.",
   },
   {
     slug: "baila-a-la-navidad-2026",
