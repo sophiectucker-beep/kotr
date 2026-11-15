@@ -36,66 +36,9 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "14 November 2026";
+export const eventsVerifiedDate = "15 November 2026";
 
 export const childFriendlyEvents: EventItem[] = [
-  {
-    slug: "literary-festival-britannica-encyclopaedia-2026",
-    title: "Britannica Encyclopaedia with Christopher Lloyd",
-    summary:
-      "A lively, all-ages Literary Festival journey through natural and human history, brought to life with Christopher Lloyd's signature coat of many pockets.",
-    status: "upcoming",
-    audience: "family",
-    cost: "£9 students; £13 adults",
-    sortDate: "2026-11-14",
-    startLabel: "14 November 2026, 10:00",
-    venue: "Lower Exhibition Room, John Mackintosh Hall",
-    ageLabel: "All ages",
-    sourceName: "buytickets.gi",
-    sourceUrl:
-      "https://www.buytickets.gi/events/gibunco-gibraltar-international-literary-festival-2026-1352",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 16 September 2026 from the live BuyTickets Gibraltar Literary Festival listing. World history author Christopher Lloyd presents an all-ages journey from the beginning of time to the present day at 10am on 14 November, and the published festival prices are £9 for students aged 18 and under and £13 for adults.",
-  },
-  {
-    slug: "literary-festival-wolf-siren-workshop-2026",
-    title: "Wolf Siren: Fairy Tale Retelling Workshop",
-    summary:
-      "An interactive Literary Festival workshop where young readers create inclusive fairy-tale characters, plots, and story openings.",
-    status: "upcoming",
-    audience: "kids",
-    cost: "£9 students; £13 adults",
-    sortDate: "2026-11-14",
-    startLabel: "14 November 2026, 12:00",
-    venue: "Charles Hunt Room, John Mackintosh Hall",
-    ageLabel: "Young readers and aspiring writers",
-    sourceName: "buytickets.gi",
-    sourceUrl:
-      "https://www.buytickets.gi/events/gibunco-gibraltar-international-literary-festival-2026-1352",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 5 September 2026 from the live BuyTickets Gibraltar Literary Festival listing and HM Government's ticket announcement. Children's author Beth O'Brien leads this interactive workshop for young readers at noon on 14 November, and the published festival prices are £9 for students aged 18 and under and £13 for adults.",
-  },
-  {
-    slug: "literary-festival-family-quiz-show-2026",
-    title: "The What on Earth! Family Quiz Show",
-    summary:
-      "A team-based Literary Festival quiz with Christopher Lloyd, covering big questions and prizes for every round.",
-    status: "upcoming",
-    audience: "family",
-    cost: "£9 students; £13 adults",
-    sortDate: "2026-11-14",
-    startLabel: "14 November 2026, 14:00",
-    venue: "Lower Exhibition Room, John Mackintosh Hall",
-    ageLabel: "Ages 6+",
-    sourceName: "buytickets.gi",
-    sourceUrl:
-      "https://www.buytickets.gi/events/gibunco-gibraltar-international-literary-festival-2026-1352",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 5 September 2026 from the live BuyTickets Gibraltar Literary Festival listing and HM Government's ticket announcement. Christopher Lloyd's family quiz is at 2pm on 14 November, is advertised as suitable for ages 6 to 106, and the published festival prices are £9 for students aged 18 and under and £13 for adults.",
-  },
   {
     slug: "gibraltar-careers-fair-2026",
     title: "Careers Fair 2026",
