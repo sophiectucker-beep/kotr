@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "15 November 2026";
+export const eventsVerifiedDate = "17 November 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -75,7 +75,7 @@ export const childFriendlyEvents: EventItem[] = [
       "https://www.culture.gi/christmas-festival-of-lights-2026/",
     imageUrl: "/blog/default-cover.svg",
     note:
-      "Verified on 30 October 2026 from HM Government's full event announcement. Error 404: Christmas Not Found has two identical 60-minute shows, at 6:30pm and 8:30pm. Entry is via Market Place; gates open at 5:30pm for the first show and 8pm for the second. The show includes strobe lighting, smoke, pyrotechnics, lasers, fire and loud noises; capacity is limited to 4,500 per show.",
+      "Verified on 17 November 2026 from Gibraltar Cultural Services and HM Government's latest announcement. Error 404: Christmas Not Found has two identical 60-minute shows, at 6:30pm and 8:30pm. Entry is via Market Place; gates open at 5:30pm for the first show and 8pm for the second. LED wristbands are issued at entry and must be returned after the show. The show includes strobe lighting, smoke, pyrotechnics, lasers, fire and loud noises; capacity is limited to 4,500 per show.",
   },
   {
     slug: "gibraltar-christmas-attractions-2026",
