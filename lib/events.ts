@@ -317,6 +317,30 @@ export const childFriendlyEvents: EventItem[] = [
       "Verified on 7 November 2026 from the live BuyTickets listing. Harmonics Choir presents this festive concert at 7:30pm on Monday 7 and Tuesday 8 December at Holy Trinity Cathedral; tickets are £15.",
   },
   {
+    slug: "gampa-christmas-sleepover-2026",
+    title: "Christmas Sleepover",
+    summary:
+      "A festive family show in which a group of children set off on a magical journey to rediscover the spirit of Christmas.",
+    status: "upcoming",
+    audience: "family",
+    cost: "£10",
+    eventDates: [
+      { sortDate: "2026-12-08", startLabel: "8 December 2026, 19:00" },
+      { sortDate: "2026-12-09", startLabel: "9 December 2026, 19:00" },
+    ],
+    endDate: "2026-12-09",
+    sortDate: "2026-12-08",
+    startLabel: "8-9 December 2026, 19:00",
+    venue: "John Mackintosh Hall",
+    ageLabel: "Entire family",
+    sourceName: "buytickets.gi",
+    sourceUrl:
+      "https://www.buytickets.gi/events/christmas-sleepover-1424",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 18 November 2026 from the live BuyTickets listing. Gibraltar Academy of Music and Performing Arts presents a show about children at their annual Christmas sleepover who begin a magical journey to rediscover the spirit of Christmas. The organiser describes it as an exciting, fun-filled show for the entire family; performances are at 7pm on Tuesday 8 and Wednesday 9 December, with £10 tickets.",
+  },
+  {
     slug: "danza-academy-choreography-competition-2026",
     title: "Danza Academy's Choreography Competition 2026",
     summary:
