@@ -36,28 +36,9 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "17 November 2026";
+export const eventsVerifiedDate = "19 November 2026";
 
 export const childFriendlyEvents: EventItem[] = [
-  {
-    slug: "gibraltar-careers-fair-2026",
-    title: "Careers Fair 2026",
-    summary:
-      "A public careers fair bringing Gibraltar employers, training providers and young people together, with interactive displays and demonstrations.",
-    status: "upcoming",
-    audience: "teens",
-    cost: "Free",
-    sortDate: "2026-11-18",
-    startLabel: "18 November 2026, 16:00-20:00",
-    venue: "MUGA, Bayside Sports Complex",
-    ageLabel: "Young people, parents and job seekers",
-    sourceName: "gibraltar.gov.gi",
-    sourceUrl:
-      "https://www.gibraltar.gov.gi/press-releases/careers-fair-2026-calls-on-gibraltars-industries-to-get-involved-5332026-12173",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 7 November 2026 from HM Government of Gibraltar's official announcement. The fair is open to the public from 4pm to 8pm, and invites young people, parents and job seekers to explore career opportunities through sector stands, interactive displays and demonstrations.",
-  },
   {
     slug: "gibraltar-christmas-festival-of-lights-2026",
     title: "Christmas Festival of Lights",
