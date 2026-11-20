@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "19 November 2026";
+export const eventsVerifiedDate = "20 November 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -272,6 +272,26 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl: "/blog/default-cover.svg",
     note:
       "Verified on 3 November 2026 from the live BuyTickets listing. The Musicians Association of Gibraltar presents the show at 7pm on 30 November as part of Golden Week; tickets are £4-£8 and the organiser describes it as perfect for the whole family.",
+  },
+  {
+    slug: "soniquete-por-navidad-2026",
+    title: "Soniquete por Navidad",
+    summary:
+      "A community-focused traditional Andalusian Christmas celebration with villancicos, flamenco guitar, handclapping and cajón.",
+    status: "upcoming",
+    audience: "family",
+    cost: "£4-£8",
+    sortDate: "2026-12-02",
+    startLabel: "2 December 2026, 19:00",
+    venue: "Inces Hall Theatre",
+    ageLabel: "Families; check suitability with organiser",
+    sourceName: "buytickets.gi",
+    sourceUrl:
+      "https://www.buytickets.gi/events/soniquete-por-navidad-1414",
+    imageUrl:
+      "https://www.buytickets.gi/uploads/events/7ae9h_Event_covers__52_.png",
+    note:
+      "Verified on 20 November 2026 from the live BuyTickets listing. The Musicians Association of Gibraltar and the Ministry of Equality, Employment, Culture and Tourism present this traditional Zambomba celebration at 7pm on Wednesday 2 December, with doors at 6:30pm. The listing describes a lively, community-focused event with villancicos, flamenco guitar, rhythmic handclapping and cajón; tickets cost £4-£8 and no specific age guidance is published.",
   },
   {
     slug: "wonder-of-christmas-2026",
