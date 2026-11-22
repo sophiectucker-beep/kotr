@@ -36,28 +36,9 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "20 November 2026";
+export const eventsVerifiedDate = "22 November 2026";
 
 export const childFriendlyEvents: EventItem[] = [
-  {
-    slug: "gibraltar-christmas-festival-of-lights-2026",
-    title: "Christmas Festival of Lights",
-    summary:
-      "Gibraltar's community Christmas lights celebration, opening the festive attractions season.",
-    status: "upcoming",
-    audience: "family",
-    cost: "See organiser",
-    sortDate: "2026-11-20",
-    startLabel: "20 November 2026, 18:30-19:30 or 20:30-21:30",
-    venue: "Grand Casemates Square",
-    ageLabel: "All ages",
-    sourceName: "culture.gi",
-    sourceUrl:
-      "https://www.culture.gi/christmas-festival-of-lights-2026/",
-    imageUrl: "/blog/default-cover.svg",
-    note:
-      "Verified on 17 November 2026 from Gibraltar Cultural Services and HM Government's latest announcement. Error 404: Christmas Not Found has two identical 60-minute shows, at 6:30pm and 8:30pm. Entry is via Market Place; gates open at 5:30pm for the first show and 8pm for the second. LED wristbands are issued at entry and must be returned after the show. The show includes strobe lighting, smoke, pyrotechnics, lasers, fire and loud noises; capacity is limited to 4,500 per show.",
-  },
   {
     slug: "gibraltar-christmas-attractions-2026",
     title: "Gibraltar Christmas Attractions",
@@ -77,26 +58,6 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl: "/blog/default-cover.svg",
     note:
       "Verified on 12 November 2026 from HM Government's official announcement. The fair attractions open at 6:30pm on Friday 20 November with free rides that evening, then run daily in John Mackintosh Square from 1pm to 7pm from 21 November to 5 January; rides cost £3, except on 10 December when they are free for the GBC Open Day fundraiser.",
-  },
-  {
-    slug: "stylos-dance-royale-2026",
-    title: "Stylos Dance Royale 2026",
-    summary:
-      "A dance championship and pageant showcase where young performers compete and take to the stage.",
-    status: "upcoming",
-    audience: "teens",
-    cost: "£15",
-    sortDate: "2026-11-21",
-    startLabel: "21 November 2026, 14:00",
-    venue: "Special Olympics Sports Complex",
-    ageLabel: "Young dancers, teens and their families",
-    sourceName: "buytickets.gi",
-    sourceUrl:
-      "https://www.buytickets.gi/events/stylos-dance-royale-2026-1421",
-    imageUrl:
-      "https://www.buytickets.gi/uploads/events/uQf2S_Event_covers__58_.png",
-    note:
-      "Verified on 14 November 2026 from the live BuyTickets listing. Stylos Dance Studios presents its dance championship and pageant showcase at the Special Olympics Sports Complex at 2pm on Saturday 21 November; tickets are £15. The organiser describes an event for dancers to showcase their talent and for audiences to cheer them on.",
   },
   {
     slug: "ditzyb-drop-in-crafts-weekdays-2026",
