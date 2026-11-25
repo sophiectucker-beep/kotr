@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "22 November 2026";
+export const eventsVerifiedDate = "25 November 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -255,6 +255,26 @@ export const childFriendlyEvents: EventItem[] = [
       "Verified on 20 November 2026 from the live BuyTickets listing. The Musicians Association of Gibraltar and the Ministry of Equality, Employment, Culture and Tourism present this traditional Zambomba celebration at 7pm on Wednesday 2 December, with doors at 6:30pm. The listing describes a lively, community-focused event with villancicos, flamenco guitar, rhythmic handclapping and cajón; tickets cost £4-£8 and no specific age guidance is published.",
   },
   {
+    slug: "ghs-christmas-flower-show-2026",
+    title: "GHS Christmas Flower Show",
+    summary:
+      "A festive flower show with creative youth entry categories and seasonal displays to visit at John Mackintosh Hall.",
+    status: "upcoming",
+    audience: "family",
+    cost: "Free for children and GHS members; £10 non-members",
+    endDate: "2026-12-04",
+    sortDate: "2026-11-30",
+    startLabel: "30 November-4 December 2026",
+    venue: "Lower Exhibition Room, John Mackintosh Hall",
+    ageLabel: "Children and teens; youth categories up to 17",
+    sourceName: "Gibraltar Horticultural Society",
+    sourceUrl:
+      "https://gibraltarhorticulturalsociety.com/xmas-flower-show",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 25 November 2026 from the Gibraltar Horticultural Society's official event page. Children can enter any category free, with dedicated youth classes for natural-material Christmas decorations, pine-cone decorations and winter holiday displays; judging is split into up-to-11 and ages 12-17 groups. Entries are delivered on 30 November, judging is on 1 December, and the show closes on 4 December.",
+  },
+  {
     slug: "wonder-of-christmas-2026",
     title: "The Wonder of Christmas",
     summary:
@@ -411,6 +431,25 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl: "/blog/default-cover.svg",
     note:
       "Verified on 7 November 2026 from the live BuyTickets listing. David Morales brings flamenco dance, Christmas carols and traditional instruments to the John Mackintosh Hall at 6pm, with the organiser presenting it as a way to share festive traditions with younger generations.",
+  },
+  {
+    slug: "gibraltars-big-zambomba-2026",
+    title: "Gibraltar's Big Zambomba",
+    summary:
+      "A festive Andalusian flamenco celebration with villancicos, palmas and rumbas, inviting families and friends to share the Christmas spirit.",
+    status: "upcoming",
+    audience: "family",
+    cost: "£25-£32",
+    sortDate: "2026-12-27",
+    startLabel: "27 December 2026, 17:00",
+    venue: "Inces Hall Theatre",
+    ageLabel: "Families; check suitability with organiser",
+    sourceName: "buytickets.gi",
+    sourceUrl:
+      "https://www.buytickets.gi/events/gibraltars-big-zambomba-1426",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 25 November 2026 from the live BuyTickets listing. Carmen Beltrán y sus Canasteros bring an Andalusian Christmas Zambomba to Inces Hall at 5pm, with flamenco, villancicos, palmas and rumbas. The organiser invites families and friends to join the celebration; tickets are £25-£32 and no specific age guidance is published.",
   },
   {
     slug: "gibraltar-new-years-celebrations-2026",
