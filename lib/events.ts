@@ -36,7 +36,7 @@ export interface MumsItem {
   excludedDates?: string[];
 }
 
-export const eventsVerifiedDate = "25 November 2026";
+export const eventsVerifiedDate = "26 November 2026";
 
 export const childFriendlyEvents: EventItem[] = [
   {
@@ -103,26 +103,6 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl: "/blog/default-cover.svg",
     note:
       "Verified on 22 October 2026 from the Musicians Association of Gibraltar's BuyTickets listing. Performances are at 7pm on 27 November and 3pm and 7pm on 28 November. Tickets are £15 and listed as coming soon; no age guidance is published.",
-  },
-  {
-    slug: "no1-school-of-models-production-show-2026",
-    title: "No1 School of Models Production Show",
-    summary:
-      "A stage showcase celebrating young models' style, confidence, creativity and performance.",
-    status: "upcoming",
-    audience: "teens",
-    cost: "£20",
-    sortDate: "2026-11-25",
-    startLabel: "25 November 2026, 19:00",
-    venue: "John Mackintosh Hall Theatre",
-    ageLabel: "Young models, teens and their families",
-    sourceName: "buytickets.gi",
-    sourceUrl:
-      "https://www.buytickets.gi/events/no1-school-of-models-production-show-1400",
-    imageUrl:
-      "https://www.buytickets.gi/uploads/events/ZB0ND_Glamorous_End_of_Term_Fashion_Show.png",
-    note:
-      "Verified on 26 October 2026 from the live BuyTickets listing. No1 School of Models presents its production show at 7pm on 25 November at the John Mackintosh Hall Theatre; tickets are £20. The organiser describes a showcase of its models' talent, confidence, creativity and performance.",
   },
   {
     slug: "ditzyb-scale-model-workshop-2026",
@@ -255,6 +235,29 @@ export const childFriendlyEvents: EventItem[] = [
       "Verified on 20 November 2026 from the live BuyTickets listing. The Musicians Association of Gibraltar and the Ministry of Equality, Employment, Culture and Tourism present this traditional Zambomba celebration at 7pm on Wednesday 2 December, with doors at 6:30pm. The listing describes a lively, community-focused event with villancicos, flamenco guitar, rhythmic handclapping and cajón; tickets cost £4-£8 and no specific age guidance is published.",
   },
   {
+    slug: "gema-christmas-workshop-2026",
+    title: "Christmas Workshop",
+    summary:
+      "A hands-on festive papercraft workshop for children, with parents welcome to join the session.",
+    status: "upcoming",
+    audience: "kids",
+    cost: "£5",
+    eventDates: [
+      { sortDate: "2026-12-03", startLabel: "3 December 2026, 16:30-17:30" },
+      { sortDate: "2026-12-17", startLabel: "17 December 2026, 16:30-17:30" },
+    ],
+    endDate: "2026-12-17",
+    sortDate: "2026-12-03",
+    startLabel: "3 and 17 December 2026, 16:30-17:30",
+    venue: "GEMA Art Gallery, Line Wall Road",
+    ageLabel: "Ages 6-12; parents welcome",
+    sourceName: "buytickets.gi",
+    sourceUrl: "https://www.buytickets.gi/events/christmas-workshop-1431",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 26 November 2026 from the live BuyTickets listing. Gibraltar Cultural Services' festive papercraft workshop is at GEMA Art Gallery on 3 and 17 December, from 4:30pm to 5:30pm. It is for ages 6-12, costs £5, welcomes parents to take part, and asks families to contact the organiser in advance if a child needs additional support.",
+  },
+  {
     slug: "ghs-christmas-flower-show-2026",
     title: "GHS Christmas Flower Show",
     summary:
@@ -321,6 +324,25 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl: "/blog/default-cover.svg",
     note:
       "Verified on 18 November 2026 from the live BuyTickets listing. Gibraltar Academy of Music and Performing Arts presents a show about children at their annual Christmas sleepover who begin a magical journey to rediscover the spirit of Christmas. The organiser describes it as an exciting, fun-filled show for the entire family; performances are at 7pm on Tuesday 8 and Wednesday 9 December, with £10 tickets.",
+  },
+  {
+    slug: "golden-week-family-bingo-2026",
+    title: "Golden Week Family Bingo",
+    summary:
+      "A family bingo evening during Golden Week, the community programme that brings generations together.",
+    status: "upcoming",
+    audience: "family",
+    cost: "See organiser",
+    sortDate: "2026-12-09",
+    startLabel: "9 December 2026; time to be confirmed",
+    venue: "Calpe Rowing Club",
+    ageLabel: "Families and all ages",
+    sourceName: "gibraltar.gov.gi",
+    sourceUrl:
+      "https://www.gibraltar.gov.gi/press-releases/second-golden-week-to-celebrate-older-people-and-build-connections-across-our-community-8952026-12583",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 26 November 2026 from HM Government's Golden Week announcement. The Ministry of Equality's programme includes a family bingo evening at Calpe Rowing Club on Wednesday 9 December; tickets are available from BookGem or from the Ministry on 200 42509. The organiser has not published a time or price.",
   },
   {
     slug: "danza-academy-choreography-competition-2026",
@@ -450,6 +472,25 @@ export const childFriendlyEvents: EventItem[] = [
     imageUrl: "/blog/default-cover.svg",
     note:
       "Verified on 25 November 2026 from the live BuyTickets listing. Carmen Beltrán y sus Canasteros bring an Andalusian Christmas Zambomba to Inces Hall at 5pm, with flamenco, villancicos, palmas and rumbas. The organiser invites families and friends to join the celebration; tickets are £25-£32 and no specific age guidance is published.",
+  },
+  {
+    slug: "sunborn-christmas-family-day-lunch-2026",
+    title: "Christmas Family Day Lunch",
+    summary:
+      "A Christmas Day buffet lunch with live music, children's entertainment and a visit from Santa.",
+    status: "upcoming",
+    audience: "family",
+    cost: "£42-£85; under-4s eat free",
+    sortDate: "2026-12-25",
+    startLabel: "25 December 2026, 13:00-16:00",
+    venue: "Aurora Ballroom, Sunborn Gibraltar",
+    ageLabel: "Families; children under 4 eat free",
+    sourceName: "visitgibraltar.gi",
+    sourceUrl:
+      "https://www.visitgibraltar.gi/events/christmas-family-lunch-aurora-sunborn",
+    imageUrl: "/blog/default-cover.svg",
+    note:
+      "Verified on 26 November 2026 from Visit Gibraltar's live event listing. Sunborn's Christmas Day buffet in the Aurora Ballroom runs from 1pm to 4pm, with a welcome drink, live music, children's entertainment and a Santa visit. It costs £85 per adult and £42 per child aged 4-12; children under 4 eat free.",
   },
   {
     slug: "gibraltar-new-years-celebrations-2026",
